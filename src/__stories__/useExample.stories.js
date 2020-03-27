@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExampleComponent } from '../components/ExampleComponent';
+import { useExample } from '../hooks/useExample';
 
 // Learn how to write stories:
 // https://storybook.js.org/docs/basics/writing-stories/
@@ -9,12 +9,18 @@ import { ExampleComponent } from '../components/ExampleComponent';
 
 // The default export defines metadata that applies to the group.
 export default {
-  title: 'ExampleComponent',
-  component: ExampleComponent,
+  title: 'useExample Hook',
 };
 
 // The named exports define the stories
-export const TextState = () => <ExampleComponent />;
-TextState.story = {
-  name: 'ExampleComponent',
+
+// Needed to wrap the hook and give it visual representation.
+const HookComponent = () => {
+  useExample();
+  return <div>Add hook visual representation here.</div>;
+};
+
+export const HookComponentStory = () => <HookComponent />;
+HookComponentStory.story = {
+  name: 'Hook Visual',
 };

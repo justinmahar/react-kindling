@@ -1,2 +1,2 @@
 export * from './components/ExampleComponent';
-export * from './hooks/useExampleCounter';
+export * from './hooks/useExample';

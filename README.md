@@ -78,14 +78,14 @@ This project includes a README template called `README.template.md`. [View it he
 
 If you'd like to use the template:
   - Replace `README.md` with `README.template.md`
-  - Update the template with your username and the name of your package.
+  - Replace `devboldly` with your username and `react-library-starter` with the name of your package.
   - Fill the rest out when you're ready.
 
 If not, then just delete `README.template.md` and create your own `README.md`.
 
 ### Use Storybook to develop your components and hooks
 
-[Storybook](https://storybook.js.org/) lets you develop your React components and hooks in isolation. Each "storybook" is a file that contains "stories", which are just the different visual states of your component.
+[Storybook](https://storybook.js.org/) lets you develop your React components and hooks in isolation. Each "storybook" is a file that contains "stories", which are just the different visual states of your component or hook.
 
 You can run Storybook using:
 
@@ -95,21 +95,35 @@ npm start
 
 Your browser will automatically open to [localhost:6006](http://localhost:6006/).
 
-In `src/__stories__`, a story is provided for both an example component and an example hook. Use these as a starting point for your own components and hooks.
+In `src/__stories__`, a story is provided for both the example component and hook. Use these as a starting point for your own components and hooks.
 
-As you develop your components, you will see the changes in Storybook immediately since it uses Webpack's hot module reloading.
+You will see your changes in Storybook immediately since it uses Webpack's hot module reloading.
 
 ### Write tests
 
 The directory `src/__tests__` contains two example test files, one for a component and one for a hook. 
 
-There are [react-testing-library](https://testing-library.com/react) and [react-hooks-testing-library](https://react-hooks-testing-library.com) examples provided to build off of. Add more tests as you see fit.
+There are [react-testing-library](https://testing-library.com/react) and [react-hooks-testing-library](https://react-hooks-testing-library.com) examples provided to build off of. 
 
-You can run tests by typing: 
+There is a single test to ensure your component or hook doesn't crash. Add more tests as you see fit.
+
+You can run tests by running: 
 
 ```
 npm test
 ```
+
+You can run tests in watch mode by running: 
+
+```
+npm test:watch
+```
+
+### Export modules from `index.tsx`
+
+Export anything you'd like to make available to the outside world in `index.tsx`.
+
+These will be the modules that can be imported from your npm package after it's installed.
 
 ### Publish to npm
 

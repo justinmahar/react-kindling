@@ -3,23 +3,26 @@ import * as React from 'react';
 // Learn React:
 // https://reactjs.org/docs/
 
-interface ExampleComponentProps {
-  text: string;
-  onClick: () => void;
-}
+export interface ExampleComponentProps {}
 
-/**
- * Example component that displays whatever text you provide in a div and registers an onClick handler.
- */
+/** */
 export function ExampleComponent(props: ExampleComponentProps): JSX.Element {
   return (
-    <div onClick={props.onClick} data-testid="example-component">
-      {props.text}
+    <div
+      style={{
+        padding: 10,
+        border: 'solid 2px #0F52BA',
+        color: '#0F52BA',
+        backgroundColor: '#D9F1FF',
+        display: 'inline-block',
+        fontWeight: 'bold',
+        fontFamily: 'Roboto',
+        userSelect: 'none',
+      }}
+    >
+      Example Component
     </div>
   );
 }
 
-ExampleComponent.defaultProps = {
-  onClick: () => console.log('Click!'),
-  text: 'Example text.',
-};
+ExampleComponent.defaultProps = {};

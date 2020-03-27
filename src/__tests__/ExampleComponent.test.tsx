@@ -1,18 +1,19 @@
 import { render, RenderResult } from '@testing-library/react';
 import React from 'react';
-import { ExampleComponent } from '../components/ExampleComponent';
+import { ExampleComponent, ExampleComponentProps } from '../components/ExampleComponent';
 
 // Learn how to test React components:
 // https://testing-library.com/docs/react-testing-library/intro
 
-function renderExampleComponent(props: {}): RenderResult {
-  return render(<ExampleComponent {...props} text="Example!" />);
+function renderComponent(props: ExampleComponentProps = {}, children: React.ReactNode = undefined): RenderResult {
+  return render(<ExampleComponent {...props}>{children}</ExampleComponent>);
 }
 
 describe('ExampleComponent', () => {
-  test('should display a container with the text provided', async () => {
-    const { findByTestId } = renderExampleComponent({});
-    const exampleComponentHtmlElement = await findByTestId('example-component');
-    expect(exampleComponentHtmlElement).toHaveTextContent('Example!');
+  test('should render without crashing', async () => {
+    const props: ExampleComponentProps = {};
+    const children: React.ReactNode = undefined;
+    const renderResult = renderComponent(props, children);
+    expect(renderResult.container).toBeInTheDocument();
   });
 });

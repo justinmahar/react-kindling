@@ -1,7 +1,6 @@
-"use strict";
 function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+  for (const p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-Object.defineProperty(exports, "__esModule", { value: true });
-__export(require("./components/ExampleComponent"));
-__export(require("./hooks/useExampleCounter"));
+Object.defineProperty(exports, '__esModule', { value: true });
+__export(require('./components/ExampleComponent'));
+__export(require('./hooks/useExample'));
