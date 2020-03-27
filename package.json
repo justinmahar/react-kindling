@@ -1,6 +1,6 @@
 {
   "name": "@devboldly/react-library-starter",
-  "version": "1.0.3",
+  "version": "0.0.0",
   "author": "Dev Boldly <devboldly@gmail.com>",
   "description": "A template to build, test, and share React components and hooks easily. Uses Storybook, Jest, and more.",
   "homepage": "https://github.com/devboldly/react-library-starter#readme",
