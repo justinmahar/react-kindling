@@ -15,16 +15,16 @@
   </a>
 </p>
 
-## Storybook Demo
+## Demo
 
 #### See the demo by clicking the badge below:
 
 <a href="https://react-library-starter.netlify.com/">
   <img 
-    src="https://img.shields.io/website/https/react-library-starter.netlify.com.svg?label=Storybook%20Demo&up_message=online" 
-    alt="Storybook Demo"
+    src="https://img.shields.io/website/https/react-library-starter.netlify.com.svg?label=Demo&up_message=online" 
+    alt="Demo"
   />
-</a> 
+</a>
 
 #### Demo build status: 
 
