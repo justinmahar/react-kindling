@@ -17,7 +17,7 @@
 
 ## Storybook Demo
 
-See the demo by clicking the badge below.
+#### See the demo by clicking the badge below:
 
 <a href="https://react-library-starter.netlify.com/">
   <img 
@@ -26,7 +26,7 @@ See the demo by clicking the badge below.
   />
 </a> 
 
-Demo build status: 
+#### Demo build status: 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1fde443f-62ee-4386-833c-4d8647cee3d3/deploy-status)](https://app.netlify.com/sites/react-library-starter/deploys)
 
