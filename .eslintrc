@@ -42,7 +42,7 @@
     "react/display-name": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "no-empty-interface": false,
+    "no-empty-interface": 0,
     "@typescript-eslint/explicit-member-accessibility": "off",
     "@typescript-eslint/no-angle-bracket-type-assertion": "off",
     "@typescript-eslint/no-var-requires": "off",
