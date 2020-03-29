@@ -14,7 +14,7 @@ export default {
 };
 
 // The named exports define the stories
-export const TextState = () => <ExampleComponent />;
-TextState.story = {
+export const ExampleComponentStory = () => <ExampleComponent />;
+ExampleComponentStory.story = {
   name: 'ExampleComponent',
 };
