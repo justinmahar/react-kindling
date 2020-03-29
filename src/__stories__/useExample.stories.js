@@ -20,7 +20,7 @@ const HookComponent = () => {
   return <div>Add hook visual representation here.</div>;
 };
 
-export const HookComponentStory = () => <HookComponent />;
-HookComponentStory.story = {
+export const ExampleStory = () => <HookComponent />;
+ExampleStory.story = {
   name: 'Hook Visual',
 };
