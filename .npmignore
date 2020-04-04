@@ -1,7 +1,10 @@
 # Dirs
+.docz
 .github
 .storybook
+node_modules
 src
+storybook-static
 # Files
 .eslintignore
 .eslintrc
