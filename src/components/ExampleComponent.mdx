@@ -5,7 +5,11 @@ route: /ExampleComponent
 ---
 
 import { Playground, Props } from 'docz';
+import GoogleAnalytics from '../__docz__/components/GoogleAnalytics';
+import { TRACKING_ID } from '../__docz__/analytics-config';
 import { ExampleComponent } from './ExampleComponent';
+
+<GoogleAnalytics trackingId={TRACKING_ID} />
 
 <h1>ExampleComponent</h1>
 

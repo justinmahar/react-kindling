@@ -4,9 +4,11 @@ menu: Hooks
 route: /useExample
 ---
 
+import GoogleAnalytics from '../__docz__/components/GoogleAnalytics';
+import { TRACKING_ID } from '../__docz__/analytics-config';
 import { useExample } from './useExample';
 
-<h1>useExample</h1>
+<GoogleAnalytics trackingId={TRACKING_ID} />
 
 ## Description
 

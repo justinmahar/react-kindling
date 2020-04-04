@@ -8,8 +8,12 @@ route: /
 
 import { Playground } from 'docz';
 
+import GoogleAnalytics from '../__docz__/components/GoogleAnalytics';
+import { TRACKING_ID } from '../__docz__/analytics-config';
 import CreatedBy from '../__docz__/components/CreatedBy';
 import githubSvg from '../__docz__/images/github.svg';
+
+<GoogleAnalytics trackingId={TRACKING_ID} />
 
 <div style={{
 	display: 'flex',

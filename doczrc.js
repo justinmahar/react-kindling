@@ -39,15 +39,7 @@ const docsConfig = {
   // /** Use this option to specify the order of your documents in the menu. */
   menu: ['Home', { name: 'Components' }, { name: 'Hooks' }, 'License'],
   /** Specify an array of plugins that you want to use. */
-  plugins: [
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: 'UA-148090679-2',
-      },
-    },
-  ],
+  // plugins: [],
   // /** Array of remark plugins to manipulate the MDXAST */
   // mdPlugins: [],
   // /** Array of rehype plugins to manipulate the MDXHAST */
