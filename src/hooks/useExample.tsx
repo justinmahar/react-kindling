@@ -4,8 +4,8 @@ import * as React from 'react';
 // https://reactjs.org/docs/hooks-intro.html
 
 /** */
-export const useExample = (): ExampleHook => {
-  const [value, setValue] = React.useState<string>('');
+export const useExample = (defaultValue: string): ExampleHook => {
+  const [value, setValue] = React.useState<string>(defaultValue);
   return [value, setValue];
 };
 

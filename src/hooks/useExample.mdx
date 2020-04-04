@@ -1,0 +1,82 @@
+---
+name: useExample
+menu: Hooks
+route: /useExample
+---
+
+import { useExample } from './useExample';
+
+<h1>useExample</h1>
+
+## Description
+
+Description of the [hook](https://reactjs.org/docs/hooks-intro.html).
+
+## Usage
+
+```jsx
+const [value, setValue] = useExample("Example value");
+```
+
+Describe how this would be used.
+
+## Signature
+
+`useExample(defaultValue: string): [value, setValue]`
+
+### Arguments
+
+| Argument | Type | Description |
+|----------|------|-------------|
+| defaultValue | `string` | Default value |
+
+### Return
+
+The hook returns an [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) containing:
+
+| Index | Name | Type | Description |
+|-------|------|------|-------------|
+| 0 | value | `string` | The example value |
+| 1 | setValue | `(value: string) ⇒ void` | A setter for the example value |
+
+<h3 style={{color: "red", background: "yellow"}}>&nbsp;OR <small>(choose one)</small></h3>
+
+The hook returns an [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) containing:
+
+| Property | Type | Description |
+|-------|------|-------------|
+| propertyName | `string` | The example value |
+
+<h5 style={{color: "red", background: "yellow"}}>&nbsp;OR</h5>
+
+The hook returns a `RETURN_TYPE` for WHAT_IT_IS_FOR.
+
+## Examples
+
+<div>{((props) => {
+  const [value, setValue] = useExample('Example value');
+  return (
+    <div style={{border: 'solid 2px #67788a', padding: '20px'}}>
+      <p>
+        <button onClick={() => setValue('Test')}>Set to "Test"</button>{' '}
+        <button onClick={() => setValue('Example value')}>Set to "Example value"</button>
+      </p>
+      <div>Value: {value}</div>
+    </div>
+  );
+})()}</div>
+
+```jsx
+const Example = (props) => {
+  const [value, setValue] = useExample("Example value");
+  return (
+    <div style={{border: 'solid 2px #67788a', padding: '20px'}}>
+      <p>
+        <button onClick={() => setValue('Test')}>Set to "Test"</button>{' '}
+        <button onClick={() => setValue('Example value')}>Set to "Example value"</button>
+      </p>
+      <div>Value: {value}</div>
+    </div>
+  );
+}
+```

@@ -1,0 +1,79 @@
+---
+name: Home
+route: /
+# menu: MenuName
+
+# NOTE: Menu ordering is configured in doczrc.js
+---
+
+import { Playground } from 'docz';
+
+import CreatedBy from '../__docz__/components/CreatedBy';
+import githubSvg from '../__docz__/images/github.svg';
+
+<div style={{
+	display: 'flex',
+	alignItems: 'center',
+}}>
+  <div>
+    <h1>React Library Starter</h1>
+  </div>
+  <div>
+    <a href="https://github.com/devboldly/react-library-starter/" target="_blank" rel="noopener noreferrer">
+      <img src={githubSvg} width="28" style={{ margin: '0 0 0 20px' }}/>
+    </a>
+  </div>
+</div>
+
+<strong>
+  This header will contain a brief description of the project.
+</strong>
+
+## Overview
+
+This section will contain an overview so people can have a high-level understanding of the project.
+
+### Features include:
+
+- **🚀 List your features, use fun [emojis](https://emojipedia.org/search/?q=rocket)**
+  - Give a little more info on each feature or mention benefits.
+
+## Installation
+
+```
+npm i @devboldly/react-library-starter
+```
+
+## Quick Start
+
+This section will contain a copy/paste example so people can get started quickly.
+
+### ExampleComponent
+
+```jsx
+  <ExampleComponent text="Example Component"/>
+```
+
+### useExample Hook
+
+```jsx
+const [value, setValue] = useExample("Example value");
+```
+
+## TypeScript
+
+Type definitions have been included for [TypeScript](https://www.typescriptlang.org/) support.
+
+## Contributing
+
+Open source software is awesome and so are you. 😎
+
+Feel free to submit a pull request for bugs or additions, and make sure to update tests as appropriate. Even the smallest changes help.
+
+For major changes, open an issue first to discuss what you'd like to change.
+
+## ⭐ Found It Helpful? Star It!
+
+More stars means more development love. So if you found this project helpful, [star it](https://github.com/devboldly/react-library-starter)! [👉⭐](https://github.com/devboldly/react-library-starter)
+
+<CreatedBy author="DevBoldly" url="https://devboldly.com/" emoji="🍺" emojiLabel="Beer"/>

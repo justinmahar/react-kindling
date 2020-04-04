@@ -1,6 +1,12 @@
+# Dirs
+.github
+.storybook
+src
+# Files
 .eslintignore
 .eslintrc
-.storybook
+.gitattributes
+doczrc.js
 jest.config.js
-src
+netlify.toml
 tsconfig.json

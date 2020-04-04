@@ -3,9 +3,16 @@ import * as React from 'react';
 // Learn React:
 // https://reactjs.org/docs/
 
-export interface ExampleComponentProps {}
+export interface ExampleComponentProps {
+  /** The text to render. */
+  text?: string;
+}
 
-/** */
+/**
+ * Example component that renders the text its given.
+ *
+ * @returns The rendered component.
+ */
 export function ExampleComponent(props: ExampleComponentProps): JSX.Element {
   return (
     <div
@@ -20,7 +27,7 @@ export function ExampleComponent(props: ExampleComponentProps): JSX.Element {
         userSelect: 'none',
       }}
     >
-      Example Component
+      {typeof props.text !== 'undefined' ? props.text : 'Example Component'}
     </div>
   );
 }

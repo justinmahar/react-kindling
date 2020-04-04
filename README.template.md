@@ -1,7 +1,9 @@
 <h2 align="center">
-  <a href="https://github.com/devboldly/react-library-starter">
-    react-library-starter
-  </a>
+  React Library Starter
+  <br/>
+  <small><a href="https://github.com/devboldly/react-library-starter">
+    @devboldly/react-library-starter
+  </a></small>
 </h2>
 <h3 align="center">
   This header will contain a brief description of the project.
@@ -13,28 +15,14 @@
   <a href="https://github.com/devboldly/react-library-starter/actions">
     <img src="https://github.com/devboldly/react-library-starter/workflows/Node.js%20CI/badge.svg" alt="Build Status"/>
   </a>
+  <a href="https://app.netlify.com/sites/react-library-starter/deploys">
+    <img src="https://api.netlify.com/api/v1/badges/1fde443f-62ee-4386-833c-4d8647cee3d3/deploy-status" alt="Netlify Status"/>
+  </a>
 </p>
 
-## Demo
+## Documentation
 
-#### See the demo by clicking the badge below:
-
-<a href="https://react-library-starter.netlify.com/">
-  <img 
-    src="https://img.shields.io/website/https/react-library-starter.netlify.com.svg?label=Demo&up_message=online" 
-    alt="Demo"
-  />
-</a>
-
-#### Demo build status: 
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1fde443f-62ee-4386-833c-4d8647cee3d3/deploy-status)](https://app.netlify.com/sites/react-library-starter/deploys)
-
-## Installation
-
-```
-npm i @devboldly/react-library-starter
-```
+Read the **[official documentation](https://react-library-starter.netlify.com/)**.
 
 ## Overview
 
@@ -49,19 +37,31 @@ This section will contain an overview so people can have a high-level understand
 
 This section will contain a copy/paste example so people can get started quickly.
 
-## Usage
+### Installation
 
-This section will contain instructions on how to use the library.
+```
+npm i @devboldly/react-library-starter
+```
+
+### ExampleComponent
+
+```jsx
+  <ExampleComponent text="Example Component"/>
+```
+
+### useExample Hook
+
+```jsx
+const [value, setValue] = useExample("Example value");
+```
 
 ## TypeScript
 
 This project supports TypeScript. Type definitions have been included.
 
-<hr/>
+## License
 
-## MIT License
-
-This project is covered under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
+This project is covered under the [MIT License](https://en.wikipedia.org/wiki/MIT_License):
 
 ```
 Copyright © 2020 DevBoldly https://devboldly.com

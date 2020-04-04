@@ -5,7 +5,7 @@ import { ExampleComponent, ExampleComponentProps } from '../components/ExampleCo
 // Learn how to test React components:
 // https://testing-library.com/docs/react-testing-library/intro
 
-function renderComponent(props: ExampleComponentProps = {}, children: React.ReactNode = undefined): RenderResult {
+function renderComponent(props: ExampleComponentProps, children: React.ReactNode = undefined): RenderResult {
   return render(<ExampleComponent {...props}>{children}</ExampleComponent>);
 }
 

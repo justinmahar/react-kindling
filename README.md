@@ -25,7 +25,7 @@ This project was created as a starter for [React](https://reactjs.org/) componen
   - A jumping-off point to speed up your development.
 - **🧪 [Jest](https://jestjs.io/) tests**
   - Includes [react-testing-library](https://testing-library.com/react) and [react-hooks-testing-library](https://react-hooks-testing-library.com) examples to build from.
-- **🤗 [TypeScript](https://www.typescriptlang.org/) support**
+- **✨ [TypeScript](https://www.typescriptlang.org/) support**
   - For optional type checking and safety. Don't know TS? Just use JS until you [learn](https://www.typescriptlang.org/).
 - **📋 [ESLint](https://eslint.org/) rules**
   - Use best practices, catch mistakes, and autoformat your code.
@@ -34,9 +34,14 @@ This project was created as a starter for [React](https://reactjs.org/) componen
 - **👷 Zero-config [GitHub CI](https://help.github.com/en/actions/building-and-testing-code-with-continuous-integration/about-continuous-integration)**
   - GitHub will build and run your tests on every push, for free. It just works!
 - **👓 [README template](https://github.com/devboldly/react-library-starter/blob/master/README.template.md)**
-  - Just fill it out. Includes [npm version badge](https://badge.fury.io/for/js) and CI badge for street cred.
-- **🌎 Easy [npm publish](https://docs.npmjs.com/cli/publish)**
+  - Just fill it out. Includes [npm version badge](https://badge.fury.io/for/js) and CI badges for street cred.
+- **📜 [Docz](https://www.docz.site/) documentation**
+  - Easily document and showcase your components and hooks. See the [included example](https://react-library-starter.netlify.com/).
+- **🌎 [Netlify](https://netlify.com/) pre-configuration**
+  - Deploy your documentation site to Netlify with just a few clicks. For free.
+- **📦 Easy [npm publish](https://docs.npmjs.com/cli/publish)**
   - Build, version, and publish to [npm](https://www.npmjs.com/) with one command: `npm run deploy`
+- And more!
 
 ## Quick Start
 
@@ -125,6 +130,31 @@ Export anything you'd like to make available to the outside world in `index.tsx`
 
 These will be the modules that can be imported from your npm package after it's installed.
 
+### Document with Docz
+
+This starter includes [Docz](https://www.docz.site/), the easiest way to create React documentation.
+
+Just add [MDX files](https://mdxjs.com/) next to your components and [Docz](https://www.docz.site/) will automatically find them and add them to your documentation site. Example MDX files are already present for the example component and hook in this template repository. Use those as a starting point.
+
+Edit the MDX files in `src/__docz__` to change the Home doc page and license page.
+
+Just run the following to start the Docz dev server:
+
+```bash
+npm run docz:dev
+```
+
+### Deploy to Netlify
+
+With just a few clicks, you can deploy this project's documentation to [Netlify](https://netlify.com/) for free.
+
+Netlify has already been configured (in `netlify.toml`), so you can add and deploy immediately with zero config. Netlify will build and serve up your Docz static site.
+
+Once you deploy and the documentation site is live, be sure to update the README (if you used the provided template):
+
+- Update the Netlify build status badge (at the top)
+- Update the link to the documentation site (first section)
+
 ### Publish to npm
 
 When you're finished developing, you can easily deploy to npm with one command.
@@ -145,50 +175,28 @@ This command will build your project, add/commit the freshly built `dist` direct
 
 If you have any unsaved changes, this script will fail until your working directory is clean.
 
-## Development Scripts
+### Celebrate!
 
-### `npm run build`
+You've done it! Your project is ready for the world.
 
-Deletes `dist` and rebuilds it using `tsc`.
+## Contributing
 
-### `npm run watch`
+Open source software is awesome and so are you. 😎
 
-Watches for changes, recompiles with `tsc`.
+Feel free to submit a pull request for bugs or additions, and make sure to update tests as appropriate. Even the smallest changes help.
 
-### `npm run test` or `npm test`
+For major changes, open an issue first to discuss what you'd like to change.
 
-Runs Jest tests.
+## ⭐ Found It Helpful? [Star It!](https://github.com/devboldly/react-library-starter/stargazers)
 
-### `npm run test:watch`
+More stars means more development love. So if you found this project helpful, [star it](https://github.com/devboldly/react-library-starter/stargazers)! [👉⭐](https://github.com/devboldly/react-library-starter/stargazers)
 
-Runs Jest tests in watch mode. Saved changes will automatically rerun the tests.
+## License
 
-### `npm run start` or `npm start`
-
-Starts the Storybook server for local development.
-
-### `npm run storybook`
-
-Starts the Storybook server for local development.
-
-### `npm run build-storybook`
-
-Builds the server bundle for Storybook.
-
-### `npm run deploy`
-
-Single command to build, commit, push the project to GitHub, version, and publish to npm.
-
-Uses `-m "Build and deploy."` as the commit message for both `git` and `npm`.
-
-Git working directory must be clean before running.
-
-# MIT License
-
-This project is covered under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
+This project is covered under the [MIT License](https://en.wikipedia.org/wiki/MIT_License):
 
 ```
-Copyright © 2020 DevBoldly.com https://devboldly.com
+Copyright © 2020 DevBoldly https://devboldly.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
