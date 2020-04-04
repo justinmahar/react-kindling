@@ -44,7 +44,7 @@ const docsConfig = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: 'UA-123456789-1',
+        trackingId: 'UA-148090679-2',
       },
     },
   ],
