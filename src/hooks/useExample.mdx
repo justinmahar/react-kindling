@@ -4,11 +4,7 @@ menu: Hooks
 route: /useExample
 ---
 
-import GoogleAnalytics from '../__docz__/components/GoogleAnalytics';
-import { TRACKING_ID } from '../__docz__/analytics-config';
-import { useExample } from './useExample';
-
-<GoogleAnalytics trackingId={TRACKING_ID} />
+import { UseExampleExample } from '../__docz__/components/UseExampleExample';
 
 ## Description
 
@@ -24,7 +20,7 @@ Describe how this would be used.
 
 ## Signature
 
-`useExample(defaultValue: string): [value, setValue]`
+`useExample(defaultValue: string) => [value, setValue]`
 
 ### Props
 
@@ -53,32 +49,18 @@ The hook returns an [Object](https://developer.mozilla.org/en-US/docs/Web/JavaSc
 
 The hook returns a `RETURN_TYPE` for WHAT_IT_IS_FOR.
 
-## Examples
+## Example
 
-<div>{((props) => {
-  const [value, setValue] = useExample('Example value');
-  return (
-    <div style={{border: 'solid 2px #67788a', padding: '20px'}}>
-      <p>
-        <button onClick={() => setValue('Test')}>Set to "Test"</button>{' '}
-        <button onClick={() => setValue('Example value')}>Set to "Example value"</button>
-      </p>
-      <div>Value: {value}</div>
-    </div>
-  );
-})()}</div>
+<div style={{border: 'solid 2px #67788a', padding: '20px'}}>
+  <UseExampleExample />
+</div>
 
 ```jsx
-const Example = (props) => {
-  const [value, setValue] = useExample("Example value");
-  return (
-    <div style={{border: 'solid 2px #67788a', padding: '20px'}}>
-      <p>
-        <button onClick={() => setValue('Test')}>Set to "Test"</button>{' '}
-        <button onClick={() => setValue('Example value')}>Set to "Example value"</button>
-      </p>
-      <div>Value: {value}</div>
-    </div>
-  );
+import * as React from 'react';
+import { useExample } from '../../hooks/useExample';
+
+export function UseExampleExample() {
+  const [example] = useExample('blue');
+  return <div>Hook example - Color: {example}</div>;
 }
 ```

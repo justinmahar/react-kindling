@@ -8,12 +8,8 @@ route: /
 
 import { Playground } from 'docz';
 
-import GoogleAnalytics from '../__docz__/components/GoogleAnalytics';
-import { TRACKING_ID } from '../__docz__/analytics-config';
-import CreatedBy from '../__docz__/components/CreatedBy';
+import { SvgIcon } from '@devboldly/react-devboldly-tools';
 import githubSvg from '../__docz__/images/github.svg';
-
-<GoogleAnalytics trackingId={TRACKING_ID} />
 
 <div style={{
 	display: 'flex',
@@ -23,15 +19,15 @@ import githubSvg from '../__docz__/images/github.svg';
     <h1>React Library Starter</h1>
   </div>
   <div>
-    <a href="https://github.com/devboldly/react-library-starter/" target="_blank" rel="noopener noreferrer">
-      <img src={githubSvg} width="28" style={{ margin: '0 0 0 20px' }}/>
+    <a href="https://github.com/devboldly/react-library-starter" target="_blank" rel="noopener noreferrer">
+      <SvgIcon src={githubSvg} size={28} style={{ margin: '0 0 0 20px' }} />
     </a>
   </div>
 </div>
 
-<strong>
-  This header will contain a brief description of the project.
-</strong>
+**This header will contain a brief description of the project.**
+
+👁️ **[Live Demo](/ExampleComponent#example)**
 
 ## Overview
 
@@ -52,16 +48,12 @@ npm i @devboldly/react-library-starter
 
 This section will contain a copy/paste example so people can get started quickly.
 
-### ExampleComponent
-
 ```jsx
-  <ExampleComponent text="Example Component"/>
+import { ExampleComponent } from '@devboldly/react-library-starter';
 ```
 
-### useExample Hook
-
 ```jsx
-const [value, setValue] = useExample("Example value");
+<ExampleComponent text="Example Component"/>
 ```
 
 ## TypeScript
@@ -70,14 +62,10 @@ Type definitions have been included for [TypeScript](https://www.typescriptlang.
 
 ## Contributing
 
-Open source software is awesome and so are you. 😎
-
 Feel free to submit a pull request for bugs or additions, and make sure to update tests as appropriate. Even the smallest changes help.
 
 For major changes, open an issue first to discuss what you'd like to change.
 
-## ⭐ Found It Helpful? Star It!
+## ⭐ Found It Helpful? [Star It](https://github.com/devboldly/react-library-starter/stargazers)
 
-More stars means more development love. So if you found this project helpful, [star it](https://github.com/devboldly/react-library-starter)! [👉⭐](https://github.com/devboldly/react-library-starter)
-
-<CreatedBy author="DevBoldly" url="https://devboldly.com/" emoji="🍺" emojiLabel="Beer"/>
+If you found this project helpful, let the community know by giving it a [star](https://github.com/devboldly/react-library-starter/stargazers): [👉⭐](https://github.com/devboldly/react-library-starter/stargazers)

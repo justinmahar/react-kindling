@@ -8,7 +8,11 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
-/** */
+/**
+ * Example component that renders the text its given.
+ *
+ * @returns The rendered component.
+ */
 function ExampleComponent(props) {
     return (React.createElement("div", { style: {
             padding: 10,
@@ -19,7 +23,7 @@ function ExampleComponent(props) {
             fontWeight: 'bold',
             fontFamily: 'Roboto',
             userSelect: 'none',
-        } }, "Example Component"));
+        } }, typeof props.text !== 'undefined' ? props.text : 'Example Component'));
 }
 exports.ExampleComponent = ExampleComponent;
 ExampleComponent.defaultProps = {};

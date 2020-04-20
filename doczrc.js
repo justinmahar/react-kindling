@@ -4,8 +4,8 @@
  * See: https://www.docz.site/docs/project-configuration
  */
 const docsConfig = {
-  // /** The base URL of the site will be deployed at. */
-  // base: '/',
+  /** The base URL the site will be deployed at. It should always start and end with a slash. */
+  base: '/react-library-starter/',
   /** Define the source folder of your components. Only the files in this folder will be parsed. */
   src: './src',
   // /** Glob pattern used to find your files. By default, Docz finds all files inside the source folder that have a .mdx extension. */
@@ -37,7 +37,7 @@ const docsConfig = {
   // /** This is the config that you can use to customize your theme. */
   // themeConfig: {},
   // /** Use this option to specify the order of your documents in the menu. */
-  menu: ['Home', { name: 'Components' }, { name: 'Hooks' }, 'License'],
+  menu: ['Home', { name: 'Components' }, { name: 'Hooks' }, 'Code of Conduct', 'MIT License'],
   /** Specify an array of plugins that you want to use. */
   // plugins: [],
   // /** Array of remark plugins to manipulate the MDXAST */

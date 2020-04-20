@@ -9,7 +9,9 @@ storybook-static
 .eslintignore
 .eslintrc
 .gitattributes
+.gitignore
+.npmignore
 doczrc.js
 jest.config.js
-netlify.toml
+package-lock.json
 tsconfig.json

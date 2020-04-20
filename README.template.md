@@ -1,9 +1,5 @@
 <h2 align="center">
-  React Library Starter
-  <br/>
-  <small><a href="https://github.com/devboldly/react-library-starter">
-    @devboldly/react-library-starter
-  </a></small>
+  <a href="https://github.com/devboldly/react-library-starter">React Library Starter</a>
 </h2>
 <h3 align="center">
   This header will contain a brief description of the project.
@@ -12,17 +8,19 @@
   <a href="https://badge.fury.io/js/%40devboldly%2Freact-library-starter">
     <img src="https://badge.fury.io/js/%40devboldly%2Freact-library-starter.svg" alt="npm Version"/>
   </a>
-  <a href="https://github.com/devboldly/react-library-starter/actions">
-    <img src="https://github.com/devboldly/react-library-starter/workflows/Node.js%20CI/badge.svg" alt="Build Status"/>
+  <a href="https://github.com/devboldly/react-library-starter/actions?query=workflow%3ATests">
+    <img src="https://github.com/devboldly/react-library-starter/workflows/Tests/badge.svg" alt="Tests Status"/>
   </a>
-  <a href="https://app.netlify.com/sites/react-library-starter/deploys">
-    <img src="https://api.netlify.com/api/v1/badges/1fde443f-62ee-4386-833c-4d8647cee3d3/deploy-status" alt="Netlify Status"/>
+  <a href="https://github.com/devboldly/react-library-starter/actions?query=workflow%3ADeploy">
+    <img src="https://github.com/devboldly/react-library-starter/workflows/Deploy/badge.svg" alt="Deploy Status"/>
   </a>
 </p>
 
 ## Documentation
 
-Read the **[official documentation](https://react-library-starter.netlify.com/)**.
+Read the **[official documentation](https://devboldly.github.io/react-library-starter/)**.
+
+👁️ **[Live Demo](https://devboldly.github.io/react-use-analytics-api/ExampleComponent#example)**
 
 ## Overview
 
@@ -31,37 +29,41 @@ This section will contain an overview so people can have a high-level understand
 ### Features include:
 
 - **🚀 List your features, use fun [emojis](https://emojipedia.org/search/?q=rocket)**
-  - Give a little more info on each feature
+  - Give a little more info on each feature or mention benefits.
 
-## Quick Start
-
-This section will contain a copy/paste example so people can get started quickly.
-
-### Installation
+## Installation
 
 ```
 npm i @devboldly/react-library-starter
 ```
 
-### ExampleComponent
+## Quick Start
+
+This section will contain a copy/paste example so people can get started quickly.
 
 ```jsx
-  <ExampleComponent text="Example Component"/>
+import { ExampleComponent } from '@devboldly/react-library-starter';
 ```
 
-### useExample Hook
-
 ```jsx
-const [value, setValue] = useExample("Example value");
+<ExampleComponent text="Example Component"/>
 ```
 
 ## TypeScript
 
-This project supports TypeScript. Type definitions have been included.
+Type definitions have been included for [TypeScript](https://www.typescriptlang.org/) support.
 
-## License
+## Contributing
 
-This project is covered under the [MIT License](https://en.wikipedia.org/wiki/MIT_License):
+Feel free to submit a pull request for bugs or additions, and make sure to update tests as appropriate. Even the smallest changes help.
+
+For major changes, open an issue first to discuss what you'd like to change.
+
+## ⭐ Found It Helpful? [Star It](https://github.com/devboldly/react-library-starter/stargazers)
+
+If you found this project helpful, let the community know by giving it a [star](https://github.com/devboldly/react-library-starter/stargazers): [👉⭐](https://github.com/devboldly/react-library-starter/stargazers)
+
+## MIT License
 
 ```
 Copyright © 2020 DevBoldly https://devboldly.com
