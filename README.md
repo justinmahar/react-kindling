@@ -41,7 +41,7 @@ This project was created as a starter for [React](https://reactjs.org/) componen
 - **🌎 [Netlify](https://netlify.com/) pre-configuration**
   - Deploy your documentation site to Netlify with just a few clicks. For free.
 - **📦 Easy [npm publish](https://docs.npmjs.com/cli/publish)**
-  - Build, version, and publish to [npm](https://www.npmjs.com/) with one command: `npm run deploy`
+  - Build, version, and ship it to [npm](https://www.npmjs.com/) with one command: `npm run ship`
 - And more!
 
 ## Quick Start
