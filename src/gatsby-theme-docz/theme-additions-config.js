@@ -21,12 +21,16 @@ export const themeAdditionsConfig = {
     authorUrl: 'https://devboldly.com/',
     /** Set to true if you're a grumpy person :) */
     hideEmoji: false,
+    /** Hide the "Created with <3 by name" author text from footer. */
+    hideAuthor: false,
     /** Holidays like New Year's Day and Pi Day are announced for fun. It's an easter egg. Hide if you want. */
     hideHolidays: false,
-    /** Shoutout to the service hosting the site. */
-    hostName: 'GitHub Pages',
-    /** Host page. */
-    hostUrl: 'https://pages.github.com/',
+    /** Shoutout to what's powering this project. */
+    poweredByName: 'react-library-starter',
+    /** Link for shoutout. */
+    poweredByUrl: 'https://github.com/devboldly/react-library-starter',
+    /** Hide the "powered by" text from footer. */
+    hidePoweredBy: false,
   },
   feedbackForm: {
     /** Set to false to disable "was this page helpful?" feedback forms for whole site. */

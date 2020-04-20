@@ -45,12 +45,14 @@ export const MainContainer = ({ children, ...rest }) => {
       )}
       {themeAdditionsConfig.footer.enabled && (
         <DoczFooter
+          hideAuthor={themeAdditionsConfig.footer.hideAuthor}
           authorName={themeAdditionsConfig.footer.authorName}
           authorUrl={themeAdditionsConfig.footer.authorUrl}
-          hostName={themeAdditionsConfig.footer.hostName}
-          hostUrl={themeAdditionsConfig.footer.hostUrl}
           hideEmoji={themeAdditionsConfig.footer.hideEmoji}
           hideHolidays={themeAdditionsConfig.footer.hideHolidays}
+          hidePoweredBy={themeAdditionsConfig.footer.hidePoweredBy}
+          poweredByName={themeAdditionsConfig.footer.poweredByName}
+          poweredByUrl={themeAdditionsConfig.footer.poweredByUrl}
         />
       )}
     </OriginalMainContainer>
