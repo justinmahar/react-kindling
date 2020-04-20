@@ -37,7 +37,7 @@ This project was created as a starter for [React](https://reactjs.org/) componen
 - **👓 [README template](https://github.com/devboldly/react-library-starter/blob/master/README.template.md)**
   - Just fill it out. Includes [npm version badge](https://badge.fury.io/for/js) and CI badges for street cred.
 - **📜 [Docz](https://www.docz.site/) documentation**
-  - Easily document and showcase your components and hooks. See the [included example](https://react-library-starter.netlify.com/).
+  - Easily document and showcase your components and hooks. See the [included example](https://devboldly.github.io/react-library-starter/).
 - **🌎 [Netlify](https://netlify.com/) pre-configuration**
   - Deploy your documentation site to Netlify with just a few clicks. For free.
 - **📦 Easy [npm publish](https://docs.npmjs.com/cli/publish)**
