@@ -1,7 +1,5 @@
 <h2 align="center">
-  <a href="https://github.com/devboldly/react-library-starter">
-    react-library-starter
-  </a>
+  <a href="https://github.com/devboldly/react-library-starter">React Library Starter</a>
 </h2>
 <h3 align="center">
   A template to build, test, and share React components and hooks easily.<br/>Uses Storybook, Jest, and more.
