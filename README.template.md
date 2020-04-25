@@ -20,7 +20,7 @@
 
 Read the **[official documentation](https://devboldly.github.io/react-library-starter/)**.
 
-👁️ **[Live Demo](https://devboldly.github.io/react-use-analytics-api/ExampleComponent#example)**
+👁️ **[Live Demo](https://devboldly.github.io/react-library-starter/ExampleComponent#example)**
 
 ## Overview
 
@@ -53,13 +53,19 @@ import { ExampleComponent } from '@devboldly/react-library-starter';
 
 Type definitions have been included for [TypeScript](https://www.typescriptlang.org/) support.
 
+## Logo Attribution
+
+Logo graphics by [Twemoji](https://github.com/twitter/twemoji), licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). Favicon by [favicon.io](https://favicon.io/emoji-favicons/).
+
 ## Contributing
 
-Feel free to submit a pull request for bugs or additions, and make sure to update tests as appropriate. Even the smallest changes help.
+Feel free to submit a pull request for bugs or additions, and make sure to update tests as appropriate. If you find a mistake in the docs, send a PR! Even the smallest changes help.
 
 For major changes, open an issue first to discuss what you'd like to change.
 
-## ⭐ Found It Helpful? [Star It](https://github.com/devboldly/react-library-starter/stargazers)
+See the [library template](https://tinyurl.com/ya3k258d) for npm script documentation.
+
+## ⭐ Found It Helpful? [Star It!](https://github.com/devboldly/react-library-starter/stargazers)
 
 If you found this project helpful, let the community know by giving it a [star](https://github.com/devboldly/react-library-starter/stargazers): [👉⭐](https://github.com/devboldly/react-library-starter/stargazers)
 

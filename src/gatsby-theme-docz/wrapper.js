@@ -21,11 +21,18 @@ export default ({ children }) => {
       lastPageview = newPageview;
     }
   }
+  let faviconUrl = themeAdditionsConfig.faviconUrl;
+  // Allow us to see the favicon when developing locally
+  if (typeof window !== 'undefined' && typeof faviconUrl === 'string' && window.location.host.includes('localhost')) {
+    faviconUrl = faviconUrl.replace(themeAdditionsConfig.publicUrl, '/public');
+  }
   return (
     <>
-      <Helmet>
-        <link rel="icon" type="image/x-icon" href={themeAdditionsConfig.faviconUrl} />
-      </Helmet>
+      {faviconUrl && (
+        <Helmet>
+          <link rel="icon" type="image/x-icon" href={faviconUrl} />
+        </Helmet>
+      )}
       {children}
     </>
   );

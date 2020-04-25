@@ -182,13 +182,77 @@ You've done it! Your project is ready for the world.
 
 ## Contributing
 
-Feel free to submit a pull request for bugs or additions, and make sure to update tests as appropriate. Even the smallest changes help.
+Feel free to submit a pull request for bugs or additions, and make sure to update tests as appropriate. If you find a mistake in the docs, send a PR! Even the smallest changes help.
 
 For major changes, open an issue first to discuss what you'd like to change.
 
-## ⭐ Found It Helpful? [Star It](https://github.com/devboldly/react-library-starter/stargazers)
+See the development scripts below to get started.
+
+## ⭐ Found It Helpful? [Star It!](https://github.com/devboldly/react-library-starter/stargazers)
 
 If you found this project helpful, let the community know by giving it a [star](https://github.com/devboldly/react-library-starter/stargazers): [👉⭐](https://github.com/devboldly/react-library-starter/stargazers)
+
+## Development Scripts
+
+### `npm run build`
+
+Deletes `dist` and rebuilds it using `tsc`.
+
+### `npm run watch`
+
+Watches for changes, recompiles with `tsc`.
+
+### `npm run test` or `npm test`
+
+Runs Jest tests.
+
+### `npm run test:watch`
+
+Runs Jest tests in watch mode. Saved changes will automatically rerun the tests.
+
+### `npm run start` or `npm start`
+
+Starts the Storybook server for local development.
+
+### `npm run storybook`
+
+Starts the Storybook server for local development.
+
+### `npm run build-storybook`
+
+Builds the server bundle for Storybook.
+
+### `npm run deploy`
+
+Builds the Docz static site and deploys it to GitHub Pages.
+
+### `npm run ship`
+
+Single command to build, commit, push the project to GitHub, version, and publish to npm.
+
+Uses `-m "Build, version, and publish."` as the commit message for both `git` and `npm`.
+
+Git working directory must be clean before running.
+
+### `npm run docz`
+
+Clears Docz cache and runs the Docz development server for working on documentation.
+
+### `npm run docz:dev`
+
+Runs the Docz development server for working on documentation.
+
+### `npm run docz:build`
+
+Builds the Docz documentation static site.
+
+### `npm run docz:serve`
+
+Serves up the Docz documentation build.
+
+### `npm run docz:clean`
+
+Deletes the Docz cache. This can be used to start fresh if there are cache issues.
 
 ## License
 

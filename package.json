@@ -18,6 +18,7 @@
     "deploy": "gh-pages -d .docz/dist",
     "preship": "npm run build && git add dist && git diff-index --quiet HEAD || git commit -m \"Build, version, and publish.\" && git push && npm version patch -m \"Build, version, and publish.\"",
     "ship": "npm publish --access public",
+    "docz": "npm run docz:clean && npm run docz:dev",
     "docz:dev": "docz dev",
     "docz:build": "docz build",
     "docz:serve": "docz build && docz serve",

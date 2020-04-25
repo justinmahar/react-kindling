@@ -1,5 +1,7 @@
 /** Name of your repository */
 const repoName = 'react-library-starter';
+/** URL to public assets such as images */
+const publicUrl = `/${repoName}/public`;
 
 /**
  * Configuration for additions to the default Docz theme.
@@ -7,11 +9,19 @@ const repoName = 'react-library-starter';
  */
 export const themeAdditionsConfig = {
   /** Google Analytics tracking ID */
-  gaTrackingId: undefined, //'UA-000000000-0',
+  gaTrackingId: 'UA-148090679-9',
   /** Used to ensure site runs */
   repoName: repoName,
-  /** Must be prefixed with repo name for gh-pages. Note: If using gh-pages, favicon only shows up when deployed. */
-  faviconUrl: `/${repoName}/public/favicon.ico`,
+  /** URL to public assets, such as images. */
+  publicUrl,
+  /** Location of the favicon. Set to undefined for no favicon. */
+  faviconUrl: `${publicUrl}/favicon.ico`,
+  /** Image URL for a header logo image. Set to undefined for no logo image. */
+  logoImageUrl: `${publicUrl}/favicon-32x32.png`,
+  /** Alt text for header logo image (when provided). */
+  logoImageAlt: 'Site logo',
+  /** Add text before the header logo, such as an emoji, to act as a logo image placeholder. */
+  logoPrefix: '🚀',
   footer: {
     /** Set to false to disable the author/"powered by" footer. */
     enabled: true,
@@ -26,9 +36,9 @@ export const themeAdditionsConfig = {
     /** Holidays like New Year's Day and Pi Day are announced for fun. It's an easter egg. Hide if you want. */
     hideHolidays: false,
     /** Shoutout to what's powering this project. */
-    poweredByName: 'react-library-starter',
+    poweredByName: `react${'-'}library${'-'}starter`,
     /** Link for shoutout. */
-    poweredByUrl: 'https://github.com/devboldly/react-library-starter',
+    poweredByUrl: `https://github.com/devboldly/react${'-'}library${'-'}starter`,
     /** Hide the "powered by" text from footer. */
     hidePoweredBy: false,
   },

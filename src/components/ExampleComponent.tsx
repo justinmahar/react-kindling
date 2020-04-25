@@ -9,9 +9,9 @@ export interface ExampleComponentProps {
 }
 
 /**
- * Example component that renders the text its given.
+ * See documentation: https://devboldly.github.io/react-library-starter/ExampleComponent
  *
- * @returns The rendered component.
+ *
  */
 export function ExampleComponent(props: ExampleComponentProps): JSX.Element {
   return (
