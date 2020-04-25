@@ -31,13 +31,6 @@ export const Logo = () => {
           ) : (
             undefined
           )}
-          {themeAdditionsConfig.logoPrefix ? (
-            <span sx={styles.logo} style={{ marginRight: '7px', userSelect: 'none' }}>
-              {themeAdditionsConfig.logoPrefix}
-            </span>
-          ) : (
-            undefined
-          )}
           {config.title}
         </div>
       </Link>

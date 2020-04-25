@@ -8,6 +8,8 @@ const publicUrl = `/${repoName}/public`;
  * Includes Google Analytics, favicon, a footer, and feedback forms.
  */
 export const themeAdditionsConfig = {
+  /** Name of the project */
+  projectName: repoName,
   /** Google Analytics tracking ID */
   gaTrackingId: 'UA-148090679-9',
   /** Used to ensure site runs */
@@ -20,8 +22,7 @@ export const themeAdditionsConfig = {
   logoImageUrl: `${publicUrl}/favicon-32x32.png`,
   /** Alt text for header logo image (when provided). */
   logoImageAlt: 'Site logo',
-  /** Add text before the header logo, such as an emoji, to act as a logo image placeholder. */
-  logoPrefix: '🚀',
+  /** Footer settings */
   footer: {
     /** Set to false to disable the author/"powered by" footer. */
     enabled: true,
