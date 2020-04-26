@@ -19,7 +19,6 @@ export const Logo = () => {
           {logoImageUrl ? (
             <img
               src={logoImageUrl}
-              alt={themeAdditionsConfig.logoImageAlt}
               style={{
                 width: '24px',
                 marginRight: '10px',

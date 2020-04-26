@@ -20,8 +20,6 @@ export const themeAdditionsConfig = {
   faviconUrl: `${publicUrl}/favicon.ico`,
   /** Image URL for a header logo image. Set to undefined for no logo image. */
   logoImageUrl: `${publicUrl}/favicon-32x32.png`,
-  /** Alt text for header logo image (when provided). */
-  logoImageAlt: 'Site logo',
   /** Footer settings */
   footer: {
     /** Set to false to disable the author/"powered by" footer. */
