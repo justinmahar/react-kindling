@@ -19,7 +19,7 @@ export const themeAdditionsConfig = {
   /** Location of the favicon. Set to undefined for no favicon. */
   faviconUrl: `${publicUrl}/favicon.ico`,
   /** Image URL for a header logo image. Set to undefined for no logo image. */
-  logoImageUrl: `${publicUrl}/favicon-32x32.png`,
+  logoImageUrl: `${publicUrl}/favicon.png`,
   /** Footer settings */
   footer: {
     /** Set to false to disable the author/"powered by" footer. */
