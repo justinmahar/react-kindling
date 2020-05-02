@@ -1,8 +1,5 @@
 import * as React from 'react';
 
-// Learn how to write hooks:
-// https://reactjs.org/docs/hooks-intro.html
-
 /**
  * See documentation: https://devboldly.github.io/react-library-starter/useExample
  *

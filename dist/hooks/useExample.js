@@ -8,9 +8,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
-// Learn how to write hooks:
-// https://reactjs.org/docs/hooks-intro.html
-/** */
+
 exports.useExample = function (defaultValue) {
     var _a = React.useState(defaultValue), value = _a[0], setValue = _a[1];
     return [value, setValue];

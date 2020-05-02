@@ -1,8 +1,5 @@
 import * as React from 'react';
 
-// Learn React:
-// https://reactjs.org/docs/
-
 export interface ExampleComponentProps {
   /** The text to render. */
   text?: string;
