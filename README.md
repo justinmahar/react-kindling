@@ -1,18 +1,18 @@
 <h2 align="center">
-  <a href="https://github.com/devboldly/react-library-starter">React Library Starter</a>
+  <a href="https://github.com/devboldly/react-kindling">🔥 React Kindling</a>
 </h2>
 <h3 align="center">
   A template to build, test, and share React components and hooks easily.<br/>Uses Storybook, Docz, and more.
 </h3>
 <p align="center">
-  <a href="https://github.com/devboldly/react-library-starter/generate">
+  <a href="https://github.com/devboldly/react-kindling/generate">
     <img src="https://img.shields.io/badge/GitHub-Use%20this%20template-brightgreen"/>
   </a>
-  <a href="https://github.com/devboldly/react-library-starter/actions?query=workflow%3ATests">
-    <img src="https://github.com/devboldly/react-library-starter/workflows/Tests/badge.svg" alt="Tests Status"/>
+  <a href="https://github.com/devboldly/react-kindling/actions?query=workflow%3ATests">
+    <img src="https://github.com/devboldly/react-kindling/workflows/Tests/badge.svg" alt="Tests Status"/>
   </a>
-  <a href="https://github.com/devboldly/react-library-starter/actions?query=workflow%3ADeploy">
-    <img src="https://github.com/devboldly/react-library-starter/workflows/Deploy/badge.svg" alt="Deploy Status"/>
+  <a href="https://github.com/devboldly/react-kindling/actions?query=workflow%3ADeploy">
+    <img src="https://github.com/devboldly/react-kindling/workflows/Deploy/badge.svg" alt="Deploy Status"/>
   </a>
 </p>
 
@@ -34,10 +34,10 @@ This project was created as a starter for [React](https://reactjs.org/) componen
   - Example stories for a component and a hook. Visualize as you build.
 - **👷 Zero-config [GitHub CI](https://help.github.com/en/actions/building-and-testing-code-with-continuous-integration/about-continuous-integration)**
   - GitHub will build and run your tests on every push, for free. It just works!
-- **👓 [README template](https://github.com/devboldly/react-library-starter/blob/master/README.template.md)**
+- **👓 [README template](https://github.com/devboldly/react-kindling/blob/master/README.template.md)**
   - Just fill it out. Includes [npm version badge](https://badge.fury.io/for/js) and CI badges for street cred.
 - **📜 [Docz](https://www.docz.site/) documentation**
-  - Easily document and showcase your components and hooks. See the [starter demo](https://devboldly.github.io/react-library-starter/).
+  - Easily document and showcase your components and hooks. See the [starter demo](https://devboldly.github.io/react-kindling/).
 - **🌎 [GitHub Pages](https://pages.github.com/) pre-configuration**
   - Auto-deploy your documentation site to GitHub Pages for free with a single opt-in project config.
 - **📦 Easy [npm publish](https://docs.npmjs.com/cli/publish)**
@@ -48,7 +48,7 @@ This project was created as a starter for [React](https://reactjs.org/) componen
 
 ### Click the button below to use this template:
 
-<a href="https://github.com/devboldly/react-library-starter/generate"><img src="https://img.shields.io/badge/GitHub-Use%20this%20template-brightgreen"/></a>
+<a href="https://github.com/devboldly/react-kindling/generate"><img src="https://img.shields.io/badge/GitHub-Use%20this%20template-brightgreen"/></a>
 
 You will be prompted for a repo name and description, and GitHub will do the rest.
 
@@ -68,8 +68,8 @@ First, replace `README.md` with `README.template.md`
 
 Next, replace the following text across the entire project, case-sensitive, in this order:
 
-1. `react-library-starter` with your GitHub project name
-1. `React Library Starter` with your project title
+1. `react-kindling` with your GitHub project name
+1. `React Kindling` with your project title
 1. `https://devboldly.com` with your website or a link to your GitHub
 1. `devboldly@gmail.com` with your email
 1. `DevBoldly` with your author name
@@ -211,9 +211,9 @@ For major changes, open an issue first to discuss what you'd like to change.
 
 See the development scripts below to get started.
 
-## ⭐ Found It Helpful? [Star It!](https://github.com/devboldly/react-library-starter/stargazers)
+## ⭐ Found It Helpful? [Star It!](https://github.com/devboldly/react-kindling/stargazers)
 
-If you found this project helpful, let the community know by giving it a [star](https://github.com/devboldly/react-library-starter/stargazers): [👉⭐](https://github.com/devboldly/react-library-starter/stargazers)
+If you found this project helpful, let the community know by giving it a [star](https://github.com/devboldly/react-kindling/stargazers): [👉⭐](https://github.com/devboldly/react-kindling/stargazers)
 
 ## Development Scripts
 

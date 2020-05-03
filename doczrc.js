@@ -5,7 +5,7 @@
  */
 const docsConfig = {
   /** The base URL the site will be deployed at. It should always start and end with a slash. */
-  base: '/react-library-starter/',
+  base: '/react-kindling/',
   /** Define the source folder of your components. Only the files in this folder will be parsed. */
   src: './src',
   // /** Glob pattern used to find your files. By default, Docz finds all files inside the source folder that have a .mdx extension. */

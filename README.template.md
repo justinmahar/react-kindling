@@ -1,26 +1,26 @@
 <h2 align="center">
-  <a href="https://github.com/devboldly/react-library-starter">React Library Starter</a>
+  <a href="https://github.com/devboldly/react-kindling">React Kindling</a>
 </h2>
 <h3 align="center">
   This header will contain a brief description of the project.
 </h3>
 <p align="center">
-  <a href="https://badge.fury.io/js/%40devboldly%2Freact-library-starter">
-    <img src="https://badge.fury.io/js/%40devboldly%2Freact-library-starter.svg" alt="npm Version"/>
+  <a href="https://badge.fury.io/js/react-kindling">
+    <img src="https://badge.fury.io/js/react-kindling.svg" alt="npm Version"/>
   </a>
-  <a href="https://github.com/devboldly/react-library-starter/actions?query=workflow%3ATests">
-    <img src="https://github.com/devboldly/react-library-starter/workflows/Tests/badge.svg" alt="Tests Status"/>
+  <a href="https://github.com/devboldly/react-kindling/actions?query=workflow%3ATests">
+    <img src="https://github.com/devboldly/react-kindling/workflows/Tests/badge.svg" alt="Tests Status"/>
   </a>
-  <a href="https://github.com/devboldly/react-library-starter/actions?query=workflow%3ADeploy">
-    <img src="https://github.com/devboldly/react-library-starter/workflows/Deploy/badge.svg" alt="Deploy Status"/>
+  <a href="https://github.com/devboldly/react-kindling/actions?query=workflow%3ADeploy">
+    <img src="https://github.com/devboldly/react-kindling/workflows/Deploy/badge.svg" alt="Deploy Status"/>
   </a>
 </p>
 
 ## Documentation
 
-Read the **[official documentation](https://devboldly.github.io/react-library-starter/)**.
+Read the **[official documentation](https://devboldly.github.io/react-kindling/)**.
 
-👁️ **[Live Demo](https://devboldly.github.io/react-library-starter/ExampleComponent#example)**
+👁️ **[Live Demo](https://devboldly.github.io/react-kindling/ExampleComponent#example)**
 
 ## Overview
 
@@ -34,7 +34,7 @@ This section will contain an overview so people can have a high-level understand
 ## Installation
 
 ```
-npm i @devboldly/react-library-starter
+npm i react-kindling
 ```
 
 ## Quick Start
@@ -42,7 +42,7 @@ npm i @devboldly/react-library-starter
 This section will contain a copy/paste example so people can get started quickly.
 
 ```jsx
-import { ExampleComponent } from '@devboldly/react-library-starter';
+import { ExampleComponent } from 'react-kindling';
 ```
 
 ```jsx
@@ -67,9 +67,9 @@ For major changes, open an issue first to discuss what you'd like to change.
 
 See the [library template](https://tinyurl.com/ya3k258d) for npm script documentation.
 
-## ⭐ Found It Helpful? [Star It!](https://github.com/devboldly/react-library-starter/stargazers)
+## ⭐ Found It Helpful? [Star It!](https://github.com/devboldly/react-kindling/stargazers)
 
-If you found this project helpful, let the community know by giving it a [star](https://github.com/devboldly/react-library-starter/stargazers): [👉⭐](https://github.com/devboldly/react-library-starter/stargazers)
+If you found this project helpful, let the community know by giving it a [star](https://github.com/devboldly/react-kindling/stargazers): [👉⭐](https://github.com/devboldly/react-kindling/stargazers)
 
 ## MIT License
 
