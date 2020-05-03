@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 /**
- * See documentation: https://devboldly.github.io/react-library-starter/useExample
+ * See documentation: [useExample](https://devboldly.github.io/react-library-starter/useExample)
  *
  *
  */

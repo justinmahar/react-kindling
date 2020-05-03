@@ -6,7 +6,7 @@ export interface ExampleComponentProps {
 }
 
 /**
- * See documentation: https://devboldly.github.io/react-library-starter/ExampleComponent
+ * See documentation: [ExampleComponent](https://devboldly.github.io/react-library-starter/ExampleComponent)
  *
  *
  */
