@@ -11,7 +11,7 @@ export const themeAdditionsConfig = {
   /** Name of the project */
   projectName: repoName,
   /** Google Analytics tracking ID */
-  gaTrackingId: 'UA-148090679-9',
+  gaTrackingId: undefined, //'UA-000000000-0',
   /** Used to ensure site runs */
   repoName: repoName,
   /** URL to public assets, such as images. */
@@ -23,7 +23,7 @@ export const themeAdditionsConfig = {
   /** Footer settings */
   footer: {
     /** Set to false to disable the author/"powered by" footer. */
-    enabled: true,
+    enabled: false,
     /** Name of project author */
     authorName: 'DevBoldly',
     /** URL to author's page */
@@ -43,7 +43,7 @@ export const themeAdditionsConfig = {
   },
   feedbackForm: {
     /** Set to false to disable "was this page helpful?" feedback forms for whole site. */
-    enabled: true,
+    enabled: false,
     /** Site name submitted along with form, so you can track multiple sites with one form. Not shown to user. */
     siteName: repoName,
     /**

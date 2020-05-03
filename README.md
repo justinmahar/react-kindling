@@ -37,9 +37,9 @@ This project was created as a starter for [React](https://reactjs.org/) componen
 - **👓 [README template](https://github.com/devboldly/react-library-starter/blob/master/README.template.md)**
   - Just fill it out. Includes [npm version badge](https://badge.fury.io/for/js) and CI badges for street cred.
 - **📜 [Docz](https://www.docz.site/) documentation**
-  - Easily document and showcase your components and hooks. See the [included example](https://devboldly.github.io/react-library-starter/).
-- **🌎 [Netlify](https://netlify.com/) pre-configuration**
-  - Deploy your documentation site to Netlify with just a few clicks. For free.
+  - Easily document and showcase your components and hooks. See the [starter demo](https://devboldly.github.io/react-library-starter/).
+- **🌎 [GitHub Pages](https://pages.github.com/) pre-configuration**
+  - Auto build and deploy your documentation site to GitHub Pages for free with a single project config opt-in.
 - **📦 Easy [npm publish](https://docs.npmjs.com/cli/publish)**
   - Build, version, and ship it to [npm](https://www.npmjs.com/) with one command: `npm run ship`
 - And more!
@@ -78,16 +78,30 @@ First thing's first. Open `package.json` and update all fields including the nam
 
 By default the package is scoped to an npm account (e.g. `@devboldly/react-library-starter`).
 
-### Replace the README
+### Replacements
+
+In just seven easy steps, we'll make the template unique to you and your project.
+
+#### README Template
 
 This project includes a README template called `README.template.md`. [View it here](https://github.com/devboldly/react-library-starter/blob/master/README.template.md).
 
 If you'd like to use the template:
   - Replace `README.md` with `README.template.md`
-  - Replace `devboldly` with your username and `react-library-starter` with the name of your package.
   - Fill the rest out when you're ready.
 
 If not, then just delete `README.template.md` and create your own `README.md`.
+
+#### Project Name and Identity
+
+Then, replace the following across the entire project, case-sensitive, in this order:
+
+1. `react-library-starter` with your GitHub project name
+1. `https://devboldly.com` with your website or a link to your GitHub
+1. `devboldly@gmail.com` with your email
+1. `DevBoldly` with your author name
+1. `@devboldly` with your npm username
+1. `devboldly` with your GitHub username
 
 ### Use Storybook to develop your components and hooks
 
@@ -145,20 +159,48 @@ Just run the following to start the Docz dev server:
 npm run docz:dev
 ```
 
-### Deploy to Netlify
+### Deploy to GitHub Pages
 
-With just a few clicks, you can deploy this project's documentation to [Netlify](https://netlify.com/) for free.
+With a single project configuration, you can deploy your Docz documentation to [GitHub Pages](https://pages.github.com/) for free.
 
-Netlify has already been configured (in `netlify.toml`), so you can add and deploy immediately with zero config. Netlify will build and serve up your Docz static site.
+A [GitHub Action](https://github.com/features/actions) has already been configured for you in `.github/deploy.yml`.
 
-Once you deploy and the documentation site is live, be sure to update the README (if you used the provided template):
+Just add an access token to authorize GitHub to build and deploy your Docz static site for you.
 
-- Update the Netlify build status badge (at the top)
-- Update the link to the documentation site (first section)
+#### To enable GitHub Pages deploys:
+
+- Create a `repo` scoped [Personal access token](https://github.com/settings/tokens).
+- Add the token to your GitHub project: **Settings » Secrets**. Name it: `ACCESS_TOKEN`
+- Now, when you push code, your project's documentation will be built and deployed to GitHub Pages automatically. 🎉
+
+Link to your Docz site and deploy status are available in the template README. If this is your first deploy, it can take up to 10 minutes for GitHub Pages to be mounted.
+
+### Additional Settings
+
+- **favicon and Logo Image**
+  - The Docz site favicon and logo are located in `public`. The icon and logo default to a rocket.
+  - Disable the favicon or logo in `src/gatsby-theme-docz/theme-additions-config.js`
+- **Google Analytics**
+  - Add a Google Analytics tracking ID to `src/gatsby-theme-docz/theme-additions-config.js`. Disabled by default.
+- **Docz Footer**
+  - Add a personalized footer to Docz in `src/gatsby-theme-docz/theme-additions-config.js`. Disabled by default.
+- **Feedback Form**
+  - Add a "Was this page helpful?" form in `src/gatsby-theme-docz/theme-additions-config.js`. Disabled by default.
+
+### npm Deploy Checklist
+
+About to wrap up and deploy to npm? Double-check the following:
+
+- No unwanted `console.log` calls
+- Code is fully documented
+- Links in Docz are not broken (use a browser extension)
+- All tests pass
+- **Most important: Components and hooks are exported from `src/index.tsx`**
+  - If you forget to export, none of your hard work will be available via npm!
 
 ### Publish to npm
 
-When you're finished developing, you can easily deploy to npm with one command.
+When you're finished developing, you can easily ship it to npm with one command. Once published to npm, others can install and use your package with `npm install`.
 
 If you haven't already, log into npm:
 
@@ -169,12 +211,12 @@ npm login
 Then deploy with a single command:
 
 ```
-npm run deploy
+npm run ship
 ```
 
-This command will build your project, add/commit the freshly built `dist` directory, push to GitHub, increment the package version, and publish to npm.
+This command will build your project, add/commit the freshly built `dist` directory, increment the package version, publish to npm, and push to GitHub.
 
-If you have any unsaved changes, this script will fail until your working directory is clean.
+If you have any unsaved changes, this script will immediately fail until your working directory is clean.
 
 ### Celebrate!
 
@@ -230,7 +272,7 @@ Builds the Docz static site and deploys it to GitHub Pages.
 
 ### `npm run ship`
 
-Single command to build, commit, push the project to GitHub, version, and publish to npm.
+Single command to build, commit, version, publish to npm, and push the project to GitHub.
 
 Uses `-m "Build, version, and publish."` as the commit message for both `git` and `npm`.
 
