@@ -1,3 +1,4 @@
+const fs = require('fs');
 const readline = require('readline');
 const replace = require('replace-in-file');
 
@@ -14,6 +15,13 @@ rl.question('What is your name ? ', function(name) {
   };
   const results = replace.sync(options);
   console.log('Replacement results:', results);
+
+  try {
+    fs.unlinkSync('setup.js');
+    //file removed
+  } catch (err) {
+    console.error(err);
+  }
 
   rl.close();
 });
