@@ -62,7 +62,7 @@ npm install
 
 ## Project name, username, and author
 
-In just a few easy steps, we'll make the template your own.
+In just seven easy steps, we'll make the template your own.
 
 First, replace `README.md` with `README.template.md`
 
