@@ -62,13 +62,14 @@ npm install
 
 ## Project name, username, and author
 
-In just seven easy steps, we'll make the template your own.
+In just a few easy steps, we'll make the template your own.
 
-Step 1: Replace `README.md` with `README.template.md`
+First, replace `README.md` with `README.template.md`
 
 Next, replace the following text across the entire project, case-sensitive, in this order:
 
 1. `react-library-starter` with your GitHub project name
+1. `React Library Starter` with your project title
 1. `https://devboldly.com` with your website or a link to your GitHub
 1. `devboldly@gmail.com` with your email
 1. `DevBoldly` with your author name
@@ -130,8 +131,10 @@ Edit the MDX files in `src/__docz__` to change the Home doc page and license pag
 Just run the following to start the Docz dev server:
 
 ```bash
-npm run docz:dev
+npm run docz
 ```
+
+Then visit [localhost:3000](http://localhost:3000) to see your documentation site.
 
 ### Deploy to GitHub Pages
 
@@ -151,8 +154,10 @@ Link to your Docz site and deploy status are available in the template README. I
 
 ### Additional Settings
 
+- **Docz Menu**
+  - The Docz menu is configured in `doczrc.js`. Remove, add, or change the menu items there.
 - **favicon and Logo Image**
-  - The Docz site favicon and logo are located in `public`. The icon and logo default to a rocket.
+  - The Docz site favicon and logo are located in `public`. The icon and logo default to a rocket. [Get a different one here](https://favicon.io/emoji-favicons/).
   - Disable the favicon or logo in `src/gatsby-theme-docz/theme-additions-config.js`
 - **Google Analytics**
   - Add a Google Analytics tracking ID to `src/gatsby-theme-docz/theme-additions-config.js`. Disabled by default.
