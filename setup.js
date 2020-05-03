@@ -11,38 +11,54 @@ const parameters = {};
 
 const doSetup = () => {
   const projectFiles = ['src/**/*', 'LICENSE', 'package-lock.json', 'package.json', 'README.md', 'README.template.md'];
-  // GitHub project name
-  const projectNamePattern = /react-kindling/g;
-  const projectNameReplaceOptions = {
+  // === GitHub project name ===
+  replace.sync({
     files: projectFiles,
-    from: projectNamePattern,
-    to: '',
-  };
-  replace.sync(projectNameReplaceOptions);
-  // Project title
-  // Website or GitHub profile link
-  // Email
-  // Author name
-  // GitHub username
+    from: /react-kindling/g,
+    to: parameters.projectName,
+  });
+  // === Project title ===
+  replace.sync({
+    files: projectFiles,
+    from: /React Kindling/g,
+    to: parameters.projectTitle,
+  });
+  // === Website or GitHub profile link ===
+  replace.sync({
+    files: projectFiles,
+    from: /https:\/\/devboldly.com/g,
+    to: parameters.website,
+  });
+  // === Email ===
+  replace.sync({
+    files: projectFiles,
+    from: /devboldly@gmail\.com/g,
+    to: parameters.email,
+  });
+  // === Author name ===
+  replace.sync({
+    files: projectFiles,
+    from: /DevBoldly/g,
+    to: parameters.author,
+  });
+  // === GitHub username ===
+  replace.sync({
+    files: projectFiles,
+    from: /devboldly/g,
+    to: parameters.githubUsername,
+  });
 
-  const scriptPattern = /\n {4}"setup": "node setup.js",/g;
-  const options = {
+  // === Self destruct ===
+  const selfDestructPattern = /\n {4}"setup": "node setup.js",/g;
+  const selfDestructOptions = {
     files: ['package.json'],
-    from: scriptPattern,
+    from: selfDestructPattern,
     to: '',
   };
-  const options2 = {
-    files: ['src/**/*', 'LICENSE', 'package-lock.json', 'package.json', 'README.md', 'README.template.md'],
-    from: /lalala/g,
-    to: '',
-  };
-
-  // const results = replace.sync(options);
+  replace.sync(selfDestructOptions);
   // console.log('Replacement results:', results);
-
   try {
-    // fs.unlinkSync('setup.js');
-    //file removed
+    fs.unlinkSync('setup.js');
   } catch (err) {
     console.error(err);
   }
@@ -71,6 +87,6 @@ rl.question('GitHub project name (i.e. my-project): ', function(projectName) {
 });
 
 rl.on('close', function() {
-  console.log('\nBYE BYE !!!');
+  console.log('\nEnjoy! 👌');
   process.exit(0);
 });
