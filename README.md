@@ -39,7 +39,7 @@ This project was created as a starter for [React](https://reactjs.org/) componen
 - **📜 [Docz](https://www.docz.site/) documentation**
   - Easily document and showcase your components and hooks. See the [starter demo](https://devboldly.github.io/react-library-starter/).
 - **🌎 [GitHub Pages](https://pages.github.com/) pre-configuration**
-  - Auto build and deploy your documentation site to GitHub Pages for free with a single opt-in project config.
+  - Auto-deploy your documentation site to GitHub Pages for free with a single opt-in project config.
 - **📦 Easy [npm publish](https://docs.npmjs.com/cli/publish)**
   - Build, version, and ship it to [npm](https://www.npmjs.com/) with one command: `npm run ship`
 - And more!
