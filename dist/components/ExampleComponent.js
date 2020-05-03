@@ -9,9 +9,9 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 /**
- * Example component that renders the text its given.
+ * See documentation: [ExampleComponent](https://devboldly.github.io/react-kindling/ExampleComponent)
  *
- * @returns The rendered component.
+ *
  */
 function ExampleComponent(props) {
     return (React.createElement("div", { style: {

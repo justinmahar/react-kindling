@@ -4,9 +4,9 @@ export interface ExampleComponentProps {
     text?: string;
 }
 /**
- * Example component that renders the text its given.
+ * See documentation: [ExampleComponent](https://devboldly.github.io/react-kindling/ExampleComponent)
  *
- * @returns The rendered component.
+ *
  */
 export declare function ExampleComponent(props: ExampleComponentProps): JSX.Element;
 export declare namespace ExampleComponent {
