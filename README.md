@@ -150,7 +150,7 @@ Just add an access token to authorize GitHub to build and deploy your Docz stati
 - Add the token to your GitHub project: **Settings » Secrets**. Name it: `ACCESS_TOKEN`
 - Now, when you push code, your project's documentation will be built and deployed to GitHub Pages automatically. 🎉
 
-Link to your Docz site and deploy status are available in the template README. If this is your first deploy, it can take up to 10 minutes for GitHub Pages to be mounted.
+Link to your Docz site and deploy status are available in the template README. If this is your first deploy, it can take up to 10 minutes for your GitHub Pages site to show up.
 
 ### Additional Settings
 
