@@ -8,11 +8,18 @@ const rl = readline.createInterface({
 });
 
 rl.question('What is your name ? ', function(name) {
+  const scriptPattern = /\n {4}"setup": "node setup.js",/g;
   const options = {
+    files: ['package.json'],
+    from: scriptPattern,
+    to: '',
+  };
+  const options2 = {
     files: ['src/**/*', 'LICENSE', 'package-lock.json', 'package.json', 'README.md', 'README.template.md'],
     from: /lalala/g,
-    to: 'heeeey!',
+    to: '',
   };
+
   const results = replace.sync(options);
   console.log('Replacement results:', results);
 
