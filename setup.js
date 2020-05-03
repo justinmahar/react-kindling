@@ -36,10 +36,23 @@ const doSetup = () => {
   rl.close();
 };
 
-rl.question('What is your name? ', function(name) {
-  parameters.name = name;
-  rl.question('What is your name2? ', function(name) {
-    doSetup();
+rl.question('GitHub project name (i.e. my-project): ', function(projectName) {
+  parameters.projectName = projectName;
+  rl.question('Project title (i.e. My Project)? ', function(projectTitle) {
+    parameters.projectTitle = projectTitle;
+    rl.question('Website or GitHub link? ', function(website) {
+      parameters.website = website;
+      rl.question('Email (i.e. devboldly@gmail.com)? ', function(email) {
+        parameters.email = email;
+        rl.question('Author name (i.e. Justin Mahar)? ', function(author) {
+          parameters.author = author;
+          rl.question('GitHub username (i.e. devboldly)? ', function(githubUsername) {
+            parameters.githubUsername = githubUsername;
+            doSetup();
+          });
+        });
+      });
+    });
   });
 });
 

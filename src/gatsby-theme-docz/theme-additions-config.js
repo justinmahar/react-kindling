@@ -27,7 +27,7 @@ export const themeAdditionsConfig = {
     /** Name of project author */
     authorName: 'DevBoldly',
     /** URL to author's page */
-    authorUrl: 'https://devboldly.com/',
+    authorUrl: 'https://devboldly.com',
     /** Set to true if you're a grumpy person :) */
     hideEmoji: false,
     /** Hide the "Created with <3 by name" author text from footer. */
