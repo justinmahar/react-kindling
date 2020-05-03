@@ -146,7 +146,7 @@ Just add an access token to authorize GitHub to build and deploy your Docz stati
 
 #### To enable GitHub Pages deploys:
 
-- Create a `repo` scoped [Personal access token](https://github.com/settings/tokens).
+- Create a `repo`-scoped [Personal access token](https://github.com/settings/tokens).
 - Add the token to your GitHub project: **Settings » Secrets**. Name it: `ACCESS_TOKEN`
 - Now, when you push code, your project's documentation will be built and deployed to GitHub Pages automatically. 🎉
 
