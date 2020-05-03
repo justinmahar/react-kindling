@@ -59,28 +59,45 @@ const doSetup = () => {
   });
 
   // === Self destruct ===
-  const scriptPattern = /\n\s*"setup": "node setup.js",/g;
+  // Remove setup npm script
+  const scriptPattern = /\s*"setup": "node setup.js",/g;
   const scriptOptions = {
     files: ['package.json'],
     from: scriptPattern,
     to: '',
   };
   replace.sync(scriptOptions);
-  const replaceInFilePattern = /\n\s*"replace-in-file"": ".*?",/g;
+  // Remove replacement tool
+  const replaceInFilePattern = /\s*"replace-in-file": ".*?",/g;
   const replaceInFileOptions = {
     files: ['package.json'],
     from: replaceInFilePattern,
     to: '',
   };
   replace.sync(replaceInFileOptions);
-  // console.log('Replacement results:', results);
+  // Remove setup script file
   try {
     fs.unlinkSync('setup.js');
   } catch (err) {
     console.error(err);
   }
 
+  // We're done!
   rl.close();
+};
+
+const getConfirmation = () => {
+  return (
+    `REVIEW:` +
+    `Project name: ${parameters.projectName}\n` +
+    `Title:        ${parameters.projectTitle}\n` +
+    `Description:  ${parameters.description}\n` +
+    `Website:      ${parameters.website}\n` +
+    `Email:        ${parameters.email}\n` +
+    `Author:       ${parameters.author}\n` +
+    `GitHub user:  ${parameters.githubUsername}\n\n` +
+    `Look good (Y/n)?`
+  );
 };
 
 // This header will contain a brief description of the project.
@@ -99,7 +116,11 @@ rl.question('GitHub project name (i.e. my-project): ', function(projectName) {
             parameters.author = author;
             rl.question('GitHub username (i.e. devboldly): ', function(githubUsername) {
               parameters.githubUsername = githubUsername;
-              doSetup();
+              rl.question(getConfirmation(), function(response) {
+                if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') {
+                  doSetup();
+                }
+              });
             });
           });
         });
