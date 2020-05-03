@@ -46,7 +46,7 @@ This project was created as a starter for [React](https://reactjs.org/) componen
 
 ## Quick Start
 
-### Click the button below to use this template:
+### Click the button below to get started with React Kindling:
 
 <a href="https://github.com/devboldly/react-kindling/generate"><img src="https://img.shields.io/badge/GitHub-Use%20this%20template-brightgreen"/></a>
 
@@ -62,9 +62,9 @@ npm install
 
 ## Project name, username, and author
 
-In just seven easy steps, we'll make the template your own.
+In just seven easy steps, we'll make the React Kindling template your own.
 
-First, replace `README.md` with `README.template.md`
+First, replace `README.md` with `README.template.md`. This gives you a standardized README template you can fill out later.
 
 Next, replace the following text across the entire project, case-sensitive, in this order:
 
