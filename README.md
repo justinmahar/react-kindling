@@ -136,6 +136,20 @@ npm run docz
 
 Then visit [localhost:3000](http://localhost:3000) to see your documentation site.
 
+#### Additional Docz Settings
+
+- **Docz Menu**
+  - The Docz menu is configured in `doczrc.js`. Remove, add, or change the menu items there.
+- **favicon and Logo Image**
+  - The Docz site favicon and logo are located in `public`. The icon and logo default to a rocket. [Get a different one here](https://favicon.io/emoji-favicons/).
+  - Disable the favicon or logo in `src/gatsby-theme-docz/theme-additions-config.js`
+- **Google Analytics**
+  - Add a Google Analytics tracking ID to `src/gatsby-theme-docz/theme-additions-config.js`. Disabled by default.
+- **Docz Footer**
+  - Add a personalized footer to Docz in `src/gatsby-theme-docz/theme-additions-config.js`. Disabled by default.
+- **Feedback Form**
+  - Add a "Was this page helpful?" form in `src/gatsby-theme-docz/theme-additions-config.js`. Disabled by default.
+
 ### Deploy to GitHub Pages
 
 With a single project configuration, you can deploy your Docz documentation to [GitHub Pages](https://pages.github.com/) for free.
@@ -151,20 +165,6 @@ Just add an access token to authorize GitHub to build and deploy your Docz stati
 - Now, when you push code, your project's documentation will be built and deployed to GitHub Pages automatically. 🎉
 
 Link to your Docz site and deploy status are available in the template README. If this is your first deploy, it can take up to 10 minutes for your GitHub Pages site to show up.
-
-### Additional Settings
-
-- **Docz Menu**
-  - The Docz menu is configured in `doczrc.js`. Remove, add, or change the menu items there.
-- **favicon and Logo Image**
-  - The Docz site favicon and logo are located in `public`. The icon and logo default to a rocket. [Get a different one here](https://favicon.io/emoji-favicons/).
-  - Disable the favicon or logo in `src/gatsby-theme-docz/theme-additions-config.js`
-- **Google Analytics**
-  - Add a Google Analytics tracking ID to `src/gatsby-theme-docz/theme-additions-config.js`. Disabled by default.
-- **Docz Footer**
-  - Add a personalized footer to Docz in `src/gatsby-theme-docz/theme-additions-config.js`. Disabled by default.
-- **Feedback Form**
-  - Add a "Was this page helpful?" form in `src/gatsby-theme-docz/theme-additions-config.js`. Disabled by default.
 
 ### npm Deploy Checklist
 
