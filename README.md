@@ -73,7 +73,6 @@ Next, replace the following text across the entire project, case-sensitive, in t
 1. `https://devboldly.com` with your website or a link to your GitHub
 1. `devboldly@gmail.com` with your email
 1. `DevBoldly` with your author name
-1. `@devboldly` with your npm username
 1. `devboldly` with your GitHub username
 
 You're ready to develop!
