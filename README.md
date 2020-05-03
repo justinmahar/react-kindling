@@ -72,29 +72,11 @@ Go to [localhost:6006](http://localhost:6006/) to see the example hook and compo
 
 ## Start Developing
 
-### Update `package.json`
+In just seven easy steps, we'll make the template your own.
 
-First thing's first. Open `package.json` and update all fields including the name, description, and author.
+Step 1: Replace `README.md` with `README.template.md`
 
-By default the package is scoped to an npm account (e.g. `@devboldly/react-library-starter`).
-
-### Replacements
-
-In just seven easy steps, we'll make the template unique to you and your project.
-
-#### README Template
-
-This project includes a README template called `README.template.md`. [View it here](https://github.com/devboldly/react-library-starter/blob/master/README.template.md).
-
-If you'd like to use the template:
-  - Replace `README.md` with `README.template.md`
-  - Fill the rest out when you're ready.
-
-If not, then just delete `README.template.md` and create your own `README.md`.
-
-#### Project Name and Identity
-
-Then, replace the following across the entire project, case-sensitive, in this order:
+Next, replace the following across the entire project, case-sensitive, in this order:
 
 1. `react-library-starter` with your GitHub project name
 1. `https://devboldly.com` with your website or a link to your GitHub
@@ -102,6 +84,8 @@ Then, replace the following across the entire project, case-sensitive, in this o
 1. `DevBoldly` with your author name
 1. `@devboldly` with your npm username
 1. `devboldly` with your GitHub username
+
+You're ready to develop!
 
 ### Use Storybook to develop your components and hooks
 
