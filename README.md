@@ -166,9 +166,9 @@ Just add an access token to authorize GitHub to build and deploy your Docz stati
 
 Link to your Docz site and deploy status are available in the template README. If this is your first deploy, it can take up to 10 minutes for your GitHub Pages site to show up.
 
-### npm Deploy Checklist
+### npm Publish Checklist
 
-About to wrap up and deploy to npm? Double-check the following:
+About to wrap up and publish to npm? Double-check the following:
 
 - No unwanted `console.log` calls
 - Code is fully documented
@@ -187,7 +187,7 @@ If you haven't already, log into npm:
 npm login
 ```
 
-Then deploy with a single command:
+Then publish with a single command:
 
 ```
 npm run ship
