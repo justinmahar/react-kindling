@@ -57,20 +57,10 @@ You will be prompted for a repo name and description, and GitHub will do the res
 ### Install dependencies
 
 ```
-npm i
+npm install
 ```
 
-### Start project
-
-```
-npm start
-```
-
-This will run the Storybook server so you can develop. 
-
-Go to [localhost:6006](http://localhost:6006/) to see the example hook and component stories. You're ready to start developing!
-
-## Start Developing
+## Make the project yours
 
 In just seven easy steps, we'll make the template your own.
 
