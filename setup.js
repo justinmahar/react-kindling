@@ -7,7 +7,10 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-rl.question('What is your name ? ', function(name) {
+const parameters = {};
+
+const doSetup = () => {
+  console.log('doing it!', parameters);
   const scriptPattern = /\n {4}"setup": "node setup.js",/g;
   const options = {
     files: ['package.json'],
@@ -20,17 +23,24 @@ rl.question('What is your name ? ', function(name) {
     to: '',
   };
 
-  const results = replace.sync(options);
-  console.log('Replacement results:', results);
+  // const results = replace.sync(options);
+  // console.log('Replacement results:', results);
 
   try {
-    fs.unlinkSync('setup.js');
+    // fs.unlinkSync('setup.js');
     //file removed
   } catch (err) {
     console.error(err);
   }
 
   rl.close();
+};
+
+rl.question('What is your name? ', function(name) {
+  parameters.name = name;
+  rl.question('What is your name2? ', function(name) {
+    doSetup();
+  });
 });
 
 rl.on('close', function() {
