@@ -2,7 +2,7 @@
   "name": "@devboldly/react-library-starter",
   "version": "1.0.0",
   "author": "DevBoldly <devboldly@gmail.com>",
-  "description": "A template to build, test, and share React components and hooks easily. Uses Storybook, Jest, and more.",
+  "description": "A template to build, test, and share React components and hooks easily. Uses Storybook, Docz, and more.",
   "homepage": "https://github.com/devboldly/react-library-starter#readme",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

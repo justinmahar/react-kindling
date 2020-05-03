@@ -2,7 +2,7 @@
   <a href="https://github.com/devboldly/react-library-starter">React Library Starter</a>
 </h2>
 <h3 align="center">
-  A template to build, test, and share React components and hooks easily.<br/>Uses Storybook, Jest, and more.
+  A template to build, test, and share React components and hooks easily.<br/>Uses Storybook, Docz, and more.
 </h3>
 <p align="center">
   <a href="https://github.com/devboldly/react-library-starter/generate">
@@ -39,7 +39,7 @@ This project was created as a starter for [React](https://reactjs.org/) componen
 - **📜 [Docz](https://www.docz.site/) documentation**
   - Easily document and showcase your components and hooks. See the [starter demo](https://devboldly.github.io/react-library-starter/).
 - **🌎 [GitHub Pages](https://pages.github.com/) pre-configuration**
-  - Auto build and deploy your documentation site to GitHub Pages for free with a single project config opt-in.
+  - Auto build and deploy your documentation site to GitHub Pages for free with a single opt-in project config.
 - **📦 Easy [npm publish](https://docs.npmjs.com/cli/publish)**
   - Build, version, and ship it to [npm](https://www.npmjs.com/) with one command: `npm run ship`
 - And more!
