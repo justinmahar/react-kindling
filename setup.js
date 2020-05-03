@@ -10,7 +10,11 @@ const rl = readline.createInterface({
 const parameters = {};
 
 const doSetup = () => {
-  const projectFiles = ['src/**/*', 'LICENSE', 'package-lock.json', 'package.json', 'README.md', 'README.template.md'];
+  // === README ===
+  fs.unlinkSync('README.md');
+  fs.renameSync('README.template.md', 'README.md');
+
+  const projectFiles = ['src/**/*', 'LICENSE', 'package-lock.json', 'package.json', 'README.md'];
   // === GitHub project name ===
   replace.sync({
     files: projectFiles,
@@ -22,6 +26,12 @@ const doSetup = () => {
     files: projectFiles,
     from: /React Kindling/g,
     to: parameters.projectTitle,
+  });
+  // === Project description ===
+  replace.sync({
+    files: projectFiles,
+    from: /This header will contain a brief description of the project\./g,
+    to: parameters.description,
   });
   // === Website or GitHub profile link ===
   replace.sync({
@@ -49,13 +59,20 @@ const doSetup = () => {
   });
 
   // === Self destruct ===
-  const selfDestructPattern = /\n {4}"setup": "node setup.js",/g;
-  const selfDestructOptions = {
+  const scriptPattern = /\n\s*"setup": "node setup.js",/g;
+  const scriptOptions = {
     files: ['package.json'],
-    from: selfDestructPattern,
+    from: scriptPattern,
     to: '',
   };
-  replace.sync(selfDestructOptions);
+  replace.sync(scriptOptions);
+  const replaceInFilePattern = /\n\s*"replace-in-file"": ".*?",/g;
+  const replaceInFileOptions = {
+    files: ['package.json'],
+    from: replaceInFilePattern,
+    to: '',
+  };
+  replace.sync(replaceInFileOptions);
   // console.log('Replacement results:', results);
   try {
     fs.unlinkSync('setup.js');
@@ -66,19 +83,24 @@ const doSetup = () => {
   rl.close();
 };
 
+// This header will contain a brief description of the project.
+
 rl.question('GitHub project name (i.e. my-project): ', function(projectName) {
   parameters.projectName = projectName;
   rl.question('Project title (i.e. My Project): ', function(projectTitle) {
     parameters.projectTitle = projectTitle;
-    rl.question('Website or GitHub profile link: ', function(website) {
-      parameters.website = website;
-      rl.question('Email (i.e. devboldly@gmail.com): ', function(email) {
-        parameters.email = email;
-        rl.question('Author name (i.e. Justin Mahar): ', function(author) {
-          parameters.author = author;
-          rl.question('GitHub username (i.e. devboldly): ', function(githubUsername) {
-            parameters.githubUsername = githubUsername;
-            doSetup();
+    rl.question('Project description: ', function(description) {
+      parameters.description = description;
+      rl.question('Website or GitHub profile link: ', function(website) {
+        parameters.website = website;
+        rl.question('Email (i.e. devboldly@gmail.com): ', function(email) {
+          parameters.email = email;
+          rl.question('Author name (i.e. Justin Mahar): ', function(author) {
+            parameters.author = author;
+            rl.question('GitHub username (i.e. devboldly): ', function(githubUsername) {
+              parameters.githubUsername = githubUsername;
+              doSetup();
+            });
           });
         });
       });
@@ -87,6 +109,6 @@ rl.question('GitHub project name (i.e. my-project): ', function(projectName) {
 });
 
 rl.on('close', function() {
-  console.log('\nEnjoy! 👌');
+  console.log('\nEnjoy!');
   process.exit(0);
 });
