@@ -7,6 +7,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
+let completed = false;
 const parameters = {};
 
 const doSetup = () => {
@@ -81,14 +82,14 @@ const doSetup = () => {
   } catch (err) {
     console.error(err);
   }
-
+  completed = true;
   // We're done!
   rl.close();
 };
 
 const getConfirmation = () => {
   return (
-    `REVIEW:` +
+    `\n\nREVIEW:\n-------\n` +
     `Project name: ${parameters.projectName}\n` +
     `Title:        ${parameters.projectTitle}\n` +
     `Description:  ${parameters.description}\n` +
@@ -120,6 +121,7 @@ rl.question('GitHub project name (i.e. my-project): ', function(projectName) {
                 if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') {
                   doSetup();
                 }
+                rl.close();
               });
             });
           });
@@ -130,6 +132,10 @@ rl.question('GitHub project name (i.e. my-project): ', function(projectName) {
 });
 
 rl.on('close', function() {
-  console.log('\nEnjoy!');
+  if (completed) {
+    console.log('\nDone! To reset all changes and start over, use:\n  git reset HEAD --hard && npm run setup\n');
+  } else {
+    console.log('Aborted.');
+  }
   process.exit(0);
 });
