@@ -7,6 +7,7 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
+    "setup": "node setup.js",
     "build": "rm -rf ./dist && tsc",
     "watch": "tsc --watch",
     "test": "jest",
@@ -70,6 +71,7 @@
     "react-helmet": "^6.0.0",
     "react-test-renderer": "^16.13.0",
     "react-use-window-scroll": "^1.0.8",
+    "replace-in-file": "^6.0.0",
     "ts-jest": "^25.2.1",
     "ts-loader": "^6.2.1",
     "typescript": "^3.8.3"
