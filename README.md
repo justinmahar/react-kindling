@@ -66,7 +66,7 @@ In just seven easy steps, we'll make the template your own.
 
 Step 1: Replace `README.md` with `README.template.md`
 
-Next, replace the following across the entire project, case-sensitive, in this order:
+Next, replace the following text across the entire project, case-sensitive, in this order:
 
 1. `react-library-starter` with your GitHub project name
 1. `https://devboldly.com` with your website or a link to your GitHub
