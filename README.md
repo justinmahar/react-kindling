@@ -60,7 +60,7 @@ You will be prompted for a repo name and description, and GitHub will do the res
 npm install
 ```
 
-## Make the project yours
+## Project name, username, and author
 
 In just seven easy steps, we'll make the template your own.
 
