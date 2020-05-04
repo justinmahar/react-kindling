@@ -89,7 +89,7 @@ const doSetup = () => {
 
 const getConfirmation = () => {
   return (
-    `\n\nREVIEW:\n-------\n` +
+    `\n\nReview:\n-------\n` +
     `Project name: ${parameters.projectName}\n` +
     `Title:        ${parameters.projectTitle}\n` +
     `Description:  ${parameters.description}\n` +
@@ -103,7 +103,71 @@ const getConfirmation = () => {
 
 // This header will contain a brief description of the project.
 
-rl.question('GitHub project name (i.e. my-project): ', function(projectName) {
+const projectNamePrompt = callback => {
+  rl.question('GitHub project name (i.e. my-project): ', function(projectName) {
+    if (projectName.trim() === '') {
+      projectNamePrompt(callback);
+    } else {
+      callback(projectName);
+    }
+  });
+};
+const projectTitlePrompt = callback => {
+  rl.question('Project title (i.e. My Project): ', function(projectTitle) {
+    if (projectTitle.trim() === '') {
+      projectTitlePrompt(callback);
+    } else {
+      callback(projectTitle);
+    }
+  });
+};
+const descriptionPrompt = callback => {
+  rl.question('Project description: ', function(description) {
+    if (description.trim() === '') {
+      descriptionPrompt(callback);
+    } else {
+      callback(description);
+    }
+  });
+};
+const websitePrompt = callback => {
+  rl.question('Website or GitHub profile link: ', function(website) {
+    if (website.trim() === '') {
+      websitePrompt(callback);
+    } else {
+      callback(website);
+    }
+  });
+};
+const emailPrompt = callback => {
+  rl.question('Email (i.e. devboldly@gmail.com): ', function(email) {
+    if (email.trim() === '') {
+      emailPrompt(callback);
+    } else {
+      callback(email);
+    }
+  });
+};
+const authorPrompt = callback => {
+  rl.question('Author name (i.e. Justin Mahar): ', function(author) {
+    if (author.trim() === '') {
+      authorPrompt(callback);
+    } else {
+      callback(author);
+    }
+  });
+};
+const githubUsernamePrompt = callback => {
+  rl.question('GitHub username (i.e. devboldly): ', function(githubUsername) {
+    if (githubUsername.trim() === '') {
+      githubUsernamePrompt(callback);
+    } else {
+      callback(githubUsername);
+    }
+  });
+};
+
+projectNamePrompt(function(projectName) {
   parameters.projectName = projectName;
   rl.question('Project title (i.e. My Project): ', function(projectTitle) {
     parameters.projectTitle = projectTitle;
