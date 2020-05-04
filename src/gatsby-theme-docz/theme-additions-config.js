@@ -35,7 +35,7 @@ export const themeAdditionsConfig = {
     /** Holidays like New Year's Day and Pi Day are announced for fun. It's an easter egg. Hide if you want. */
     hideHolidays: false,
     /** Shoutout to what's powering this project. */
-    poweredByName: `🔥 React${' '}Kindling`,
+    poweredByName: `React${' '}Kindling`,
     /** Link for shoutout. */
     poweredByUrl: `https://github.com/dev${''}boldly/react${'-'}kindling`,
     /** Hide the "powered by" text from footer. */

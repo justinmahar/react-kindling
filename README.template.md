@@ -65,7 +65,7 @@ Feel free to submit a pull request for bugs or additions, and make sure to updat
 
 For major changes, open an issue first to discuss what you'd like to change.
 
-See [Kindling](https://tinyurl.com/reactkindling) for npm script documentation.
+See [Kindling](https://tinyurl.com/kindlingscripts) for npm script documentation.
 
 ## ⭐ Found It Helpful? [Star It!](https://github.com/devboldly/react-kindling/stargazers)
 
