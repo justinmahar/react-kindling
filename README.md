@@ -60,22 +60,17 @@ You will be prompted for a repo name and description, and GitHub will do the res
 npm install
 ```
 
-## Project name, username, and author
+### Setup
 
-In just seven easy steps, we'll make the React Kindling template your own.
+React Kindling uses an interactive setup script to configure the project. 
 
-First, replace `README.md` with `README.template.md`. This gives you a standardized README template you can fill out later.
+Just run:
 
-Next, replace the following text across the entire project, case-sensitive, in this order:
+```
+npm run setup
+```
 
-1. `react-kindling` with your GitHub project name
-1. `React Kindling` with your project title
-1. `https://devboldly.com` with your website or a link to your GitHub
-1. `devboldly@gmail.com` with your email
-1. `DevBoldly` with your author name
-1. `devboldly` with your GitHub username
-
-You're ready to develop!
+And follow the prompts to set your project up.
 
 ### Use Storybook to develop your components and hooks
 
