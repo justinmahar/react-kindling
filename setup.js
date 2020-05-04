@@ -86,20 +86,6 @@ const doSetup = () => {
   completed = true;
 };
 
-const getConfirmation = () => {
-  return (
-    `\n\nReview:\n-------\n` +
-    `Project name: ${parameters.projectName}\n` +
-    `Title:        ${parameters.projectTitle}\n` +
-    `Description:  ${parameters.description}\n` +
-    `Website:      ${parameters.website}\n` +
-    `Email:        ${parameters.email}\n` +
-    `Author:       ${parameters.author}\n` +
-    `GitHub user:  ${parameters.githubUsername}\n\n` +
-    `Look good (Y/n)?`
-  );
-};
-
 // This header will contain a brief description of the project.
 
 const projectNamePrompt = callback => {
@@ -166,7 +152,17 @@ const githubUsernamePrompt = callback => {
   });
 };
 const reviewPrompt = () => {
-  rl.question(getConfirmation(), function(response) {
+  const confirmation =
+    `\n\nReview:\n-------\n` +
+    `Project name: ${parameters.projectName}\n` +
+    `Title:        ${parameters.projectTitle}\n` +
+    `Description:  ${parameters.description}\n` +
+    `Website:      ${parameters.website}\n` +
+    `Email:        ${parameters.email}\n` +
+    `Author:       ${parameters.author}\n` +
+    `GitHub user:  ${parameters.githubUsername}\n\n` +
+    `Look good (yes/no)? `;
+  rl.question(confirmation, function(response) {
     if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') {
       try {
         doSetup();
@@ -207,7 +203,9 @@ projectNamePrompt(function(projectName) {
 
 rl.on('close', function() {
   if (completed) {
-    console.log('\nDone! To reset all changes and start over, use:\n  git reset HEAD --hard && npm run setup\n');
+    console.log(
+      '\nReact Kindling setup complete. Happy developing!\nTo reset all changes and start over, use:\n\n  git reset HEAD --hard && npm run setup\n\nOtherwise, to get started run:\n\n  npm start\n'
+    );
   } else {
     console.log('\nAborted.\n');
   }
