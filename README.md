@@ -146,7 +146,7 @@ Then visit [localhost:3000](http://localhost:3000) to see your documentation sit
 
 ### Deploy to GitHub Pages
 
-With a single project configuration, you can deploy your Docz documentation to [GitHub Pages](https://pages.github.com/) for free.
+With a single project setting, you can auto-deploy your Docz documentation to [GitHub Pages](https://pages.github.com/) for free.
 
 A [GitHub Action](https://github.com/features/actions) has already been configured for you in `.github/deploy.yml`.
 

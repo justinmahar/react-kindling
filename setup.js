@@ -209,7 +209,12 @@ projectNamePrompt(function(projectName) {
 rl.on('close', function() {
   if (completed) {
     console.log(
-      '\nReact Kindling setup complete. Happy developing!\nTo reset all changes and start over, use:\n\n  git reset HEAD --hard && npm run setup\n\nOtherwise, to get started run:\n\n  npm start\n'
+      '\nReact Kindling setup complete. Happy developing!\n' +
+        'To reset all changes and start over, use:\n\n' +
+        '  git reset HEAD --hard && npm run setup\n\n' +
+        'Otherwise, to get started:\n\n' +
+        '   React development:  npm start\n' +
+        '  Docz documentation:  npm run docz\n'
     );
   } else {
     console.log('\nAborted.\n');
