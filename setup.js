@@ -119,7 +119,7 @@ const descriptionPrompt = callback => {
   });
 };
 const websitePrompt = callback => {
-  rl.question('Website or GitHub profile link:        ', function(website) {
+  rl.question('Author website or GitHub profile link: ', function(website) {
     if (website.trim() === '') {
       websitePrompt(callback);
     } else {
