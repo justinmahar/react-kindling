@@ -101,7 +101,7 @@ const projectNamePrompt = callback => {
   });
 };
 const projectTitlePrompt = callback => {
-  rl.question('Project title (i.e. My Project):       ', function(projectTitle) {
+  rl.question('      Project title (i.e. My Project): ', function(projectTitle) {
     if (projectTitle.trim() === '') {
       projectTitlePrompt(callback);
     } else {
@@ -110,7 +110,7 @@ const projectTitlePrompt = callback => {
   });
 };
 const descriptionPrompt = callback => {
-  rl.question('Project description:                   ', function(description) {
+  rl.question('                  Project description: ', function(description) {
     if (description.trim() === '') {
       descriptionPrompt(callback);
     } else {
@@ -128,7 +128,7 @@ const websitePrompt = callback => {
   });
 };
 const emailPrompt = callback => {
-  rl.question('Email (i.e. devboldly@gmail.com):      ', function(email) {
+  rl.question('     Email (i.e. devboldly@gmail.com): ', function(email) {
     if (email.trim() === '') {
       emailPrompt(callback);
     } else {
@@ -137,7 +137,7 @@ const emailPrompt = callback => {
   });
 };
 const authorPrompt = callback => {
-  rl.question('Author name (i.e. Justin Mahar):       ', function(author) {
+  rl.question('      Author name (i.e. Justin Mahar): ', function(author) {
     if (author.trim() === '') {
       authorPrompt(callback);
     } else {
@@ -146,7 +146,7 @@ const authorPrompt = callback => {
   });
 };
 const githubUsernamePrompt = callback => {
-  rl.question('GitHub username (i.e. devboldly):      ', function(githubUsername) {
+  rl.question('     GitHub username (i.e. devboldly): ', function(githubUsername) {
     if (githubUsername.trim() === '') {
       githubUsernamePrompt(callback);
     } else {
@@ -158,12 +158,12 @@ const reviewPrompt = () => {
   const confirmation =
     `\n\nReview:\n-------\n` +
     `Project name: ${parameters.projectName}\n` +
-    `Title:        ${parameters.projectTitle}\n` +
-    `Description:  ${parameters.description}\n` +
-    `Website:      ${parameters.website}\n` +
-    `Email:        ${parameters.email}\n` +
-    `Author:       ${parameters.author}\n` +
-    `GitHub user:  ${parameters.githubUsername}\n\n` +
+    `       Title: ${parameters.projectTitle}\n` +
+    ` Description: ${parameters.description}\n` +
+    `     Website: ${parameters.website}\n` +
+    `       Email: ${parameters.email}\n` +
+    `      Author: ${parameters.author}\n` +
+    ` GitHub user: ${parameters.githubUsername}\n\n` +
     `Look good (y/n)? `;
   rl.question(confirmation, function(response) {
     if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') {
