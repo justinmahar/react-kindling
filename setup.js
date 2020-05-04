@@ -20,7 +20,7 @@ const doSetup = () => {
   fs.unlinkSync('README.md');
   fs.renameSync('README.template.md', 'README.md');
 
-  const projectFiles = ['src/**/*', 'LICENSE', 'package-lock.json', 'package.json', 'README.md'];
+  const projectFiles = ['src/**/*', 'doczrc.js', 'LICENSE', 'package-lock.json', 'package.json', 'README.md'];
   // === GitHub project name ===
   replace.sync({
     files: projectFiles,
