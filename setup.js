@@ -82,9 +82,8 @@ const doSetup = () => {
   } catch (err) {
     console.error(err);
   }
-  completed = true;
   // We're done!
-  rl.close();
+  completed = true;
 };
 
 const getConfirmation = () => {
@@ -166,27 +165,38 @@ const githubUsernamePrompt = callback => {
     }
   });
 };
+const reviewPrompt = () => {
+  rl.question(getConfirmation(), function(response) {
+    if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') {
+      try {
+        doSetup();
+      } catch (e) {
+        console.error(e);
+      }
+      rl.close();
+    } else if (response.toLowerCase() === 'n' || response.toLowerCase() === 'no') {
+      rl.close();
+    } else {
+      reviewPrompt();
+    }
+  });
+};
 
 projectNamePrompt(function(projectName) {
   parameters.projectName = projectName;
-  rl.question('Project title (i.e. My Project): ', function(projectTitle) {
+  projectTitlePrompt(function(projectTitle) {
     parameters.projectTitle = projectTitle;
-    rl.question('Project description: ', function(description) {
+    descriptionPrompt(function(description) {
       parameters.description = description;
-      rl.question('Website or GitHub profile link: ', function(website) {
+      websitePrompt(function(website) {
         parameters.website = website;
-        rl.question('Email (i.e. devboldly@gmail.com): ', function(email) {
+        emailPrompt(function(email) {
           parameters.email = email;
-          rl.question('Author name (i.e. Justin Mahar): ', function(author) {
+          authorPrompt(function(author) {
             parameters.author = author;
-            rl.question('GitHub username (i.e. devboldly): ', function(githubUsername) {
+            githubUsernamePrompt(function(githubUsername) {
               parameters.githubUsername = githubUsername;
-              rl.question(getConfirmation(), function(response) {
-                if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') {
-                  doSetup();
-                }
-                rl.close();
-              });
+              reviewPrompt();
             });
           });
         });
@@ -199,7 +209,7 @@ rl.on('close', function() {
   if (completed) {
     console.log('\nDone! To reset all changes and start over, use:\n  git reset HEAD --hard && npm run setup\n');
   } else {
-    console.log('Aborted.');
+    console.log('\nAborted.\n');
   }
   process.exit(0);
 });
