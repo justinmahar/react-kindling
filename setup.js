@@ -82,11 +82,8 @@ const doSetup = () => {
   };
   replace.sync(replaceInFileOptions);
   // Remove setup script file
-  try {
-    fs.unlinkSync('setup.js');
-  } catch (err) {
-    console.error(err);
-  }
+  fs.unlinkSync('setup.js');
+
   // We're done!
   completed = true;
 };
@@ -96,7 +93,7 @@ const projectNamePrompt = callback => {
     if (projectName.trim() === '') {
       projectNamePrompt(callback);
     } else {
-      callback(projectName);
+      callback(projectName.trim());
     }
   });
 };
@@ -105,7 +102,7 @@ const projectTitlePrompt = callback => {
     if (projectTitle.trim() === '') {
       projectTitlePrompt(callback);
     } else {
-      callback(projectTitle);
+      callback(projectTitle.trim());
     }
   });
 };
@@ -114,7 +111,7 @@ const descriptionPrompt = callback => {
     if (description.trim() === '') {
       descriptionPrompt(callback);
     } else {
-      callback(description);
+      callback(description.trim());
     }
   });
 };
@@ -123,7 +120,7 @@ const websitePrompt = callback => {
     if (website.trim() === '') {
       websitePrompt(callback);
     } else {
-      callback(website);
+      callback(website.trim());
     }
   });
 };
@@ -132,7 +129,7 @@ const emailPrompt = callback => {
     if (email.trim() === '') {
       emailPrompt(callback);
     } else {
-      callback(email);
+      callback(email.trim());
     }
   });
 };
@@ -141,7 +138,7 @@ const authorPrompt = callback => {
     if (author.trim() === '') {
       authorPrompt(callback);
     } else {
-      callback(author);
+      callback(author.trim());
     }
   });
 };
@@ -150,7 +147,7 @@ const githubUsernamePrompt = callback => {
     if (githubUsername.trim() === '') {
       githubUsernamePrompt(callback);
     } else {
-      callback(githubUsername);
+      callback(githubUsername.trim());
     }
   });
 };
@@ -181,6 +178,7 @@ const reviewPrompt = () => {
   });
 };
 
+// Prompt the user, review, and run the setup.
 projectNamePrompt(function(projectName) {
   parameters.projectName = projectName;
   projectTitlePrompt(function(projectTitle) {
