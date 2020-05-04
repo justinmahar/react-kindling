@@ -54,6 +54,8 @@ You will be prompted for a repo name and description, and GitHub will do the res
 
 **Note:** This approach is recommended over cloning or forking because [repositories created from a template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) start with a single commit and are not treated as forks, but instead as an entirely new project.
 
+Then `git clone` your project once it's set up.
+
 ### Install dependencies
 
 ```
