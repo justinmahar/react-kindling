@@ -195,6 +195,24 @@ If you have any unsaved changes, this script will immediately fail until your wo
 
 You've done it! Your project is ready for the world.
 
+## Projects Using React Kindling
+
+The following projects were built on React Kindling:
+
+- [react-analytics-charts](https://devboldly.github.io/react-analytics-charts)
+- [react-super-seo](https://devboldly.github.io/react-super-seo)
+- [react-bootswatch-select](https://devboldly.github.io/react-bootswatch-select)
+- [react-build-status-badge](https://devboldly.github.io/react-build-status-badge)
+- [react-authless-admin](https://devboldly.github.io/react-authless-admin)
+- [react-timed-renderer](https://devboldly.github.io/react-timed-renderer)
+- [react-timed-image](https://devboldly.github.io/react-timed-image)
+- [react-uncached-image](https://devboldly.github.io/react-uncached-image)
+- [react-use-analytics-api](https://devboldly.github.io/react-use-analytics-api)
+- [react-use-precision-timer](https://devboldly.github.io/react-use-precision-timer)
+- [react-use-window-localstorage](https://devboldly.github.io/react-use-window-localstorage)
+- [react-use-window-sessionstorage](https://devboldly.github.io/react-use-window-sessionstorage)
+- [react-use-window-scroll](https://devboldly.github.io/react-use-window-scroll)
+
 ## Contributing
 
 Open source software is awesome and so are you. 😎
