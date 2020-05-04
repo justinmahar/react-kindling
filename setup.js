@@ -213,6 +213,7 @@ rl.on('close', function() {
         'To reset all changes and start over, use:\n\n' +
         '  git reset --hard HEAD && npm run setup\n\n' +
         'Otherwise, to get started:\n\n' +
+        '     Commit and push:  git add . && git commit -m "Initialize" && git push\n' +
         '   React development:  npm start\n' +
         '  Docz documentation:  npm run docz\n'
     );
