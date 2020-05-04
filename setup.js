@@ -10,6 +10,11 @@ const rl = readline.createInterface({
 let completed = false;
 const parameters = {};
 
+console.log('====================');
+console.log('React Kindling Setup');
+console.log('====================');
+console.log('Press ^C to abort at any time.\n');
+
 const doSetup = () => {
   // === README ===
   fs.unlinkSync('README.md');
