@@ -91,8 +91,6 @@ const doSetup = () => {
   completed = true;
 };
 
-// This header will contain a brief description of the project.
-
 const projectNamePrompt = callback => {
   rl.question('GitHub project name (i.e. my-project): ', function(projectName) {
     if (projectName.trim() === '') {
@@ -103,7 +101,7 @@ const projectNamePrompt = callback => {
   });
 };
 const projectTitlePrompt = callback => {
-  rl.question('Project title (i.e. My Project): ', function(projectTitle) {
+  rl.question('Project title (i.e. My Project):       ', function(projectTitle) {
     if (projectTitle.trim() === '') {
       projectTitlePrompt(callback);
     } else {
@@ -112,7 +110,7 @@ const projectTitlePrompt = callback => {
   });
 };
 const descriptionPrompt = callback => {
-  rl.question('Project description: ', function(description) {
+  rl.question('Project description:                   ', function(description) {
     if (description.trim() === '') {
       descriptionPrompt(callback);
     } else {
@@ -121,7 +119,7 @@ const descriptionPrompt = callback => {
   });
 };
 const websitePrompt = callback => {
-  rl.question('Website or GitHub profile link: ', function(website) {
+  rl.question('Website or GitHub profile link:        ', function(website) {
     if (website.trim() === '') {
       websitePrompt(callback);
     } else {
@@ -130,7 +128,7 @@ const websitePrompt = callback => {
   });
 };
 const emailPrompt = callback => {
-  rl.question('Email (i.e. devboldly@gmail.com): ', function(email) {
+  rl.question('Email (i.e. devboldly@gmail.com):      ', function(email) {
     if (email.trim() === '') {
       emailPrompt(callback);
     } else {
@@ -139,7 +137,7 @@ const emailPrompt = callback => {
   });
 };
 const authorPrompt = callback => {
-  rl.question('Author name (i.e. Justin Mahar): ', function(author) {
+  rl.question('Author name (i.e. Justin Mahar):       ', function(author) {
     if (author.trim() === '') {
       authorPrompt(callback);
     } else {
@@ -148,7 +146,7 @@ const authorPrompt = callback => {
   });
 };
 const githubUsernamePrompt = callback => {
-  rl.question('GitHub username (i.e. devboldly): ', function(githubUsername) {
+  rl.question('GitHub username (i.e. devboldly):      ', function(githubUsername) {
     if (githubUsername.trim() === '') {
       githubUsernamePrompt(callback);
     } else {
@@ -166,7 +164,7 @@ const reviewPrompt = () => {
     `Email:        ${parameters.email}\n` +
     `Author:       ${parameters.author}\n` +
     `GitHub user:  ${parameters.githubUsername}\n\n` +
-    `Look good (yes/no)? `;
+    `Look good (y/n)? `;
   rl.question(confirmation, function(response) {
     if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') {
       try {
@@ -213,7 +211,7 @@ rl.on('close', function() {
         'To reset all changes and start over, use:\n\n' +
         '  git reset --hard HEAD && npm run setup\n\n' +
         'Otherwise, to get started:\n\n' +
-        '     Commit and push:  git add . && git commit -m "Initialize" && git push\n' +
+        '     Commit and push:  git add . && git commit -m "Project setup" && git push\n' +
         '   React development:  npm start\n' +
         '  Docz documentation:  npm run docz\n'
     );
