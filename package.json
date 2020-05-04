@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "author": "DevBoldly <devboldly@gmail.com>",
   "description": "A template to build, test, and share React components and hooks easily. Uses Storybook, Docz, and more.",
-  "homepage": "https://github.com/devboldly/react-kindling#readme",
+  "homepage": "https://devboldly.github.io/react-kindling/",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
