@@ -18,7 +18,15 @@
 
 ## Overview
 
-This project was created as a starter for [React](https://reactjs.org/) component and [hook](https://reactjs.org/docs/hooks-intro.html) libraries. Think of this template as a scaffold for all of your React goodies you want to build and possibly share via [npm](https://www.npmjs.com/).
+This is a starter for [React](https://reactjs.org/) component and [hook](https://reactjs.org/docs/hooks-intro.html) libraries.
+
+Think of this template as the kindling for all of your React goodies you want to build and possibly share via [npm](https://www.npmjs.com/). 
+
+React Kindling includes everything you need to build a mature React library including a standalone documentation site via GitHub Pages ([see template demo](https://devboldly.github.io/react-kindling/)).
+
+Get started in three easy steps: [generate](https://github.com/devboldly/react-kindling/generate), clone, and run `npm i && npm run setup`.
+
+See the [10+ projects using React Kindling](https://github.com/devboldly/react-kindling#projects-using-react-kindling), and build your own.
 
 ### Features include:
 
