@@ -135,7 +135,7 @@ Then visit [localhost:3000](http://localhost:3000) to see your documentation sit
 - **Docz Menu**
   - The Docz menu is configured in `doczrc.js`. Remove, add, or change the menu items there.
 - **favicon and Logo Image**
-  - The Docz site favicon and logo are located in `public`. The icon and logo default to a rocket. [Get a different one here](https://favicon.io/emoji-favicons/).
+  - The Docz site favicon and logo are located in `public`. [Get a different icon here](https://favicon.io/emoji-favicons/).
   - Disable the favicon or logo in `src/gatsby-theme-docz/theme-additions-config.js`
 - **Google Analytics**
   - Add a Google Analytics tracking ID to `src/gatsby-theme-docz/theme-additions-config.js`. Disabled by default.
