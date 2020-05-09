@@ -8,7 +8,7 @@
     "@typescript-eslint",
     "prettier"
   ],
-  "extends": [ 
+  "extends": [
     "eslint:recommended",
     "plugin:json/recommended",
     "plugin:react/recommended",
@@ -38,6 +38,7 @@
         "ignoreTrailingComments": true
       }
     ],
+    "react-app/react-hooks/exhaustive-deps": "off",
     "react/prop-types": "off",
     "react/display-name": "off",
     "react-app/jsx-a11y/accessible-emoji": "off",
@@ -53,7 +54,10 @@
         "allowExpressions": true
       }
     ],
-    "linebreak-style": ["warn", "unix"]
+    "linebreak-style": [
+      "warn",
+      "unix"
+    ]
   },
   "overrides": [
     {
