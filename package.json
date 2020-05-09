@@ -1,6 +1,6 @@
 {
   "name": "react-kindling",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "DevBoldly <devboldly@gmail.com>",
   "description": "A template to build, test, and share React components and hooks easily. Uses Storybook, Docz, and more.",
   "homepage": "https://devboldly.github.io/react-kindling/",
