@@ -150,7 +150,7 @@ Then visit [localhost:3000](http://localhost:3000) to see your documentation sit
 - **Google Analytics**
   - Add a Google Analytics tracking ID to `src/gatsby-theme-docz/theme-additions-config.js`. Disabled by default.
 - **Google Site Verification**
-  - Verify ownership in [Google Search Console](https://search.google.com/) via the HTML tag verification method. Paste the content value in `src/gatsby-ssr.js`.
+  - Verify ownership in [Google Search Console](https://search.google.com/search-console/) via the HTML tag verification method. Paste the content value in `src/gatsby-ssr.js`.
 - **Docz Footer**
   - Add a personalized footer to Docz in `src/gatsby-theme-docz/theme-additions-config.js`. Disabled by default.
 - **Feedback Form**
