@@ -63,7 +63,6 @@ const doSetup = () => {
     from: /devboldly/g,
     to: parameters.githubUsername,
   });
-
   // === Self destruct ===
   // Remove setup npm script
   const scriptPattern = /\s*"setup": "node setup.js",/g;
@@ -81,6 +80,14 @@ const doSetup = () => {
     to: '',
   };
   replace.sync(replaceInFileOptions);
+  // Reset version
+  const versionPattern = /"version": ".*?"/g;
+  const versionOptions = {
+    files: ['package.json'],
+    from: versionPattern,
+    to: '"version": "1.0.0"',
+  };
+  replace.sync(versionOptions);
   // Remove setup script file
   fs.unlinkSync('setup.js');
 
@@ -88,8 +95,8 @@ const doSetup = () => {
   completed = true;
 };
 
-const projectNamePrompt = callback => {
-  rl.question('GitHub project name (i.e. my-project): ', function(projectName) {
+const projectNamePrompt = (callback) => {
+  rl.question('GitHub project name (i.e. my-project): ', function (projectName) {
     if (projectName.trim() === '') {
       projectNamePrompt(callback);
     } else {
@@ -97,8 +104,8 @@ const projectNamePrompt = callback => {
     }
   });
 };
-const projectTitlePrompt = callback => {
-  rl.question('Project title (i.e. My Project):       ', function(projectTitle) {
+const projectTitlePrompt = (callback) => {
+  rl.question('Project title (i.e. My Project):       ', function (projectTitle) {
     if (projectTitle.trim() === '') {
       projectTitlePrompt(callback);
     } else {
@@ -106,8 +113,8 @@ const projectTitlePrompt = callback => {
     }
   });
 };
-const descriptionPrompt = callback => {
-  rl.question('Project description:                   ', function(description) {
+const descriptionPrompt = (callback) => {
+  rl.question('Project description:                   ', function (description) {
     if (description.trim() === '') {
       descriptionPrompt(callback);
     } else {
@@ -115,8 +122,8 @@ const descriptionPrompt = callback => {
     }
   });
 };
-const websitePrompt = callback => {
-  rl.question('Author website or GitHub profile link: ', function(website) {
+const websitePrompt = (callback) => {
+  rl.question('Author website or GitHub profile link: ', function (website) {
     if (website.trim() === '') {
       websitePrompt(callback);
     } else {
@@ -124,8 +131,8 @@ const websitePrompt = callback => {
     }
   });
 };
-const emailPrompt = callback => {
-  rl.question('Email (i.e. devboldly@gmail.com):      ', function(email) {
+const emailPrompt = (callback) => {
+  rl.question('Email (i.e. devboldly@gmail.com):      ', function (email) {
     if (email.trim() === '') {
       emailPrompt(callback);
     } else {
@@ -133,8 +140,8 @@ const emailPrompt = callback => {
     }
   });
 };
-const authorPrompt = callback => {
-  rl.question('Author name (i.e. Justin Mahar):       ', function(author) {
+const authorPrompt = (callback) => {
+  rl.question('Author name (i.e. Justin Mahar):       ', function (author) {
     if (author.trim() === '') {
       authorPrompt(callback);
     } else {
@@ -142,8 +149,8 @@ const authorPrompt = callback => {
     }
   });
 };
-const githubUsernamePrompt = callback => {
-  rl.question('GitHub username (i.e. devboldly):      ', function(githubUsername) {
+const githubUsernamePrompt = (callback) => {
+  rl.question('GitHub username (i.e. devboldly):      ', function (githubUsername) {
     if (githubUsername.trim() === '') {
       githubUsernamePrompt(callback);
     } else {
@@ -162,7 +169,7 @@ const reviewPrompt = () => {
     `Author:       ${parameters.author}\n` +
     `GitHub user:  ${parameters.githubUsername}\n\n` +
     `Look good (y/n)? `;
-  rl.question(confirmation, function(response) {
+  rl.question(confirmation, function (response) {
     if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') {
       try {
         doSetup();
@@ -179,19 +186,19 @@ const reviewPrompt = () => {
 };
 
 // Prompt the user, review, and run the setup.
-projectNamePrompt(function(projectName) {
+projectNamePrompt(function (projectName) {
   parameters.projectName = projectName;
-  projectTitlePrompt(function(projectTitle) {
+  projectTitlePrompt(function (projectTitle) {
     parameters.projectTitle = projectTitle;
-    descriptionPrompt(function(description) {
+    descriptionPrompt(function (description) {
       parameters.description = description;
-      websitePrompt(function(website) {
+      websitePrompt(function (website) {
         parameters.website = website;
-        emailPrompt(function(email) {
+        emailPrompt(function (email) {
           parameters.email = email;
-          authorPrompt(function(author) {
+          authorPrompt(function (author) {
             parameters.author = author;
-            githubUsernamePrompt(function(githubUsername) {
+            githubUsernamePrompt(function (githubUsername) {
               parameters.githubUsername = githubUsername;
               reviewPrompt();
             });
@@ -202,7 +209,7 @@ projectNamePrompt(function(projectName) {
   });
 });
 
-rl.on('close', function() {
+rl.on('close', function () {
   if (completed) {
     console.log(
       '\nReact Kindling setup complete. Happy developing!\n' +
