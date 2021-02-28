@@ -9,7 +9,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 /**
- * See documentation: [useExample](https://devboldly.github.io/react-kindling/useExample)
+ * See documentation: [useExample](https://justinmahar.github.io/react-kindling/useExample)
  *
  *
  */

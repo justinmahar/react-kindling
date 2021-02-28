@@ -42,25 +42,25 @@ const doSetup = () => {
   // === Website or GitHub profile link ===
   replace.sync({
     files: projectFiles,
-    from: /https:\/\/devboldly.com/g,
+    from: /https:\/\/github.com\/justinmahar/g,
     to: parameters.website,
   });
   // === Email ===
   replace.sync({
     files: projectFiles,
-    from: /devboldly@gmail\.com/g,
+    from: /contact@justinmahar\.com/g,
     to: parameters.email,
   });
   // === Author name ===
   replace.sync({
     files: projectFiles,
-    from: /DevBoldly/g,
+    from: /Justin Mahar/g,
     to: parameters.author,
   });
   // === GitHub username ===
   replace.sync({
     files: projectFiles,
-    from: /devboldly/g,
+    from: /justinmahar/g,
     to: parameters.githubUsername,
   });
   // === Self destruct ===
@@ -132,7 +132,7 @@ const websitePrompt = (callback) => {
   });
 };
 const emailPrompt = (callback) => {
-  rl.question('Email (i.e. devboldly@gmail.com):      ', function (email) {
+  rl.question('Email (i.e. contact@justinmahar.com):      ', function (email) {
     if (email.trim() === '') {
       emailPrompt(callback);
     } else {
@@ -150,7 +150,7 @@ const authorPrompt = (callback) => {
   });
 };
 const githubUsernamePrompt = (callback) => {
-  rl.question('GitHub username (i.e. devboldly):      ', function (githubUsername) {
+  rl.question('GitHub username (i.e. justinmahar):      ', function (githubUsername) {
     if (githubUsername.trim() === '') {
       githubUsernamePrompt(callback);
     } else {

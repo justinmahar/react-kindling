@@ -1,5 +1,5 @@
 /**
- * See documentation: [useExample](https://devboldly.github.io/react-kindling/useExample)
+ * See documentation: [useExample](https://justinmahar.github.io/react-kindling/useExample)
  *
  *
  */

@@ -1,9 +1,9 @@
 {
   "name": "react-kindling",
   "version": "1.0.8",
-  "author": "DevBoldly <devboldly@gmail.com>",
+  "author": "Justin Mahar <contact@justinmahar.com>",
   "description": "A template to build, test, and share React components and hooks easily. Uses Storybook, Docz, and more.",
-  "homepage": "https://devboldly.github.io/react-kindling/",
+  "homepage": "https://justinmahar.github.io/react-kindling/",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
@@ -29,10 +29,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devboldly/react-kindling.git"
+    "url": "git+https://github.com/justinmahar/react-kindling.git"
   },
   "bugs": {
-    "url": "https://github.com/devboldly/react-kindling/issues"
+    "url": "https://github.com/justinmahar/react-kindling/issues"
   },
   "keywords": [],
   "dependencies": {},

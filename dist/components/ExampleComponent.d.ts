@@ -4,7 +4,7 @@ export interface ExampleComponentProps {
     text?: string;
 }
 /**
- * See documentation: [ExampleComponent](https://devboldly.github.io/react-kindling/ExampleComponent)
+ * See documentation: [ExampleComponent](https://justinmahar.github.io/react-kindling/ExampleComponent)
  *
  *
  */

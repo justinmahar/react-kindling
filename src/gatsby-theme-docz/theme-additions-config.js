@@ -25,9 +25,9 @@ export const themeAdditionsConfig = {
     /** Set to false to disable the author/"powered by" footer. */
     enabled: false,
     /** Name of project author */
-    authorName: 'DevBoldly',
+    authorName: 'Justin Mahar',
     /** URL to author's page */
-    authorUrl: 'https://devboldly.com',
+    authorUrl: 'https://github.com/justinmahar',
     /** Set to true if you're a grumpy person :) */
     hideEmoji: false,
     /** Hide the "Created with <3 by name" author text from footer. */
@@ -37,7 +37,7 @@ export const themeAdditionsConfig = {
     /** Shoutout to what's powering this project. */
     poweredByName: `React${' '}Kindling`,
     /** Link for shoutout. */
-    poweredByUrl: `https://github.com/dev${''}boldly/react${'-'}kindling`,
+    poweredByUrl: `https://github.com/justin${''}mahar/react${'-'}kindling`,
     /** Hide the "powered by" text from footer. */
     hidePoweredBy: false,
   },

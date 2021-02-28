@@ -1,7 +1,7 @@
-import * as React from 'react';
+import * as React from "react";
 
 /**
- * See documentation: [useExample](https://devboldly.github.io/react-kindling/useExample)
+ * See documentation: [useExample](https://justinmahar.github.io/react-kindling/useExample)
  *
  *
  */

@@ -1,18 +1,18 @@
 <h2 align="center">
-  <a href="https://github.com/devboldly/react-kindling">🔥 React Kindling</a>
+  <a href="https://github.com/justinmahar/react-kindling">🔥 React Kindling</a>
 </h2>
 <h3 align="center">
   A template to build, test, and share React components and hooks easily.<br/>Uses Storybook, Docz, and more.
 </h3>
 <p align="center">
-  <a href="https://github.com/devboldly/react-kindling/generate">
+  <a href="https://github.com/justinmahar/react-kindling/generate">
     <img src="https://img.shields.io/badge/GitHub-Use%20this%20template-brightgreen"/>
   </a>
-  <a href="https://github.com/devboldly/react-kindling/actions?query=workflow%3ATests">
-    <img src="https://github.com/devboldly/react-kindling/workflows/Tests/badge.svg" alt="Tests Status"/>
+  <a href="https://github.com/justinmahar/react-kindling/actions?query=workflow%3ATests">
+    <img src="https://github.com/justinmahar/react-kindling/workflows/Tests/badge.svg" alt="Tests Status"/>
   </a>
-  <a href="https://github.com/devboldly/react-kindling/actions?query=workflow%3ADeploy">
-    <img src="https://github.com/devboldly/react-kindling/workflows/Deploy/badge.svg" alt="Deploy Status"/>
+  <a href="https://github.com/justinmahar/react-kindling/actions?query=workflow%3ADeploy">
+    <img src="https://github.com/justinmahar/react-kindling/workflows/Deploy/badge.svg" alt="Deploy Status"/>
   </a>
 </p>
 
@@ -20,13 +20,13 @@
 
 This is a starter for [React](https://reactjs.org/) component and [hook](https://reactjs.org/docs/hooks-intro.html) libraries.
 
-Think of this template as the kindling for all of your React goodies you want to build and possibly share via [npm](https://www.npmjs.com/). 
+Think of this template as the kindling for all of your React goodies you want to build and possibly share via [npm](https://www.npmjs.com/).
 
-React Kindling includes everything you need to build a mature React library including a standalone documentation site via GitHub Pages ([see template demo](https://devboldly.github.io/react-kindling/)).
+React Kindling includes everything you need to build a mature React library including a standalone documentation site via GitHub Pages ([see template demo](https://justinmahar.github.io/react-kindling/)).
 
-Get started in three easy steps: [generate](https://github.com/devboldly/react-kindling/generate), clone, and run `npm i && npm run setup`.
+Get started in three easy steps: [generate](https://github.com/justinmahar/react-kindling/generate), clone, and run `npm i && npm run setup`.
 
-See the [10+ projects using React Kindling](https://github.com/devboldly/react-kindling#projects-using-react-kindling), and build your own.
+See the [10+ projects using React Kindling](https://github.com/justinmahar/react-kindling#projects-using-react-kindling), and build your own.
 
 ### Features include:
 
@@ -42,10 +42,10 @@ See the [10+ projects using React Kindling](https://github.com/devboldly/react-k
   - Example stories for a component and a hook. Visualize as you build.
 - **👷 Zero-config [GitHub CI](https://help.github.com/en/actions/building-and-testing-code-with-continuous-integration/about-continuous-integration)**
   - GitHub will build and run your tests on every push, for free. It just works!
-- **👓 [README template](https://github.com/devboldly/react-kindling/blob/master/README.template.md)**
+- **👓 [README template](https://github.com/justinmahar/react-kindling/blob/master/README.template.md)**
   - Just fill it out. Includes [npm version badge](https://badge.fury.io/for/js) and CI badges for street cred.
 - **📜 [Docz](https://www.docz.site/) documentation**
-  - Easily document and showcase your components and hooks. See the [starter demo](https://devboldly.github.io/react-kindling/).
+  - Easily document and showcase your components and hooks. See the [starter demo](https://justinmahar.github.io/react-kindling/).
 - **🌎 [GitHub Pages](https://pages.github.com/) pre-configuration**
   - Auto-deploy your documentation site to GitHub Pages for free with a single opt-in project config.
 - **📦 Easy [npm publish](https://docs.npmjs.com/cli/publish)**
@@ -56,7 +56,7 @@ See the [10+ projects using React Kindling](https://github.com/devboldly/react-k
 
 ### Click the button below to get started with React Kindling:
 
-<a href="https://github.com/devboldly/react-kindling/generate"><img src="https://img.shields.io/badge/GitHub-Use%20this%20template-brightgreen"/></a>
+<a href="https://github.com/justinmahar/react-kindling/generate"><img src="https://img.shields.io/badge/GitHub-Use%20this%20template-brightgreen"/></a>
 
 You will be prompted for a repo name and description, and GitHub will do the rest.
 
@@ -72,7 +72,7 @@ npm install
 
 ### Setup
 
-React Kindling uses an interactive setup script to configure the project. 
+React Kindling uses an interactive setup script to configure the project.
 
 Just run:
 
@@ -100,19 +100,19 @@ You will see your changes in Storybook immediately since it uses Webpack's hot m
 
 ### Write tests
 
-The directory `src/__tests__` contains two example test files, one for a component and one for a hook. 
+The directory `src/__tests__` contains two example test files, one for a component and one for a hook.
 
-There are [react-testing-library](https://testing-library.com/react) and [react-hooks-testing-library](https://react-hooks-testing-library.com) examples provided to build off of. 
+There are [react-testing-library](https://testing-library.com/react) and [react-hooks-testing-library](https://react-hooks-testing-library.com) examples provided to build off of.
 
 There is a single test to ensure your component or hook doesn't crash. Add more tests as you see fit.
 
-You can run tests by running: 
+You can run tests by running:
 
 ```
 npm test
 ```
 
-You can run tests in watch mode by running: 
+You can run tests in watch mode by running:
 
 ```
 npm test:watch
@@ -211,19 +211,19 @@ You've done it! Your project is ready for the world.
 
 The following projects were built on React Kindling:
 
-- [react-analytics-charts](https://devboldly.github.io/react-analytics-charts)
-- [react-super-seo](https://devboldly.github.io/react-super-seo)
-- [react-bootswatch-select](https://devboldly.github.io/react-bootswatch-select)
-- [react-build-status-badge](https://devboldly.github.io/react-build-status-badge)
-- [react-authless-admin](https://devboldly.github.io/react-authless-admin)
-- [react-timed-renderer](https://devboldly.github.io/react-timed-renderer)
-- [react-timed-image](https://devboldly.github.io/react-timed-image)
-- [react-uncached-image](https://devboldly.github.io/react-uncached-image)
-- [react-use-analytics-api](https://devboldly.github.io/react-use-analytics-api)
-- [react-use-precision-timer](https://devboldly.github.io/react-use-precision-timer)
-- [react-use-window-localstorage](https://devboldly.github.io/react-use-window-localstorage)
-- [react-use-window-sessionstorage](https://devboldly.github.io/react-use-window-sessionstorage)
-- [react-use-window-scroll](https://devboldly.github.io/react-use-window-scroll)
+- [react-analytics-charts](https://justinmahar.github.io/react-analytics-charts)
+- [react-super-seo](https://justinmahar.github.io/react-super-seo)
+- [react-bootswatch-select](https://justinmahar.github.io/react-bootswatch-select)
+- [react-build-status-badge](https://justinmahar.github.io/react-build-status-badge)
+- [react-authless-admin](https://justinmahar.github.io/react-authless-admin)
+- [react-timed-renderer](https://justinmahar.github.io/react-timed-renderer)
+- [react-timed-image](https://justinmahar.github.io/react-timed-image)
+- [react-uncached-image](https://justinmahar.github.io/react-uncached-image)
+- [react-use-analytics-api](https://justinmahar.github.io/react-use-analytics-api)
+- [react-use-precision-timer](https://justinmahar.github.io/react-use-precision-timer)
+- [react-use-window-localstorage](https://justinmahar.github.io/react-use-window-localstorage)
+- [react-use-window-sessionstorage](https://justinmahar.github.io/react-use-window-sessionstorage)
+- [react-use-window-scroll](https://justinmahar.github.io/react-use-window-scroll)
 
 ## Contributing
 
@@ -235,9 +235,9 @@ For major changes, open an issue first to discuss what you'd like to change.
 
 See the development scripts below to get started.
 
-## ⭐ Found It Helpful? [Star It!](https://github.com/devboldly/react-kindling/stargazers)
+## ⭐ Found It Helpful? [Star It!](https://github.com/justinmahar/react-kindling/stargazers)
 
-If you found this project helpful, let the community know by giving it a [star](https://github.com/devboldly/react-kindling/stargazers): [👉⭐](https://github.com/devboldly/react-kindling/stargazers)
+If you found this project helpful, let the community know by giving it a [star](https://github.com/justinmahar/react-kindling/stargazers): [👉⭐](https://github.com/justinmahar/react-kindling/stargazers)
 
 ## Development Scripts
 
@@ -306,7 +306,7 @@ Deletes the Docz cache. This can be used to start fresh if there are cache issue
 This project is covered under the [MIT License](https://en.wikipedia.org/wiki/MIT_License):
 
 ```
-Copyright © 2020 DevBoldly https://devboldly.com
+Copyright © 2020 Justin Mahar https://github.com/justinmahar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
