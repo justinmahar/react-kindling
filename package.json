@@ -71,6 +71,7 @@
     "react-test-renderer": "^16.13.0",
     "react-use-window-scroll": "^1.0.8",
     "replace-in-file": "^6.0.0",
+    "styled-components": "^5.2.1",
     "ts-jest": "^25.2.1",
     "ts-loader": "^6.2.1",
     "typescript": "^3.8.3"
