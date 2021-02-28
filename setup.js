@@ -1,6 +1,6 @@
-const fs = require('fs');
-const readline = require('readline');
-const replace = require('replace-in-file');
+const fs = require("fs");
+const readline = require("readline");
+const replace = require("replace-in-file");
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -10,17 +10,24 @@ const rl = readline.createInterface({
 let completed = false;
 const parameters = {};
 
-console.log('====================');
-console.log('React Kindling Setup');
-console.log('====================');
-console.log('Press ^C to abort at any time.\n');
+console.log("====================");
+console.log("React Kindling Setup");
+console.log("====================");
+console.log("Press ^C to abort at any time.\n");
 
 const doSetup = () => {
   // === README ===
-  fs.unlinkSync('README.md');
-  fs.renameSync('README.template.md', 'README.md');
+  fs.unlinkSync("README.md");
+  fs.renameSync("README.template.md", "README.md");
 
-  const projectFiles = ['src/**/*', 'doczrc.js', 'LICENSE', 'package-lock.json', 'package.json', 'README.md'];
+  const projectFiles = [
+    "src/**/*",
+    "doczrc.js",
+    "LICENSE",
+    "package-lock.json",
+    "package.json",
+    "README.md",
+  ];
   // === GitHub project name ===
   replace.sync({
     files: projectFiles,
@@ -37,6 +44,11 @@ const doSetup = () => {
   replace.sync({
     files: projectFiles,
     from: /This header will contain a brief description of the project\./g,
+    to: parameters.description,
+  });
+  replace.sync({
+    files: projectFiles,
+    from: /A template to build, test, and share React components and hooks easily. Uses Storybook, Docz, and more\./g,
     to: parameters.description,
   });
   // === Website or GitHub profile link ===
@@ -67,64 +79,73 @@ const doSetup = () => {
   // Remove setup npm script
   const scriptPattern = /\s*"setup": "node setup.js",/g;
   const scriptOptions = {
-    files: ['package.json'],
+    files: ["package.json"],
     from: scriptPattern,
-    to: '',
+    to: "",
   };
   replace.sync(scriptOptions);
   // Remove replacement tool
   const replaceInFilePattern = /\s*"replace-in-file": ".*?",/g;
   const replaceInFileOptions = {
-    files: ['package.json'],
+    files: ["package.json"],
     from: replaceInFilePattern,
-    to: '',
+    to: "",
   };
   replace.sync(replaceInFileOptions);
   // Reset version
   const versionPattern = /"version": ".*?"/g;
   const versionOptions = {
-    files: ['package.json'],
+    files: ["package.json"],
     from: versionPattern,
     to: '"version": "1.0.0"',
   };
   replace.sync(versionOptions);
   // Remove setup script file
-  fs.unlinkSync('setup.js');
+  fs.unlinkSync("setup.js");
 
   // We're done!
   completed = true;
 };
 
 const projectNamePrompt = (callback) => {
-  rl.question('GitHub project name (i.e. my-project): ', function (projectName) {
-    if (projectName.trim() === '') {
-      projectNamePrompt(callback);
-    } else {
-      callback(projectName.trim());
+  rl.question(
+    "GitHub project name (i.e. my-project): ",
+    function (projectName) {
+      if (projectName.trim() === "") {
+        projectNamePrompt(callback);
+      } else {
+        callback(projectName.trim());
+      }
     }
-  });
+  );
 };
 const projectTitlePrompt = (callback) => {
-  rl.question('Project title (i.e. My Project):       ', function (projectTitle) {
-    if (projectTitle.trim() === '') {
-      projectTitlePrompt(callback);
-    } else {
-      callback(projectTitle.trim());
+  rl.question(
+    "Project title (i.e. My Project):       ",
+    function (projectTitle) {
+      if (projectTitle.trim() === "") {
+        projectTitlePrompt(callback);
+      } else {
+        callback(projectTitle.trim());
+      }
     }
-  });
+  );
 };
 const descriptionPrompt = (callback) => {
-  rl.question('Project description:                   ', function (description) {
-    if (description.trim() === '') {
-      descriptionPrompt(callback);
-    } else {
-      callback(description.trim());
+  rl.question(
+    "Project description:                   ",
+    function (description) {
+      if (description.trim() === "") {
+        descriptionPrompt(callback);
+      } else {
+        callback(description.trim());
+      }
     }
-  });
+  );
 };
 const websitePrompt = (callback) => {
-  rl.question('Author website or GitHub profile link: ', function (website) {
-    if (website.trim() === '') {
+  rl.question("Author website or GitHub profile link: ", function (website) {
+    if (website.trim() === "") {
       websitePrompt(callback);
     } else {
       callback(website.trim());
@@ -132,8 +153,8 @@ const websitePrompt = (callback) => {
   });
 };
 const emailPrompt = (callback) => {
-  rl.question('Email (i.e. contact@justinmahar.com):      ', function (email) {
-    if (email.trim() === '') {
+  rl.question("Email (i.e. yourname@example.com):      ", function (email) {
+    if (email.trim() === "") {
       emailPrompt(callback);
     } else {
       callback(email.trim());
@@ -141,8 +162,8 @@ const emailPrompt = (callback) => {
   });
 };
 const authorPrompt = (callback) => {
-  rl.question('Author name (i.e. Justin Mahar):       ', function (author) {
-    if (author.trim() === '') {
+  rl.question("Author name (i.e. Justin Mahar):       ", function (author) {
+    if (author.trim() === "") {
       authorPrompt(callback);
     } else {
       callback(author.trim());
@@ -150,13 +171,16 @@ const authorPrompt = (callback) => {
   });
 };
 const githubUsernamePrompt = (callback) => {
-  rl.question('GitHub username (i.e. justinmahar):      ', function (githubUsername) {
-    if (githubUsername.trim() === '') {
-      githubUsernamePrompt(callback);
-    } else {
-      callback(githubUsername.trim());
+  rl.question(
+    "GitHub username (i.e. justinmahar):      ",
+    function (githubUsername) {
+      if (githubUsername.trim() === "") {
+        githubUsernamePrompt(callback);
+      } else {
+        callback(githubUsername.trim());
+      }
     }
-  });
+  );
 };
 const reviewPrompt = () => {
   const confirmation =
@@ -170,14 +194,17 @@ const reviewPrompt = () => {
     `GitHub user:  ${parameters.githubUsername}\n\n` +
     `Look good (y/n)? `;
   rl.question(confirmation, function (response) {
-    if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') {
+    if (response.toLowerCase() === "y" || response.toLowerCase() === "yes") {
       try {
         doSetup();
       } catch (e) {
         console.error(e);
       }
       rl.close();
-    } else if (response.toLowerCase() === 'n' || response.toLowerCase() === 'no') {
+    } else if (
+      response.toLowerCase() === "n" ||
+      response.toLowerCase() === "no"
+    ) {
       rl.close();
     } else {
       reviewPrompt();
@@ -209,19 +236,19 @@ projectNamePrompt(function (projectName) {
   });
 });
 
-rl.on('close', function () {
+rl.on("close", function () {
   if (completed) {
     console.log(
-      '\nReact Kindling setup complete. Happy developing!\n' +
-        'To reset all changes and start over, use:\n\n' +
-        '  git reset --hard HEAD && npm run setup\n\n' +
-        'Otherwise, to get started:\n\n' +
+      "\nReact Kindling setup complete. Happy developing!\n" +
+        "To reset all changes and start over, use:\n\n" +
+        "  git reset --hard HEAD && npm run setup\n\n" +
+        "Otherwise, to get started:\n\n" +
         '     Commit and push:  git add . && git commit -m "Project setup" && git push\n' +
-        '   React development:  npm start\n' +
-        '  Docz documentation:  npm run docz\n'
+        "   React development:  npm start\n" +
+        "  Docz documentation:  npm run docz\n"
     );
   } else {
-    console.log('\nAborted.\n');
+    console.log("\nAborted.\n");
   }
   process.exit(0);
 });
