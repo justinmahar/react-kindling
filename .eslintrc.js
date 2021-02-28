@@ -2,8 +2,11 @@
  * We use a JavaScript file for the .eslintrc file (instead of a JSON file) as it supports
  * comments that can be used to better describe rules.
  *
- * This config lints both JS and TS. For all other files, such as JSON, you can use Prettier and turn on
- * the auto format option in VS Code. You can select Prettier when running Format Document the first time.
+ * This config lints both TS and JS. Shared rules are defined below, and any additional rules specific
+ * to either TS or JS are added in addition to those.
+ *
+ * For all other files types, such as JSON, you can use Prettier and turn on
+ * the auto format option in VS Code. You can select Prettier when running Format Document the first time in VS Code.
  *
  * This config uses Prettier as an ESLint rule. The advantage of having prettier setup as an
  * ESLint rule using eslint-plugin-prettier is that JS and TS code can automatically be fixed using ESLint's --fix option.
@@ -33,7 +36,7 @@ module.exports = {
   // Below we use the overrides array to define separate linting options for both TS and JS.
   overrides: [
     {
-      files: ['**/*.ts', '**/*.tsx'],
+      files: ['**/*.ts', '**/*.tsx'], // TypeScript files
       parser: '@typescript-eslint/parser', // Specifies the ESLint parser for TypeScript
       parserOptions: {
         ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
@@ -56,11 +59,12 @@ module.exports = {
       rules: {
         // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
         // e.g. "@typescript-eslint/explicit-function-return-type": "off",
-        'react/display-name': 'off', // Disable warning about display name
+        ...sharedTSAndJSRules, // Rules shared by both TS and JS lint configs
+        '@typescript-eslint/no-empty-interface': 'off', // Disable empty interface error
       },
     },
     {
-      files: ['**/*.js', '**/*.jsx'],
+      files: ['**/*.js', '**/*.jsx'], // JavaScript files
       parserOptions: {
         ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
         sourceType: 'module', // Allows for the use of imports
@@ -81,9 +85,16 @@ module.exports = {
       rules: {
         // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
         // e.g. "@typescript-eslint/explicit-function-return-type": "off",
-        'react/prop-types': 'off', // Disable suggestion to add prop types
-        'react/display-name': 'off', // Disable warning about display name
+        ...sharedTSAndJSRules, // Rules shared by both TS and JS lint configs
+        'react/prop-types': 'off', // Disable error about prop types
       },
     },
   ],
+};
+
+/** Rules shared by both the TS and JS lint configurations. */
+const sharedTSAndJSRules = {
+  'react/display-name': 'off', // Disable error about display name
+  'react/prop-types': 'off', // Disable error about prop types
+  'react/no-unescaped-entities': 'off', // Disable error about unescaped entities
 };
