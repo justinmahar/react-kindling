@@ -153,8 +153,6 @@ Then visit [localhost:3000](http://localhost:3000) to see your documentation sit
   - Verify ownership in [Google Search Console](https://search.google.com/search-console/) via the HTML tag verification method. Paste the content value in `src/gatsby-ssr.js`.
 - **Docz Footer**
   - Add a personalized footer to Docz in `src/gatsby-theme-docz/theme-additions-config.js`. Disabled by default.
-- **Feedback Form**
-  - Add a "Was this page helpful?" form in `src/gatsby-theme-docz/theme-additions-config.js`. Disabled by default.
 
 ### Deploy to GitHub Pages
 
