@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react';
 
 export interface ExampleComponentProps {
   /** The text to render. */
@@ -15,16 +15,16 @@ export function ExampleComponent(props: ExampleComponentProps): JSX.Element {
     <div
       style={{
         padding: 10,
-        border: "solid 2px #0F52BA",
-        color: "#0F52BA",
-        backgroundColor: "#D9F1FF",
-        display: "inline-block",
-        fontWeight: "bold",
-        fontFamily: "Roboto",
-        userSelect: "none",
+        border: 'solid 2px #0F52BA',
+        color: '#0F52BA',
+        backgroundColor: '#D9F1FF',
+        display: 'inline-block',
+        fontWeight: 'bold',
+        fontFamily: 'Roboto',
+        userSelect: 'none',
       }}
     >
-      {typeof props.text !== "undefined" ? props.text : "Example Component"}
+      {typeof props.text !== 'undefined' ? props.text : 'Example Component'}
     </div>
   );
 }

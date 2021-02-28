@@ -1,5 +1,5 @@
 /** Name of your repository */
-const repoName = "react-kindling";
+const repoName = 'react-kindling';
 /** URL to public assets such as images */
 const publicUrl = `/${repoName}/public`;
 
@@ -25,9 +25,9 @@ export const themeAdditionsConfig = {
     /** Set to false to disable the author/"powered by" footer. */
     enabled: false,
     /** Name of project author */
-    authorName: "Justin Mahar",
+    authorName: 'Justin Mahar',
     /** URL to author's page */
-    authorUrl: "https://github.com/justinmahar",
+    authorUrl: 'https://github.com/justinmahar',
     /** Set to true if you're a grumpy person :) */
     hideEmoji: false,
     /** Hide the "Created with <3 by name" author text from footer. */
@@ -35,9 +35,9 @@ export const themeAdditionsConfig = {
     /** Holidays like New Year's Day and Pi Day are announced for fun. It's an easter egg. Hide if you want. */
     hideHolidays: false,
     /** Shoutout to what's powering this project. */
-    poweredByName: `React${" "}Kindling`,
+    poweredByName: `React${' '}Kindling`,
     /** Link for shoutout. */
-    poweredByUrl: `https://github.com/justin${""}mahar/react${"-"}kindling`,
+    poweredByUrl: `https://github.com/justin${''}mahar/react${'-'}kindling`,
     /** Hide the "powered by" text from footer. */
     hidePoweredBy: false,
   },

@@ -29,14 +29,14 @@ var React = __importStar(require("react"));
 function ExampleComponent(props) {
     return (React.createElement("div", { style: {
             padding: 10,
-            border: "solid 2px #0F52BA",
-            color: "#0F52BA",
-            backgroundColor: "#D9F1FF",
-            display: "inline-block",
-            fontWeight: "bold",
-            fontFamily: "Roboto",
-            userSelect: "none",
-        } }, typeof props.text !== "undefined" ? props.text : "Example Component"));
+            border: 'solid 2px #0F52BA',
+            color: '#0F52BA',
+            backgroundColor: '#D9F1FF',
+            display: 'inline-block',
+            fontWeight: 'bold',
+            fontFamily: 'Roboto',
+            userSelect: 'none',
+        } }, typeof props.text !== 'undefined' ? props.text : 'Example Component'));
 }
 exports.ExampleComponent = ExampleComponent;
 ExampleComponent.defaultProps = {};
