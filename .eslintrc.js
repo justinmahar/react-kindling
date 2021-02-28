@@ -1,9 +1,9 @@
-/**
+/*
  * We use a JavaScript file for the .eslintrc file (instead of a JSON file) as it supports
  * comments that can be used to better describe rules.
  *
  * This config lints both TS and JS. Shared rules are defined below, and any additional rules specific
- * to either TS or JS are added in addition to those.
+ * to either TS or JS are specified in addition to those.
  *
  * For all other files types, such as JSON, you can use Prettier and turn on
  * the auto format option in VS Code. You can select Prettier when running Format Document the first time in VS Code.
@@ -32,6 +32,24 @@
  *
  * See the following post for more: https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project
  */
+
+/** Rules shared by both the TS and JS lint configurations. */
+const sharedTSAndJSRules = {
+  'react/display-name': 'off', // Disable error about display name
+  'react/prop-types': 'off', // Disable error about prop types
+  'react/no-unescaped-entities': 'off', // Disable error about unescaped entities
+};
+
+/** Rules specific to TS. */
+const tsSpecificRules = {
+  '@typescript-eslint/no-empty-interface': 'off', // Disable empty interface error
+};
+
+/** Rules specific to JS. */
+const jsSpecificRules = {
+  'react/prop-types': 'off', // Disable error about prop types
+};
+
 module.exports = {
   // Below we use the overrides array to define separate linting options for both TS and JS.
   overrides: [
@@ -60,7 +78,7 @@ module.exports = {
         // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
         // e.g. "@typescript-eslint/explicit-function-return-type": "off",
         ...sharedTSAndJSRules, // Rules shared by both TS and JS lint configs
-        '@typescript-eslint/no-empty-interface': 'off', // Disable empty interface error
+        ...tsSpecificRules, // Rules specific to TS
       },
     },
     {
@@ -86,15 +104,8 @@ module.exports = {
         // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
         // e.g. "@typescript-eslint/explicit-function-return-type": "off",
         ...sharedTSAndJSRules, // Rules shared by both TS and JS lint configs
-        'react/prop-types': 'off', // Disable error about prop types
+        ...jsSpecificRules, // Rules specific to JS
       },
     },
   ],
-};
-
-/** Rules shared by both the TS and JS lint configurations. */
-const sharedTSAndJSRules = {
-  'react/display-name': 'off', // Disable error about display name
-  'react/prop-types': 'off', // Disable error about prop types
-  'react/no-unescaped-entities': 'off', // Disable error about unescaped entities
 };
