@@ -7,6 +7,7 @@
  *
  * This config uses Prettier as an ESLint rule. The advantage of having prettier setup as an
  * ESLint rule using eslint-plugin-prettier is that JS and TS code can automatically be fixed using ESLint's --fix option.
+ * Prettier's config is defined in `.prettierrc.js`. See that file for more information.
  *
  * From the command line, type `npm run lint` to run ESLint manually. This script will run ESLint through all
  * the .js, .ts, .jsx and .tsx (used with React) files. Any ESLint errors that can be automatically fixed will
