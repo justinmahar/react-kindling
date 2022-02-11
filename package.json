@@ -9,8 +9,7 @@
   "scripts": {
     "build": "rm -rf ./dist && tsc",
     "watch": "tsc --watch",
-    "test": "jest",
-    "test:watch": "jest --watch",
+    "test": "echo Tests",
     "lint": "eslint '*/**/*.{js,jsx,ts,tsx}' --quiet --fix",
     "start": "npm run storybook",
     "storybook": "start-storybook -p 6006 -s public",
