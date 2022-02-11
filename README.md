@@ -2,7 +2,7 @@
   <a href="https://github.com/justinmahar/react-kindling">🔥 React Kindling</a>
 </h2>
 <h3 align="center">
-  A template to build, test, and share React components and hooks easily.<br/>Uses Storybook, Docz, and more.
+  A template to build, test, and share React components and hooks easily.
 </h3>
 <p align="center">
   <a href="https://github.com/justinmahar/react-kindling/generate">
@@ -22,7 +22,7 @@ This is a starter for [React](https://reactjs.org/) component and [hook](https:/
 
 Think of this template as the kindling for all of your React goodies you want to build and possibly share via [npm](https://www.npmjs.com/).
 
-React Kindling includes everything you need to build a mature React library including a standalone documentation site via GitHub Pages ([see template demo](https://justinmahar.github.io/react-kindling/)).
+React Kindling includes everything you need to build a React library including a standalone documentation site via GitHub Pages ([see template demo](https://justinmahar.github.io/react-kindling/)).
 
 Get started in three easy steps: [generate](https://github.com/justinmahar/react-kindling/generate), clone, and run `npm i && npm run setup`.
 

@@ -1,26 +1,30 @@
 <h2 align="center">
-  <a href="https://github.com/justinmahar/react-kindling">React Kindling</a>
+  React Kindling
 </h2>
 <h3 align="center">
   This header will contain a brief description of the project.
 </h3>
 <p align="center">
   <a href="https://badge.fury.io/js/react-kindling">
-    <img src="https://badge.fury.io/js/react-kindling.svg" alt="npm Version"/>
+    <img src="https://badge.fury.io/js/react-kindling.svg" alt="npm Version" />
   </a>
-  <a href="https://github.com/justinmahar/react-kindling/actions?query=workflow%3ATests">
-    <img src="https://github.com/justinmahar/react-kindling/workflows/Tests/badge.svg" alt="Tests Status"/>
+  <a href="https://github.com/justinmahar/react-kindling/">
+    <img src="https://img.shields.io/badge/GitHub-Source-success" alt="View project on GitHub" />
   </a>
   <a href="https://github.com/justinmahar/react-kindling/actions?query=workflow%3ADeploy">
-    <img src="https://github.com/justinmahar/react-kindling/workflows/Deploy/badge.svg" alt="Deploy Status"/>
+    <img src="https://github.com/justinmahar/react-kindling/workflows/Deploy/badge.svg" alt="Deploy Status" />
   </a>
 </p>
 
 ## Documentation
 
-Read the **[official documentation](https://justinmahar.github.io/react-kindling/)**.
+Read the **[official documentation](https://justinmahar.github.io/react-kindling/?path=/story/home--page)**.
 
-👁️ **[Live Demo](https://justinmahar.github.io/react-kindling/ExampleComponent#example)**
+<h3>
+  <a href="https://justinmahar.github.io/react-kindling/" target="_blank" rel="noopener noreferrer">
+  👁️ Live Demo
+  </a>
+</h3>
 
 ## Overview
 
@@ -42,11 +46,11 @@ npm i react-kindling
 This section will contain a copy/paste example so people can get started quickly.
 
 ```jsx
-import { ExampleComponent } from "react-kindling";
+import { Example } from 'react-kindling';
 ```
 
 ```jsx
-<ExampleComponent text="Example Component" />
+<Example label="Example Component" />
 ```
 
 ## TypeScript
@@ -55,7 +59,7 @@ Type definitions have been included for [TypeScript](https://www.typescriptlang.
 
 ## Logo Attribution
 
-Logo graphics by [Twemoji](https://github.com/twitter/twemoji), licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). Favicon by [favicon.io](https://favicon.io/emoji-favicons/).
+Logo by [Twemoji](https://github.com/twitter/twemoji).
 
 ## Contributing
 
@@ -74,7 +78,7 @@ If you found this project helpful, let the community know by giving it a [star](
 ## MIT License
 
 ```
-Copyright © 2020 Justin Mahar https://github.com/justinmahar
+Copyright © 2022 Justin Mahar https://github.com/justinmahar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
