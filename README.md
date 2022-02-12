@@ -188,8 +188,6 @@ Feel free to submit a pull request for bugs or additions, and make sure to updat
 
 For major changes, open an issue first to discuss what you'd like to change.
 
-See the development scripts below to get started.
-
 ## ⭐ Found It Helpful? [Star It!](https://github.com/justinmahar/react-kindling/stargazers)
 
 If you found this project helpful, let the community know by giving it a [star](https://github.com/justinmahar/react-kindling/stargazers): [👉⭐](https://github.com/justinmahar/react-kindling/stargazers)
