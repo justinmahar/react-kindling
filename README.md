@@ -70,7 +70,7 @@ Update the site title in `.storybook/theme.js`.
 
 ### Favicon
 
-Favicon files can be customized in the `public` directory.
+Favicon files can be customized in the `public` directory. You can get a free one from [favicon.io](https://favicon.io/emoji-favicons/).
 
 You must also update the links in `.storybook/manager-head.html`.
 
