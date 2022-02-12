@@ -8,9 +8,6 @@
   <a href="https://github.com/justinmahar/react-kindling/generate">
     <img src="https://img.shields.io/badge/GitHub-Use%20this%20template-brightgreen"/>
   </a>
-  <a href="https://github.com/justinmahar/react-kindling/actions?query=workflow%3ATests">
-    <img src="https://github.com/justinmahar/react-kindling/workflows/Tests/badge.svg" alt="Tests Status"/>
-  </a>
   <a href="https://github.com/justinmahar/react-kindling/actions?query=workflow%3ADeploy">
     <img src="https://github.com/justinmahar/react-kindling/workflows/Deploy/badge.svg" alt="Deploy Status"/>
   </a>

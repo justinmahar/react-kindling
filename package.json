@@ -17,7 +17,8 @@
     "build-storybook": "build-storybook",
     "preship": "npm run build && git add dist && git diff-index --quiet HEAD || git commit -m \"Build, version, and publish.\" && npm version patch -m \"Build, version, and publish.\"",
     "ship": "npm publish --access public",
-    "postship": "git push"
+    "postship": "git push",
+    "update": "git clone -q git@github.com:justinmahar/react-kindling.git ./.lockblocks && lockblocks ./.lockblocks . --verbose && rm -rf .lockblocks"
   },
   "license": "MIT",
   "repository": {
