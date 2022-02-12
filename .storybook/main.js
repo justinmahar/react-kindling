@@ -14,5 +14,6 @@ module.exports = {
       options: { transcludeMarkdown: true },
     },
   ],
+  staticDirs: ['../public'],
   framework: '@storybook/react',
 };
