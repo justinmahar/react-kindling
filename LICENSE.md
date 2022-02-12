@@ -1,4 +1,4 @@
-# MIT License
+MIT License
 
 ```
 Copyright © 2022 Justin Mahar https://github.com/justinmahar
