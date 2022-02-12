@@ -1,6 +1,7 @@
 {
   "name": "react-kindling",
   "version": "2.0.0",
+  "coreVersion": "2.0.0",
   "author": "Justin Mahar <contact@justinmahar.com>",
   "description": "A template to build, test, and share React components and hooks easily.",
   "homepage": "https://justinmahar.github.io/react-kindling/",
@@ -47,10 +48,8 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "html-webpack-plugin": "^5.5.0",
     "prettier": "^2.5.1",
+    "react-html-props": "^1.0.32",
     "react-markdown": "^8.0.0",
     "typescript": "^4.5.5"
-  },
-  "dependencies": {
-    "react-html-props": "^1.0.32"
   }
 }

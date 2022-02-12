@@ -1,0 +1,26 @@
+renameFiles: []
+replaceFiles:
+  - .node-version
+  - CODE_OF_CONDUCT.md
+  - lockblocks.yml
+fillFiles: []
+deleteFiles: []
+excludePaths:
+  - .git
+  - .lockblocks
+  - dist
+  - public
+  - node_modules
+  - static
+updateJson:
+  - path: package.json
+    updateFields:
+      - key: version
+        as: coreVersion
+      - key: scripts
+        merge: true
+      - key: peerDependencies
+        merge: true
+      - key: devDependencies
+        merge: true
+updateYaml: []
