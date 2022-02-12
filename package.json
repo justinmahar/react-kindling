@@ -13,7 +13,7 @@
     "test": "echo Tests",
     "lint": "eslint '*/**/*.{js,jsx,ts,tsx}' --quiet --fix",
     "start": "npm run storybook",
-    "storybook": "start-storybook -p 6006 -s public",
+    "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "preship": "npm run build && git add dist && git diff-index --quiet HEAD || git commit -m \"Build, version, and publish.\" && npm version patch -m \"Build, version, and publish.\"",
     "ship": "npm publish --access public",

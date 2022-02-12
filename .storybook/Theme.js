@@ -1,14 +1,16 @@
 import { create } from '@storybook/theming';
+import packageJson from '../package.json';
 
-const title = '🔥 React Kindling';
-const url = 'https://justinmahar.github.io/react-kindling/';
-// const image = `/brand.png`;
+const brandTitle = '🔥 React Kindling';
+const brandUrl = packageJson.homepage;
+const base = 'light'; // 'dark'
+const brandImage = undefined; // `/brand.svg`; // 150x30
 
 export default create({
   // [lock:core] 🚫---------------------------------------
-  base: 'light',
-  brandTitle: title,
-  brandUrl: url,
-  brandImage: undefined,
+  base,
+  brandTitle,
+  brandUrl,
+  brandImage,
   // [/lock:core] ---------------------------------------🚫
 });

@@ -64,6 +64,16 @@ Then `git clone` your project once it's set up.
 npm install
 ```
 
+### Title and URL
+
+Update the site title in `.storybook/theme.js`.
+
+### Favicon
+
+Favicon files can be customized in the `public` directory.
+
+You must also update the links in `.storybook/manager-head.html`.
+
 ### Use Storybook to develop your components and hooks
 
 [Storybook](https://storybook.js.org/) lets you develop your React components and hooks in isolation. Each "storybook" is a file that contains "stories", which are just the different visual states of your component or hook.
@@ -115,12 +125,6 @@ Just add an access token to authorize GitHub to build and deploy your Storybook 
 - Now, when you push code, your project's documentation will be built and deployed to GitHub Pages automatically. 🎉
 
 Links to your Storybook site and deploy status are available in the template README. If this is your first deploy, it can take up to 10 minutes for your GitHub Pages site to show up.
-
-### Favicon
-
-Favicon files can be customized in the `public` directory.
-
-You must also update the links in `.storybook/manager-head.html`.
 
 ### Markdown Pages
 
