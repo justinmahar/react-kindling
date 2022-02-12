@@ -120,6 +120,8 @@ Links to your Storybook site and deploy status are available in the template REA
 
 Favicon files can be customized in the `public` directory.
 
+You must also update the links in `.storybook/manager-head.html`.
+
 ### Markdown Pages
 
 The following Markdown files are generated as Storybook pages by default:
