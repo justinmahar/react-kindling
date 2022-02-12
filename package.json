@@ -50,9 +50,7 @@
     "prettier": "^2.5.1",
     "react-html-props": "^1.0.32",
     "react-markdown": "^8.0.0",
-    "typescript": "^4.5.5"
-  },
-  "dependencies": {
+    "typescript": "^4.5.5",
     "webpack": "^4.46.0"
   }
 }
