@@ -9,9 +9,9 @@ excludePaths:
   - .git
   - .lockblocks
   - dist
-  - public
   - node_modules
-  - static
+  - public
+  - storybook-static
 updateJson:
   - path: package.json
     updateFields:
