@@ -1,5 +1,5 @@
 <h2 align="center">
-  React Kindling
+  🔥 React Kindling
 </h2>
 <h3 align="center">
   This header will contain a brief description of the project.
