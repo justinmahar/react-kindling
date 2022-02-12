@@ -5,26 +5,20 @@
   This header will contain a brief description of the project.
 </h3>
 <p align="center">
-  <a href="https://badge.fury.io/js/react-kindling">
+  <a href="https://badge.fury.io/js/react-kindling" target="_blank" rel="noopener noreferrer">
     <img src="https://badge.fury.io/js/react-kindling.svg" alt="npm Version" />
   </a>
-  <a href="https://github.com/justinmahar/react-kindling/">
+  <a href="https://github.com/justinmahar/react-kindling/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/GitHub-Source-success" alt="View project on GitHub" />
   </a>
-  <a href="https://github.com/justinmahar/react-kindling/actions?query=workflow%3ADeploy">
+  <a href="https://github.com/justinmahar/react-kindling/actions?query=workflow%3ADeploy" target="_blank" rel="noopener noreferrer">
     <img src="https://github.com/justinmahar/react-kindling/workflows/Deploy/badge.svg" alt="Deploy Status" />
   </a>
 </p>
 
 ## Documentation
 
-Read the **[official documentation](https://justinmahar.github.io/react-kindling/?path=/story/home--page)**.
-
-<h3>
-  <a href="https://justinmahar.github.io/react-kindling/" target="_blank" rel="noopener noreferrer">
-  👁️ Live Demo
-  </a>
-</h3>
+Read the **[official documentation](https://justinmahar.github.io/react-kindling/)**.
 
 ## Overview
 
