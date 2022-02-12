@@ -116,6 +116,10 @@ Just add an access token to authorize GitHub to build and deploy your Storybook 
 
 Links to your Storybook site and deploy status are available in the template README. If this is your first deploy, it can take up to 10 minutes for your GitHub Pages site to show up.
 
+### Favicon
+
+Favicon files can be customized in the `public` directory.
+
 ### Markdown Pages
 
 The following Markdown files are generated as Storybook pages by default:
