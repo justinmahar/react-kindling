@@ -190,6 +190,8 @@ You've done it! Your project is ready for the world.
 
 The following projects were built on React Kindling:
 
+- [react-use-query-param-string](https://justinmahar.github.io/react-use-query-param-string)
+- [react-social-media-embed](https://justinmahar.github.io/react-social-media-embed)
 - [react-analytics-charts](https://justinmahar.github.io/react-analytics-charts)
 - [react-super-seo](https://justinmahar.github.io/react-super-seo)
 - [react-bootswatch-select](https://justinmahar.github.io/react-bootswatch-select)
