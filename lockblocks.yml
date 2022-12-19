@@ -24,5 +24,4 @@ updateJson:
         merge: true
     deleteFields:
       - devDependencies.html-webpack-plugin
-      - devDependencies.webpack
 updateYaml: []
