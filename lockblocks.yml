@@ -4,6 +4,7 @@ replaceFiles:
   - CODE_OF_CONDUCT.md
   - lockblocks.yml
   - src/stories/core
+  - public/support
 fillFiles: []
 deleteFiles: []
 excludePaths:

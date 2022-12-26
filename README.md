@@ -34,13 +34,13 @@ This project is the result of countless hours of work and I really hope it saves
 If this project helped you and you'd like to join others in showing support for the development of this project, I'd be honored if you chose to support the development of this project in one of two ways: by sponsoring me (monthly or one-time), or by buying me a coffee.
 
 <a href="https://github.com/sponsors/justinmahar">
-  <img src="https://justinmahar.github.io/react-use-precision-timer/support/sponsor.png" alt="Sponsor via GitHub" height="35" />
+  <img src="https://justinmahar.github.io/react-kindling/support/sponsor.png" alt="Sponsor via GitHub" height="35" />
 </a> <a href="https://paypal.me/thejustinmahar/5">
-  <img src="https://justinmahar.github.io/react-use-precision-timer/support/coffee-1.png" alt="Buy me a coffee" height="35" />
+  <img src="https://justinmahar.github.io/react-kindling/support/coffee-1.png" alt="Buy me a coffee" height="35" />
 </a> <a href="https://paypal.me/thejustinmahar/15">
-  <img src="https://justinmahar.github.io/react-use-precision-timer/support/coffee-3.png" alt="Buy me 3 coffees" height="35" />
+  <img src="https://justinmahar.github.io/react-kindling/support/coffee-3.png" alt="Buy me 3 coffees" height="35" />
 </a> <a href="https://paypal.me/thejustinmahar/25">
-  <img src="https://justinmahar.github.io/react-use-precision-timer/support/coffee-5.png" alt="Buy me 5 coffees" height="35" />
+  <img src="https://justinmahar.github.io/react-kindling/support/coffee-5.png" alt="Buy me 5 coffees" height="35" />
 </a>
 
 ## Overview
@@ -206,7 +206,7 @@ The following projects were built on React Kindling:
 - [react-timed-image](https://justinmahar.github.io/react-timed-image)
 - [react-uncached-image](https://justinmahar.github.io/react-uncached-image)
 - [react-use-analytics-api](https://justinmahar.github.io/react-use-analytics-api)
-- [react-use-precision-timer](https://justinmahar.github.io/react-use-precision-timer)
+- [react-kindling](https://justinmahar.github.io/react-kindling)
 - [react-use-window-localstorage](https://justinmahar.github.io/react-use-window-localstorage)
 - [react-use-window-sessionstorage](https://justinmahar.github.io/react-use-window-sessionstorage)
 - [react-use-window-scroll](https://justinmahar.github.io/react-use-window-scroll)
