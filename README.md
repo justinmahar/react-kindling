@@ -195,21 +195,19 @@ You've done it! Your project is ready for the world.
 
 The following projects were built on React Kindling:
 
-- [react-use-query-param-string](https://justinmahar.github.io/react-use-query-param-string)
 - [react-social-media-embed](https://justinmahar.github.io/react-social-media-embed)
-- [react-analytics-charts](https://justinmahar.github.io/react-analytics-charts)
+- [react-use-precision-timer](https://justinmahar.github.io/react-use-precision-timer)
+- [react-use-query-param-string](https://justinmahar.github.io/react-use-query-param-string)
+- [github-projectv2-csv-exporter](https://github.com/justinmahar/github-projectv2-csv-exporter)
 - [react-super-seo](https://justinmahar.github.io/react-super-seo)
-- [react-bootswatch-select](https://justinmahar.github.io/react-bootswatch-select)
 - [react-build-status-badge](https://justinmahar.github.io/react-build-status-badge)
 - [react-authless-admin](https://justinmahar.github.io/react-authless-admin)
-- [react-timed-renderer](https://justinmahar.github.io/react-timed-renderer)
 - [react-timed-image](https://justinmahar.github.io/react-timed-image)
+- [react-timed-renderer](https://justinmahar.github.io/react-timed-renderer)
 - [react-uncached-image](https://justinmahar.github.io/react-uncached-image)
-- [react-use-analytics-api](https://justinmahar.github.io/react-use-analytics-api)
-- [react-kindling](https://justinmahar.github.io/react-kindling)
 - [react-use-window-localstorage](https://justinmahar.github.io/react-use-window-localstorage)
-- [react-use-window-sessionstorage](https://justinmahar.github.io/react-use-window-sessionstorage)
 - [react-use-window-scroll](https://justinmahar.github.io/react-use-window-scroll)
+- [react-use-window-sessionstorage](https://justinmahar.github.io/react-use-window-sessionstorage)
 
 ## Contributing
 
