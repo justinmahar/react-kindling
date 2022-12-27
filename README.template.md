@@ -27,9 +27,9 @@ Read the **[official documentation](https://justinmahar.github.io/react-kindling
 
 ## Donate 
 
-If this project helped out or made your day a little brighter and you'd like to return the favor, why not buy me a coffee or become a sponsor? It'll make my day and help keep the project chugging along.
+I hope this project makes your life a little easier! If it does and you'd like to show your appreciation, consider supporting the project with a coffee or sponsorship. 
 
-Plus, I'll do a little dance in your honor. Maybe not a very good one, but a dance nonetheless.
+Your support helps keep the project going and will earn you some serious virtual high fives. Maybe even a virtual fist bump if you're feeling extra cool.
 
 <a href="https://github.com/sponsors/justinmahar">
   <img src="https://justinmahar.github.io/react-kindling/support/sponsor.png" alt="Sponsor via GitHub" height="35" />
