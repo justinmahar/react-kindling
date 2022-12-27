@@ -70,13 +70,13 @@ import { Example } from 'react-kindling';
 <Example label="Example Component" />
 ```
 
-[lock:typescript]:: # 🚫---------------------------------------
+[lock:typescript]:: 🚫---------------------------------------
 
 ## TypeScript
 
 Type definitions have been included for [TypeScript](https://www.typescriptlang.org/) support.
 
-[/lock:typescript]:: # ---------------------------------------🚫
+[/lock:typescript]:: ---------------------------------------🚫
 
 [lock:icon]:: # 🚫---------------------------------------
 
