@@ -5,7 +5,8 @@ replaceFiles:
   - lockblocks.yml
   - src/stories/core
   - public/support
-fillFiles: []
+fillFiles:
+  - .github/FUNDING.yml
 deleteFiles: []
 excludePaths:
   - .git
