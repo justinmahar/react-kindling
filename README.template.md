@@ -23,7 +23,7 @@
 
 Read the **[official documentation](https://justinmahar.github.io/react-kindling/)**.
 
-[lock:donate]:: # 🚫---------------------------------------
+[lock:donate]::🚫---------------------------------------
 
 ## Donate 
 
@@ -41,7 +41,7 @@ Plus, I'll do a little dance in your honor. Maybe not a very good one, but a dan
   <img src="https://justinmahar.github.io/react-kindling/support/coffee-5.png" alt="Buy me 5 coffees" height="35" />
 </a>
 
-[/lock:donate]:: # ---------------------------------------🚫
+[/lock:donate]::---------------------------------------🚫
 
 ## Overview
 
@@ -70,23 +70,23 @@ import { Example } from 'react-kindling';
 <Example label="Example Component" />
 ```
 
-[lock:typescript]:: 🚫---------------------------------------
+[lock:typescript]::🚫---------------------------------------
 
 ## TypeScript
 
 Type definitions have been included for [TypeScript](https://www.typescriptlang.org/) support.
 
-[/lock:typescript]:: ---------------------------------------🚫
+[/lock:typescript]::---------------------------------------🚫
 
-[lock:icon]:: # 🚫---------------------------------------
+[lock:icon]::🚫---------------------------------------
 
 ## Icon Attribution
 
 Favicon by [Twemoji](https://github.com/twitter/twemoji).
 
-[/lock:icon]:: # ---------------------------------------🚫
+[/lock:icon]::---------------------------------------🚫
 
-[lock:contributing]:: # 🚫---------------------------------------
+[lock:contributing]::🚫---------------------------------------
 
 ## Contributing
 
@@ -96,7 +96,7 @@ Feel free to submit a pull request for bugs or additions, and make sure to updat
 
 For major changes, open an issue first to discuss what you'd like to change.
 
-[/lock:contributing]:: # ---------------------------------------🚫
+[/lock:contributing]::---------------------------------------🚫
 
 ## ⭐ Found It Helpful? [Star It!](https://github.com/justinmahar/react-kindling/stargazers)
 
