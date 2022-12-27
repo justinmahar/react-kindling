@@ -27,9 +27,6 @@ Read the **[official documentation](https://justinmahar.github.io/react-kindling
   </a>
 </h3>
 
-
-[lock:donate]::🚫---------------------------------------
-
 ## Donate 
 
 If this project helped out or made your day a little brighter and you'd like to return the favor, why not buy me a coffee or become a sponsor? It'll make my day and help keep the project chugging along.
@@ -45,8 +42,6 @@ Plus, I'll do a little dance in your honor. Maybe not a very good one, but a dan
 </a> <a href="https://paypal.me/thejustinmahar/25">
   <img src="https://justinmahar.github.io/react-kindling/support/coffee-5.png" alt="Buy me 5 coffees" height="35" />
 </a>
-
-[/lock:donate]::---------------------------------------🚫
 
 ## Overview
 
