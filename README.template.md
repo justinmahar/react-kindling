@@ -43,6 +43,21 @@ Your support helps keep the project going and will earn you some serious virtual
 
 [/lock:donate]::---------------------------------------🚫
 
+## Table of Contents 
+
+- [Documentation](#documentation)
+- [Donate](#donate)
+- [Table of Contents](#table-of-contents)
+- [Overview](#overview)
+  - [Features include:](#features-include)
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [TypeScript](#typescript)
+- [Icon Attribution](#icon-attribution)
+- [Contributing](#contributing)
+- [⭐ Found It Helpful? Star It!](#-found-it-helpful-star-it)
+- [License](#license)
+
 ## Overview
 
 This section will contain an overview so people can have a high-level understanding of the project.

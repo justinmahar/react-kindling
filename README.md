@@ -78,6 +78,7 @@ See the [10+ projects using React Kindling](https://github.com/justinmahar/react
 - [Icon Attribution](#icon-attribution)
 - [Contributing](#contributing)
 
+You can use [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) to keep your project's table of contents updated automatically. Highly recommended!
 
 ## Quick Start
 
