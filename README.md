@@ -237,6 +237,8 @@ See [LICENSE.md](https://justinmahar.github.io/react-kindling/?path=/story/licen
 
 The following sections of the README are synchronized with projects generated from this starter using the included [updater](#updater). 
 
+These sections are included for you in the README template. You can remove the `[lock][/lock]` tags around them to stop them from syncing with the starter.
+
 [lock:donate]::🚫---------------------------------------
 
 ## Donate 
