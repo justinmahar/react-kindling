@@ -27,22 +27,6 @@ Read the **[official documentation](https://justinmahar.github.io/react-kindling
   </a>
 </h3>
 
-## Donate 
-
-If this project helped out or made your day a little brighter and you'd like to return the favor, why not buy me a coffee or become a sponsor? It'll make my day and help keep the project chugging along.
-
-Plus, I'll do a little dance in your honor. Maybe not a very good one, but a dance nonetheless.
-
-<a href="https://github.com/sponsors/justinmahar">
-  <img src="https://justinmahar.github.io/react-kindling/support/sponsor.png" alt="Sponsor via GitHub" height="35" />
-</a> <a href="https://paypal.me/thejustinmahar/5">
-  <img src="https://justinmahar.github.io/react-kindling/support/coffee-1.png" alt="Buy me a coffee" height="35" />
-</a> <a href="https://paypal.me/thejustinmahar/15">
-  <img src="https://justinmahar.github.io/react-kindling/support/coffee-3.png" alt="Buy me 3 coffees" height="35" />
-</a> <a href="https://paypal.me/thejustinmahar/25">
-  <img src="https://justinmahar.github.io/react-kindling/support/coffee-5.png" alt="Buy me 5 coffees" height="35" />
-</a>
-
 ## Overview
 
 This is a starter for [React](https://reactjs.org/) component and [hook](https://reactjs.org/docs/hooks-intro.html) libraries.
@@ -64,6 +48,36 @@ See the [10+ projects using React Kindling](https://github.com/justinmahar/react
 - **📦 Easy [npm publish](https://docs.npmjs.com/cli/publish)**
   - Build, version, and ship it to [npm](https://www.npmjs.com/) with one command: `npm run ship`
 - And more!
+
+## Table of Contents 
+
+- [Overview](#overview)
+  - [Features include:](#features-include)
+- [Table of Contents](#table-of-contents)
+- [Quick Start](#quick-start)
+  - [Click the button below to get started with React Kindling:](#click-the-button-below-to-get-started-with-react-kindling)
+  - [Install dependencies](#install-dependencies)
+  - [Title and URL](#title-and-url)
+  - [Favicon](#favicon)
+  - [Use Storybook to develop your components and hooks](#use-storybook-to-develop-your-components-and-hooks)
+  - [Export modules from `index.tsx`](#export-modules-from-indextsx)
+  - [Updater](#updater)
+  - [Deploy to GitHub Pages](#deploy-to-github-pages)
+    - [To enable GitHub Pages deploys:](#to-enable-github-pages-deploys)
+  - [Markdown Pages](#markdown-pages)
+  - [README Template](#readme-template)
+  - [npm Publish Checklist](#npm-publish-checklist)
+  - [Publish to npm](#publish-to-npm)
+  - [Celebrate!](#celebrate)
+- [Projects Using React Kindling](#projects-using-react-kindling)
+- [⭐ Found It Helpful? Star It!](#-found-it-helpful-star-it)
+- [License](#license)
+- [Synchronized README Blocks](#synchronized-readme-blocks)
+- [Donate](#donate)
+- [TypeScript](#typescript)
+- [Icon Attribution](#icon-attribution)
+- [Contributing](#contributing)
+
 
 ## Quick Start
 
@@ -209,6 +223,58 @@ The following projects were built on React Kindling:
 - [react-use-window-scroll](https://justinmahar.github.io/react-use-window-scroll)
 - [react-use-window-sessionstorage](https://justinmahar.github.io/react-use-window-sessionstorage)
 
+## ⭐ Found It Helpful? [Star It!](https://github.com/justinmahar/react-kindling/stargazers)
+
+If you found this project helpful, let the community know by giving it a [star](https://github.com/justinmahar/react-kindling/stargazers): [👉⭐](https://github.com/justinmahar/react-kindling/stargazers)
+
+## License
+
+See [LICENSE.md](https://justinmahar.github.io/react-kindling/?path=/story/license--page).
+
+---
+
+## Synchronized README Blocks
+
+The following sections of the README are synchronized with projects generated from this starter using the included [updater](#updater). 
+
+[lock:donate]::🚫---------------------------------------
+
+## Donate 
+
+If this project helped out or made your day a little brighter and you'd like to return the favor, why not buy me a coffee or become a sponsor? It'll make my day and help keep the project chugging along.
+
+Plus, I'll do a little dance in your honor. Maybe not a very good one, but a dance nonetheless.
+
+<a href="https://github.com/sponsors/justinmahar">
+  <img src="https://justinmahar.github.io/react-kindling/support/sponsor.png" alt="Sponsor via GitHub" height="35" />
+</a> <a href="https://paypal.me/thejustinmahar/5">
+  <img src="https://justinmahar.github.io/react-kindling/support/coffee-1.png" alt="Buy me a coffee" height="35" />
+</a> <a href="https://paypal.me/thejustinmahar/15">
+  <img src="https://justinmahar.github.io/react-kindling/support/coffee-3.png" alt="Buy me 3 coffees" height="35" />
+</a> <a href="https://paypal.me/thejustinmahar/25">
+  <img src="https://justinmahar.github.io/react-kindling/support/coffee-5.png" alt="Buy me 5 coffees" height="35" />
+</a>
+
+[/lock:donate]::---------------------------------------🚫
+
+[lock:typescript]::🚫---------------------------------------
+
+## TypeScript
+
+Type definitions have been included for [TypeScript](https://www.typescriptlang.org/) support.
+
+[/lock:typescript]::---------------------------------------🚫
+
+[lock:icon]::🚫---------------------------------------
+
+## Icon Attribution
+
+Favicon by [Twemoji](https://github.com/twitter/twemoji).
+
+[/lock:icon]::---------------------------------------🚫
+
+[lock:contributing]::🚫---------------------------------------
+
 ## Contributing
 
 Open source software is awesome and so are you. 😎
@@ -217,10 +283,4 @@ Feel free to submit a pull request for bugs or additions, and make sure to updat
 
 For major changes, open an issue first to discuss what you'd like to change.
 
-## ⭐ Found It Helpful? [Star It!](https://github.com/justinmahar/react-kindling/stargazers)
-
-If you found this project helpful, let the community know by giving it a [star](https://github.com/justinmahar/react-kindling/stargazers): [👉⭐](https://github.com/justinmahar/react-kindling/stargazers)
-
-## License
-
-See [LICENSE.md](https://justinmahar.github.io/react-kindling/?path=/story/license--page).
+[/lock:contributing]::---------------------------------------🚫

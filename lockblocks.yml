@@ -15,6 +15,7 @@ excludePaths:
   - node_modules
   - public
   - storybook-static
+  - README.template.md
 updateJson:
   - path: package.json
     updateFields:
