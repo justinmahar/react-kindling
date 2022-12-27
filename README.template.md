@@ -72,7 +72,7 @@ Type definitions have been included for [TypeScript](https://www.typescriptlang.
 
 ## Icon Attribution
 
-Icon by [Twemoji](https://github.com/twitter/twemoji).
+Favicon by [Twemoji](https://github.com/twitter/twemoji).
 
 ## Contributing
 
