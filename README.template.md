@@ -23,6 +23,15 @@
 
 Read the **[official documentation](https://justinmahar.github.io/react-kindling/)**.
 
+## Overview
+
+This section will contain an overview so people can have a high-level understanding of the project.
+
+### Features include:
+
+- **🚀 List your features, use fun [emojis](https://emojipedia.org/search/?q=rocket)**
+  - Give a little more info on each feature or mention benefits.
+
 [lock:donate]::🚫---------------------------------------
 
 ## Donate 
@@ -46,10 +55,10 @@ Your support helps keep the project going and will earn you some serious virtual
 ## Table of Contents 
 
 - [Documentation](#documentation)
-- [Donate](#donate)
-- [Table of Contents](#table-of-contents)
 - [Overview](#overview)
   - [Features include:](#features-include)
+- [Donate](#donate)
+- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [TypeScript](#typescript)
@@ -57,15 +66,6 @@ Your support helps keep the project going and will earn you some serious virtual
 - [Contributing](#contributing)
 - [⭐ Found It Helpful? Star It!](#-found-it-helpful-star-it)
 - [License](#license)
-
-## Overview
-
-This section will contain an overview so people can have a high-level understanding of the project.
-
-### Features include:
-
-- **🚀 List your features, use fun [emojis](https://emojipedia.org/search/?q=rocket)**
-  - Give a little more info on each feature or mention benefits.
 
 ## Installation
 
