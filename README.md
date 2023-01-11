@@ -57,6 +57,7 @@ See the [10+ projects using React Kindling](https://github.com/justinmahar/react
   - [Automatic Deploy to GitHub Pages](#automatic-deploy-to-github-pages)
   - [Markdown Pages](#markdown-pages)
   - [README Template](#readme-template)
+  - [Using For Non-React Projects](#using-for-non-react-projects)
   - [npm Publish Checklist](#npm-publish-checklist)
   - [Publish to npm](#publish-to-npm)
   - [Celebrate!](#celebrate)
@@ -156,6 +157,18 @@ The following Markdown files are generated as Storybook pages by default:
 ### README Template
 
 The file README.template.md contains a template README. Just fill it out.
+
+### Using For Non-React Projects
+
+This starter can be used to publish non-React specific projects, too. In order to do this, you'll want to make sure the included React peer dependencies are removed.
+
+You can add the following script to `package.json` to remove them automatically when running the updater:
+
+```json
+"postupdate": "node remove-peer-deps.js"
+```
+
+This script will remove all peerDependencies from `package.json` for you.
 
 ### npm Publish Checklist
 
