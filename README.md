@@ -62,8 +62,7 @@ See the [10+ projects using React Kindling](https://github.com/justinmahar/react
   - [Use Storybook to develop your components and hooks](#use-storybook-to-develop-your-components-and-hooks)
   - [Export modules from `index.tsx`](#export-modules-from-indextsx)
   - [Updater](#updater)
-  - [Deploy to GitHub Pages](#deploy-to-github-pages)
-    - [To enable GitHub Pages deploys:](#to-enable-github-pages-deploys)
+  - [Automatic Deploy to GitHub Pages](#automatic-deploy-to-github-pages)
   - [Markdown Pages](#markdown-pages)
   - [README Template](#readme-template)
   - [npm Publish Checklist](#npm-publish-checklist)
@@ -144,19 +143,13 @@ npm run update
 
 Changes will be logged to `lockblocks.log`.
 
-### Deploy to GitHub Pages
+### Automatic Deploy to GitHub Pages
 
-With a single project setting, you can auto-deploy your Storybook documentation to [GitHub Pages](https://pages.github.com/).
+With zero config, your Storybook documentation is auto-deployed to [GitHub Pages](https://pages.github.com/).
 
 A [GitHub Action](https://github.com/features/actions) has already been configured for you in `.github/deploy.yml`.
 
-Just add an access token to authorize GitHub to build and deploy your Storybook static site for you.
-
-#### To enable GitHub Pages deploys:
-
-- Create a `repo`-scoped [Personal access token](https://github.com/settings/tokens).
-- Add the token to your GitHub project: **Settings » Secrets**. Name it: `ACCESS_TOKEN`
-- Now, when you push code, your project's documentation will be built and deployed to GitHub Pages automatically. 🎉
+When pushing to GitHub, the action will build and deploy your Storybook static site for you automatically. 🎉
 
 Links to your Storybook site and deploy status are available in the template README. If this is your first deploy, it can take up to 10 minutes for your GitHub Pages site to show up.
 
