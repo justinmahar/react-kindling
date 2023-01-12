@@ -10,7 +10,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { Example } from '../components/Example';
 
 export default {
-  title: 'Components/Example',
+  title: 'Stories/Example',
   component: Example,
 } as ComponentMeta<typeof Example>;
 
