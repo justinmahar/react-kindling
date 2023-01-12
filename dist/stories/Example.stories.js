@@ -13,7 +13,7 @@ exports.World = exports.Hello = void 0;
 const react_1 = __importDefault(require("react"));
 const Example_1 = require("../components/Example");
 exports.default = {
-    title: 'Components/Example',
+    title: 'Stories/Example',
     component: Example_1.Example,
 };
 const Template = (args) => react_1.default.createElement(Example_1.Example, Object.assign({}, args));
