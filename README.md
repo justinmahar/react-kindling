@@ -208,19 +208,26 @@ You've done it! Your project is ready for the world.
 
 The following projects were built on React Kindling:
 
-- [react-social-media-embed](https://justinmahar.github.io/react-social-media-embed)
-- [react-use-precision-timer](https://justinmahar.github.io/react-use-precision-timer)
-- [react-use-query-param-string](https://justinmahar.github.io/react-use-query-param-string)
-- [github-projectv2-csv-exporter](https://github.com/justinmahar/github-projectv2-csv-exporter)
-- [react-super-seo](https://justinmahar.github.io/react-super-seo)
-- [react-build-status-badge](https://justinmahar.github.io/react-build-status-badge)
-- [react-authless-admin](https://justinmahar.github.io/react-authless-admin)
-- [react-timed-image](https://justinmahar.github.io/react-timed-image)
-- [react-timed-renderer](https://justinmahar.github.io/react-timed-renderer)
-- [react-uncached-image](https://justinmahar.github.io/react-uncached-image)
-- [react-use-window-localstorage](https://justinmahar.github.io/react-use-window-localstorage)
-- [react-use-window-scroll](https://justinmahar.github.io/react-use-window-scroll)
-- [react-use-window-sessionstorage](https://justinmahar.github.io/react-use-window-sessionstorage)
+| Name                                                                                          | Description                                                                                                              |
+| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| [easyjre](https://github.com/justinmahar/easyjre)                                             | ☕ Easily create an OpenJDK JRE using jlink!                                                                              |
+| [react-social-media-embed](https://github.com/justinmahar/react-social-media-embed)           | 📰 Easily embed social media posts from Facebook, Instagram, LinkedIn, Pinterest, TikTok, Twitter, and YouTube in React.  |
+| [react-use-precision-timer](https://github.com/justinmahar/react-use-precision-timer)         | ⏱️ A versatile precision timer hook for React. Doubles as a stopwatch.                                                    |
+| [react-html-props](https://github.com/justinmahar/react-html-props)                           | ⚛️ Convenient TypeScript types for all React HTML props.                                                                  |
+| [github-projectv2-csv-exporter](https://github.com/justinmahar/github-projectv2-csv-exporter) | 📂 Export GitHub project cards as CSV files. Uses the ProjectV2 API.                                                      |
+| [gumroad-api-tester](https://github.com/justinmahar/gumroad-api-tester)                       | 🌀 A web tool for easily testing the Gumroad API.                                                                         |
+| [articulate-nlg](https://github.com/justinmahar/articulate-nlg)                               | 💬 A natural language generator (NLG) that articulates concepts as words, phrases, and sentences.                         |
+| [react-super-seo](https://github.com/justinmahar/react-super-seo)                             | 🔱 React SEO component that handles metadata so you don't have to. Supports Google, OpenGraph, Twitter, and beyond.       |
+| [react-timed-image](https://github.com/justinmahar/react-timed-image)                         | 🎆 React image component that re-renders at timed intervals. Includes optional cache busting.                             |
+| [react-use-window-scroll](https://github.com/justinmahar/react-use-window-scroll)             | ↕️ React hooks for scrolling the page to any location, or by any amount. Supports smooth scrolling.                       |
+| [random-seed-weighted-chooser](https://github.com/justinmahar/random-seed-weighted-chooser)   | 🎲 A random weighted item chooser with custom seed option for JS.                                                         |
+| [react-use-query-param-string](https://github.com/justinmahar/react-use-query-param-string)   | 🔡 React hook for easily getting and setting query param strings.                                                         |
+| [lockblocks](https://github.com/justinmahar/lockblocks)                                       | 🔄 Node.js utility for updating projects created from starters.                                                           |
+| [react-uncached-image](https://github.com/justinmahar/react-uncached-image)                   | 🌅 React image component that bypasses caching using query param cache busting.                                           |
+| [react-timed-renderer](https://github.com/justinmahar/react-timed-renderer)                   | ⏳ React component that re-renders at the interval provided.                                                              |
+| [react-build-status-badge](https://github.com/justinmahar/react-build-status-badge)           | 🚥 React build status badge component for any CI/CD service. Shows real-time status and supports Markdown for easy setup. |
+| [simple-form-submit](https://github.com/justinmahar/simple-form-submit)                       | ✅ Submit your form data with a simple JavaScript call.                                                                   |
+| [react-sub-unsub](https://github.com/justinmahar/react-sub-unsub)                             | 🔔 Manage React effect listeners with ease.                                                                               |
 
 ## ⭐ Found It Helpful? [Star It!](https://github.com/justinmahar/react-kindling/stargazers)
 
