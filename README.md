@@ -144,6 +144,8 @@ A [GitHub Action](https://github.com/features/actions) has already been configur
 
 When pushing to GitHub, the action will build and deploy your Storybook static site for you automatically. 🎉
 
+Simply open your repo's project Settings, select Pages, choose `Deploy from a branch`, and select the `gh-pages` branch `/ (root)`, and click `Save`.
+
 Links to your Storybook site and deploy status are available in the template README. If this is your first deploy, it can take up to 10 minutes for your GitHub Pages site to show up.
 
 ### Markdown Pages
@@ -228,6 +230,7 @@ The following projects were built on React Kindling:
 | [react-build-status-badge](https://github.com/justinmahar/react-build-status-badge)           | 🚥 React build status badge component for any CI/CD service. Shows real-time status and supports Markdown for easy setup. |
 | [simple-form-submit](https://github.com/justinmahar/simple-form-submit)                       | ✅ Submit your form data with a simple JavaScript call.                                                                   |
 | [react-sub-unsub](https://github.com/justinmahar/react-sub-unsub)                             | 🔔 Manage React effect listeners with ease.                                                                               |
+| [react-storage-complete](https://github.com/justinmahar/react-storage-complete)               | 🗄️ React hooks for accessing localStorage and sessionStorage, with syncing and prefix support. The complete package.      |
 
 ## ⭐ Found It Helpful? [Star It!](https://github.com/justinmahar/react-kindling/stargazers)
 
