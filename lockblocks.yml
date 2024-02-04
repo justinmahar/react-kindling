@@ -1,5 +1,14 @@
-renameFiles: []
+renameFiles:
+  - from: .storybook/main.js
+    to: .storybook/main.ts
+  - from: .storybook/manager.js
+    to: .storybook/manager.ts
+  - from: .storybook/preview.js
+    to: .storybook/preview.ts
+  - from: .storybook/theme.js
+    to: .storybook/theme.ts
 replaceFiles:
+  - .babelrc.json
   - .node-version
   - CODE_OF_CONDUCT.md
   - LICENSE.md
@@ -9,7 +18,8 @@ replaceFiles:
   - src/stories/core
 fillFiles:
   - .github/FUNDING.yml
-deleteFiles: []
+deleteFiles:
+  - dist
 excludePaths:
   - .git
   - .lockblocks
