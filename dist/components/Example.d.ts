@@ -1,4 +1,4 @@
-/// <reference types="react" />
+import React from 'react';
 import { DivProps } from 'react-html-props';
 export interface ExampleProps extends DivProps {
     /**
@@ -13,4 +13,4 @@ export interface ExampleProps extends DivProps {
 /**
  * This is the description for the Example component
  */
-export declare const Example: ({ backgroundColor, label, ...props }: ExampleProps) => JSX.Element;
+export declare const Example: ({ backgroundColor, label, ...props }: ExampleProps) => React.JSX.Element;
