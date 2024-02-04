@@ -248,7 +248,7 @@ The following sections of the README are synchronized with projects generated fr
 
 These sections are included for you in the README template. You can remove the `[lock][/lock]` tags around them to stop them from syncing with the starter.
 
-[lock:donate]::🚫---------------------------------------
+<!-- [lock:donate] 🚫--------------------------------------- -->
 
 ## Donate 
 
@@ -256,25 +256,25 @@ If this project helped you, please consider buying me a coffee. Your support is 
 
 <a href="https://paypal.me/thejustinmahar/5"><img src="https://justinmahar.github.io/react-kindling/support/coffee-1.png" alt="Buy me a coffee" height="35" /></a> <a href="https://paypal.me/thejustinmahar/15"><img src="https://justinmahar.github.io/react-kindling/support/coffee-3.png" alt="Buy me 3 coffees" height="35" /></a> <a href="https://paypal.me/thejustinmahar/25"><img src="https://justinmahar.github.io/react-kindling/support/coffee-5.png" alt="Buy me 5 coffees" height="35" /></a>
 
-[/lock:donate]::---------------------------------------🚫
+<!-- [/lock:donate] ---------------------------------------🚫 -->
 
-[lock:typescript]::🚫---------------------------------------
+<!-- [lock:typescript] 🚫--------------------------------------- -->
 
 ## TypeScript
 
 Type definitions have been included for [TypeScript](https://www.typescriptlang.org/) support.
 
-[/lock:typescript]::---------------------------------------🚫
+<!-- [/lock:typescript] ---------------------------------------🚫 -->
 
-[lock:icon]::🚫---------------------------------------
+<!-- [lock:icon] 🚫--------------------------------------- -->
 
 ## Icon Attribution
 
 Favicon by [Twemoji](https://github.com/twitter/twemoji).
 
-[/lock:icon]::---------------------------------------🚫
+<!-- [/lock:icon] ---------------------------------------🚫 -->
 
-[lock:contributing]::🚫---------------------------------------
+<!-- [lock:contributing] 🚫--------------------------------------- -->
 
 ## Contributing
 
@@ -284,8 +284,4 @@ Feel free to submit a pull request for bugs or additions, and make sure to updat
 
 For major changes, open an issue first to discuss what you'd like to change.
 
-[/lock:contributing]::---------------------------------------🚫
-
-<!--
-This is a comment.
--->
+<!-- [/lock:contributing] --------------------------------------🚫 -->
