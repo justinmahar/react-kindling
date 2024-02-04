@@ -252,9 +252,14 @@ These sections are included for you in the README template. You can remove the `
 
 ## Donate 
 
-If this project helped you, please consider buying me a coffee. Your support is much appreciated!
+If this project helped you, please consider buying me a coffee or sponsoring me. Your support is much appreciated!
 
-<a href="https://paypal.me/thejustinmahar/5"><img src="https://justinmahar.github.io/react-kindling/support/coffee-1.png" alt="Buy me a coffee" height="35" /></a> <a href="https://paypal.me/thejustinmahar/15"><img src="https://justinmahar.github.io/react-kindling/support/coffee-3.png" alt="Buy me 3 coffees" height="35" /></a> <a href="https://paypal.me/thejustinmahar/25"><img src="https://justinmahar.github.io/react-kindling/support/coffee-5.png" alt="Buy me 5 coffees" height="35" /></a>
+<div>
+  <a href="https://ko-fi.com/justinmahar"><img src="https://justinmahar.github.io/react-kindling/support/coffee-1.png" alt="Buy me a coffee" height="35" /></a>
+</div>
+<div>
+  <a href="https://github.com/sponsors/justinmahar" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="Sponsor"/></a>
+</div>
 
 <!-- [/lock:donate] ---------------------------------------🚫 -->
 
