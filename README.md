@@ -285,3 +285,7 @@ Feel free to submit a pull request for bugs or additions, and make sure to updat
 For major changes, open an issue first to discuss what you'd like to change.
 
 [/lock:contributing]::---------------------------------------🚫
+
+<!--
+This is a comment.
+-->
