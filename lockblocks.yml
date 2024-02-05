@@ -55,8 +55,15 @@ updateJson:
       - key: scripts.update
         replace: true
     deleteFields:
+      - devDependencies.@babel/core
+      - devDependencies.@mdx-js/react
+      - devDependencies.@storybook/addon-actions
+      - devDependencies.@storybook/addon-links
+      - devDependencies.@storybook/builder-webpack5
+      - devDependencies.@storybook/manager-webpack5
+      - devDependencies.babel-loader
       - devDependencies.html-webpack-plugin
-      - scripts.watch
       - scripts.lint
       - scripts.upgrade-storybook
+      - scripts.watch
 updateYaml: []
