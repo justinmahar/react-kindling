@@ -12,6 +12,7 @@ const config: StorybookConfig = {
     '@storybook/addon-essentials',
     '@storybook/addon-viewport',
     // Add support for GitHub flavored Markdown (tables, etc).
+    // NOTE: As of 2/5/23, the remark-gfm package must be downgraded to v3 for the project to compile. See: https://github.com/hashicorp/next-mdx-remote/issues/403
     // See: https://storybook.js.org/docs/writing-docs/mdx#lack-of-github-flavored-markdown-gfm
     {
       name: '@storybook/addon-docs',
