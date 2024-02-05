@@ -1,5 +1,6 @@
 // [lock-all/] 🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫
 import { StorybookConfig } from '@storybook/react-webpack5';
+import remarkGfm from 'remark-gfm';
 
 const config: StorybookConfig = {
   stories: [
@@ -7,7 +8,22 @@ const config: StorybookConfig = {
     '../src/**/*.stories.mdx',
     '../src/**/*.stories.@(js|jsx|ts|tsx)',
   ],
-  addons: ['@storybook/addon-essentials', '@storybook/addon-viewport'],
+  addons: [
+    '@storybook/addon-essentials',
+    '@storybook/addon-viewport',
+    // Add support for GitHub flavored Markdown (tables, etc).
+    // See: https://storybook.js.org/docs/writing-docs/mdx#lack-of-github-flavored-markdown-gfm
+    {
+      name: '@storybook/addon-docs',
+      options: {
+        mdxPluginOptions: {
+          mdxCompileOptions: {
+            remarkPlugins: [remarkGfm],
+          },
+        },
+      },
+    },
+  ],
   staticDirs: ['../public'],
   framework: {
     name: '@storybook/react-webpack5',

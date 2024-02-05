@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "^7.6.12",
+    "@storybook/addon-docs": "^7.6.12",
     "@storybook/addon-essentials": "^7.6.12",
     "@storybook/addon-interactions": "^7.6.12",
     "@storybook/addon-links": "^7.6.12",
@@ -55,6 +56,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-html-props": "^2.0.3",
+    "remark-gfm": "^3.0.1",
     "replace-in-file": "^7.1.0",
     "storybook": "^7.6.12",
     "typescript": "^5.3.3",
