@@ -2,11 +2,9 @@ renameFiles: []
 replaceFiles:
   - .babelrc.json
   - .node-version
-  - .npmignore
   - CODE_OF_CONDUCT.md
   - LICENSE.md
   - lockblocks.yml
-  - MAINTENANCE.md
   - public/NOTE.md
   - public/support
   - src/stories/core
