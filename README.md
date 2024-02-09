@@ -156,9 +156,9 @@ Links to your Storybook site and deploy status are available in the template REA
 
 The following Markdown files are generated as Storybook pages by default:
 
-- [README.md](https://justinmahar.github.io/react-kindling/?path=/story/home--page)
-- [LICENSE.md](https://justinmahar.github.io/react-kindling/?path=/story/license--page)
-- [CODE_OF_CONDUCT.md](https://justinmahar.github.io/react-kindling/?path=/story/code-of-conduct--page)
+- [README.md](https://justinmahar.github.io/react-kindling/?path=/docs/home--docs)
+- [LICENSE.md](https://justinmahar.github.io/react-kindling/?path=/docs/license--docs)
+- [CODE_OF_CONDUCT.md](https://justinmahar.github.io/react-kindling/?path=/docs/code-of-conduct--docs)
 
 ### README Template
 
@@ -242,7 +242,7 @@ If you found this project helpful, let the community know by giving it a [star](
 
 ## License
 
-See [LICENSE.md](https://justinmahar.github.io/react-kindling/?path=/story/license--page).
+See [LICENSE.md](https://justinmahar.github.io/react-kindling/?path=/docs/license--docs).
 
 ---
 
