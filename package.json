@@ -1,6 +1,6 @@
 {
   "name": "react-kindling",
-  "version": "3.0.10",
+  "version": "3.0.11",
   "author": "Justin Mahar <contact@justinmahar.com>",
   "description": "A template to build, test, and share React components and hooks easily.",
   "homepage": "https://justinmahar.github.io/react-kindling/",
@@ -46,15 +46,15 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.6.15",
-    "lockblocks": "^1.1.8",
-    "prettier": "^3.2.5",
+    "lockblocks": "^1.1.10",
+    "prettier": "^3.4.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-html-props": "^2.0.3",
+    "react-html-props": "^2.0.9",
     "remark-gfm": "^3.0.1",
-    "replace-in-file": "^7.1.0",
+    "replace-in-file": "^8.3.0",
     "storybook": "^7.6.12",
-    "typescript": "^5.3.3",
-    "webpack": "^5.90.1"
+    "typescript": "^5.7.3",
+    "webpack": "^5.97.1"
   }
 }
