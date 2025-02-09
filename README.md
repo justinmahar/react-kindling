@@ -240,6 +240,18 @@ The following projects were built on React Kindling:
 
 If you found this project helpful, let the community know by giving it a [star](https://github.com/justinmahar/react-kindling/stargazers): [👉⭐](https://github.com/justinmahar/react-kindling/stargazers)
 
+<!-- [lock:support] 🚫--------------------------------------- -->
+Want to support the project? Feel free to grab me a coffee, which is my main source of fuel for development:
+
+<a href="https://paypal.me/thejustinmahar/5">
+  <img src="https://justinmahar.github.io/react-kindling/support/coffee-1.png" alt="Buy me a coffee" height="35" />
+</a>&nbsp; <a href="https://paypal.me/thejustinmahar/15">
+  <img src="https://justinmahar.github.io/react-kindling/support/coffee-3.png" alt="Buy me 3 coffees" height="35" />
+</a>&nbsp; <a href="https://paypal.me/thejustinmahar/25">
+  <img src="https://justinmahar.github.io/react-kindling/support/coffee-5.png" alt="Buy me 5 coffees" height="35" />
+</a>
+<!-- [/lock:support] ---------------------------------------🚫 -->
+
 ## License
 
 See [LICENSE.md](https://justinmahar.github.io/react-kindling/?path=/docs/license--docs).
