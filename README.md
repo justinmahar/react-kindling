@@ -70,7 +70,6 @@ See the [10+ projects using React Kindling](https://github.com/justinmahar/react
 - [License](#license)
 - [Synchronized README Blocks](#synchronized-readme-blocks)
 - [Donate](#donate)
-- [Donate](#donate-1)
 - [TypeScript](#typescript)
 - [Icon Attribution](#icon-attribution)
 - [Contributing](#contributing)
@@ -254,8 +253,6 @@ The following sections of the README are synchronized with projects generated fr
 These sections are included for you in the README template. You can remove the `[lock][/lock]` tags around them to stop them from syncing with the starter.
 
 <!-- [lock:donate] 🚫--------------------------------------- -->
-
-## Donate 
 
 ## Donate 
 
